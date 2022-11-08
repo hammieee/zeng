@@ -1,0 +1,25 @@
+"@timestamp","file.path","host.name","event.action"
+"Oct 25, 2022 @ 19:55:16.199","/tmp/persistence/suid.c",confluence,deleted
+"Oct 25, 2022 @ 19:55:16.169","/tmp/persistence/suid",confluence,"attributes_modified"
+"Oct 25, 2022 @ 19:55:16.166","/tmp/persistence/suid",confluence,"updated, attributes_modified"
+"Oct 25, 2022 @ 19:55:16.163","/tmp/persistence/suid",confluence,"updated, attributes_modified"
+"Oct 25, 2022 @ 19:55:16.155","/tmp/persistence/suid",confluence,created
+"Oct 25, 2022 @ 19:55:16.103","/tmp/persistence/suid.c",confluence,created
+"Oct 25, 2022 @ 19:54:31.076","/tmp/persistence/suid",confluence,deleted
+"Oct 25, 2022 @ 19:53:32.367","/tmp/persistence/suid.c",confluence,deleted
+"Oct 25, 2022 @ 19:53:32.336","/tmp/persistence/suid",confluence,"attributes_modified"
+"Oct 25, 2022 @ 19:53:32.332","/tmp/persistence/suid",confluence,"updated, attributes_modified"
+"Oct 25, 2022 @ 19:53:32.330","/tmp/persistence/suid",confluence,"updated, attributes_modified"
+"Oct 25, 2022 @ 19:53:32.330","/tmp/persistence/suid",confluence,updated
+"Oct 25, 2022 @ 19:53:32.329","/tmp/persistence/suid",confluence,"updated, attributes_modified"
+"Oct 25, 2022 @ 19:53:32.324","/tmp/persistence/suid",confluence,"updated, attributes_modified"
+"Oct 25, 2022 @ 19:53:32.266","/tmp/persistence/suid.c",confluence,created
+"Oct 25, 2022 @ 19:30:30.583","/tmp/persistence/suid.c",confluence,deleted
+"Oct 25, 2022 @ 19:30:30.465","/tmp/persistence/suid",confluence,"attributes_modified"
+"Oct 25, 2022 @ 19:30:30.463","/tmp/persistence/suid",confluence,"attributes_modified"
+"Oct 25, 2022 @ 19:30:30.461","/tmp/persistence/suid",confluence,"updated, attributes_modified"
+"Oct 25, 2022 @ 19:30:30.458","/tmp/persistence/suid",confluence,"updated, attributes_modified"
+"Oct 25, 2022 @ 19:30:30.458","/tmp/persistence/suid",confluence,"updated, attributes_modified"
+"Oct 25, 2022 @ 19:30:30.428","/tmp/persistence/suid",confluence,created
+"Oct 25, 2022 @ 19:30:30.082","/tmp/persistence/suid.c",confluence,"updated, attributes_modified"
+"Oct 25, 2022 @ 19:30:30.081","/tmp/persistence/suid.c",confluence,created

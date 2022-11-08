@@ -1,0 +1,141 @@
+@timestamp,_id,_index,_score,agent.ephemeral_id,agent.hostname,agent.id,agent.name,agent.type,agent.version,ecs.version,event.action,event.category,event.code,event.created,event.ingested,event.kind,event.module,event.outcome,event.provider,event.type,host.architecture,host.hostname,host.id,host.ip,host.mac,host.name,host.os.build,host.os.family,host.os.kernel,host.os.name,host.os.name.text,host.os.platform,host.os.type,host.os.version,log.level,message,process.executable,process.executable.text,process.name,process.name.text,process.pid,related.ip,related.user,source.domain,source.ip,source.port,user.domain,user.id,user.name,user.name.text,winlog.activity_id,winlog.api,winlog.channel,winlog.computer_name,winlog.event_data.AuthenticationPackageName,winlog.event_data.ElevatedToken,winlog.event_data.ImpersonationLevel,winlog.event_data.KeyLength,winlog.event_data.LmPackageName,winlog.event_data.LogonGuid,winlog.event_data.LogonProcessName,winlog.event_data.LogonType,winlog.event_data.RestrictedAdminMode,winlog.event_data.SubjectDomainName,winlog.event_data.SubjectLogonId,winlog.event_data.SubjectUserName,winlog.event_data.SubjectUserSid,winlog.event_data.TargetDomainName,winlog.event_data.TargetLinkedLogonId,winlog.event_data.TargetLogonId,winlog.event_data.TargetOutboundDomainName,winlog.event_data.TargetOutboundUserName,winlog.event_data.TargetUserName,winlog.event_data.TargetUserSid,winlog.event_data.TransmittedServices,winlog.event_data.VirtualAccount,winlog.event_id,winlog.keywords,winlog.logon.id,winlog.logon.type,winlog.opcode,winlog.process.pid,winlog.process.thread.id,winlog.provider_guid,winlog.provider_name,winlog.record_id,winlog.task,winlog.version
+"Oct 23, 2022 @ 02:46:56.784",t0UCAYQBHC0TB3lJI6lY,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,1.12.0,logged-out,authentication,4634,"Oct 23, 2022 @ 02:42:58.765","Oct 23, 2022 @ 02:43:48.183",event,security,success,Microsoft-Windows-Security-Auditing,end,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-3636077943-3669489707-987131759-1002
+	Account Name:		AdministratorDB
+	Account Domain:		ADMIN
+	Logon ID:		0x2EC087
+
+Logon Type:			10
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.",-,-,-,-,-,-,AdministratorDB,-,-,-,ADMIN,S-1-5-21-3636077943-3669489707-987131759-1002,AdministratorDB,AdministratorDB,-,wineventlog,Security,admin,-,-,-,-,-,-,-,10,-,-,-,-,-,ADMIN,-,0x2ec087,-,-,AdministratorDB,S-1-5-21-3636077943-3669489707-987131759-1002,-,-,4634,Audit Success,0x2ec087,RemoteInteractive,Info,668,"1,784",{54849625-5478-4994-a5ba-3e3b0328c30d},Microsoft-Windows-Security-Auditing,14396,Logoff,-
+"Oct 23, 2022 @ 02:42:55.210",rkUCAYQBHC0TB3lJHqnS,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,1.12.0,logged-in,authentication,4624,"Oct 23, 2022 @ 02:42:57.657","Oct 23, 2022 @ 02:43:47.020",event,security,success,Microsoft-Windows-Security-Auditing,start,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		ADMIN$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		10
+	Restricted Admin Mode:	No
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-3636077943-3669489707-987131759-1002
+	Account Name:		AdministratorDB
+	Account Domain:		ADMIN
+	Logon ID:		0x2EC087
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x1d8
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	ADMIN
+	Source Network Address:	fe80::91a8:3d9e:36ba:f548
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.",C:\Windows\System32\svchost.exe,C:\Windows\System32\svchost.exe,svchost.exe,svchost.exe,472,fe80::91a8:3d9e:36ba:f548,"AdministratorDB, ADMIN$",ADMIN,fe80::91a8:3d9e:36ba:f548,0,ADMIN,S-1-5-21-3636077943-3669489707-987131759-1002,AdministratorDB,AdministratorDB,{e972bd72-e642-0001-49be-72e942e6d801},wineventlog,Security,admin,Negotiate,%%1842,%%1833,0,-,{00000000-0000-0000-0000-000000000000},User32 ,10,%%1843,WORKGROUP,0x3e7,ADMIN$,S-1-5-18,ADMIN,0x0,0x2ec087,-,-,AdministratorDB,S-1-5-21-3636077943-3669489707-987131759-1002,-,%%1843,4624,Audit Success,0x3e7,RemoteInteractive,Info,668,"4,304",{54849625-5478-4994-a5ba-3e3b0328c30d},Microsoft-Windows-Security-Auditing,14394,Logon,2
+"Oct 23, 2022 @ 02:40:25.320",NkUBAYQBHC0TB3lJkam0,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,1.12.0,logged-out,authentication,4634,"Oct 23, 2022 @ 02:42:26.926","Oct 23, 2022 @ 02:43:10.896",event,security,success,Microsoft-Windows-Security-Auditing,end,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-3636077943-3669489707-987131759-1002
+	Account Name:		AdministratorDB
+	Account Domain:		ADMIN
+	Logon ID:		0x2A268F
+
+Logon Type:			10
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.",-,-,-,-,-,-,AdministratorDB,-,-,-,ADMIN,S-1-5-21-3636077943-3669489707-987131759-1002,AdministratorDB,AdministratorDB,-,wineventlog,Security,admin,-,-,-,-,-,-,-,10,-,-,-,-,-,ADMIN,-,0x2a268f,-,-,AdministratorDB,S-1-5-21-3636077943-3669489707-987131759-1002,-,-,4634,Audit Success,0x2a268f,RemoteInteractive,Info,668,712,{54849625-5478-4994-a5ba-3e3b0328c30d},Microsoft-Windows-Security-Auditing,14366,Logoff,-
+"Oct 23, 2022 @ 02:22:23.355",J0UBAYQBHC0TB3lJi6nd,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,1.12.0,logged-in,authentication,4624,"Oct 23, 2022 @ 02:42:25.733","Oct 23, 2022 @ 02:43:09.400",event,security,success,Microsoft-Windows-Security-Auditing,start,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		ADMIN$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		10
+	Restricted Admin Mode:	No
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-3636077943-3669489707-987131759-1002
+	Account Name:		AdministratorDB
+	Account Domain:		ADMIN
+	Logon ID:		0x2A268F
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x1d8
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	ADMIN
+	Source Network Address:	fe80::91a8:3d9e:36ba:f548
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.",C:\Windows\System32\svchost.exe,C:\Windows\System32\svchost.exe,svchost.exe,svchost.exe,472,fe80::91a8:3d9e:36ba:f548,"AdministratorDB, ADMIN$",ADMIN,fe80::91a8:3d9e:36ba:f548,0,ADMIN,S-1-5-21-3636077943-3669489707-987131759-1002,AdministratorDB,AdministratorDB,{e972bd72-e642-0001-49be-72e942e6d801},wineventlog,Security,admin,Negotiate,%%1842,%%1833,0,-,{00000000-0000-0000-0000-000000000000},User32 ,10,%%1843,WORKGROUP,0x3e7,ADMIN$,S-1-5-18,ADMIN,0x0,0x2a268f,-,-,AdministratorDB,S-1-5-21-3636077943-3669489707-987131759-1002,-,%%1843,4624,Audit Success,0x3e7,RemoteInteractive,Info,668,"1,784",{54849625-5478-4994-a5ba-3e3b0328c30d},Microsoft-Windows-Security-Auditing,14359,Logon,2

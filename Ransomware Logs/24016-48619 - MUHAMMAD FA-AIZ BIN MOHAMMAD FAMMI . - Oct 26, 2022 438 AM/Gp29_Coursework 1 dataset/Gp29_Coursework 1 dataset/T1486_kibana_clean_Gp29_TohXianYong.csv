@@ -1,0 +1,996 @@
+@timestamp,_id,_index,_score,agent.ephemeral_id,agent.hostname,agent.id,agent.name,agent.type,agent.version,dns.answers.data,dns.answers.type,dns.question.name,dns.resolved_ip,ecs.version,event.action,event.category,event.code,event.created,event.ingested,event.kind,event.module,event.provider,event.type,file.directory,file.extension,file.name,file.path,file.path.text,host.architecture,host.hostname,host.id,host.ip,host.mac,host.name,host.os.build,host.os.family,host.os.kernel,host.os.name,host.os.name.text,host.os.platform,host.os.type,host.os.version,log.level,message,network.protocol,process.args,process.args_count,process.command_line,process.command_line.text,process.entity_id,process.executable,process.executable.text,process.hash.md5,process.hash.sha256,process.name,process.name.text,process.parent.args,process.parent.args_count,process.parent.command_line,process.parent.command_line.text,process.parent.entity_id,process.parent.executable,process.parent.executable.text,process.parent.name,process.parent.name.text,process.parent.pid,process.pe.company,process.pe.description,process.pe.file_version,process.pe.imphash,process.pe.original_file_name,process.pe.product,process.pid,process.working_directory,process.working_directory.text,registry.hive,registry.key,registry.path,registry.value,related.hash,related.hosts,related.ip,related.user,rule.name,sysmon.dns.status,user.domain,user.id,user.name,user.name.text,winlog.api,winlog.channel,winlog.computer_name,winlog.event_data.Company,winlog.event_data.CreationUtcTime,winlog.event_data.Description,winlog.event_data.EventType,winlog.event_data.FileVersion,winlog.event_data.IntegrityLevel,winlog.event_data.LogonGuid,winlog.event_data.LogonId,winlog.event_data.ParentUser,winlog.event_data.Product,winlog.event_data.TerminalSessionId,winlog.event_id,winlog.opcode,winlog.process.pid,winlog.process.thread.id,winlog.provider_guid,winlog.provider_name,winlog.record_id,winlog.task,winlog.user.domain,winlog.user.identifier,winlog.user.name,winlog.user.type,winlog.version
+"Oct 23, 2022 @ 02:34:17.282",Y0UCAYQBHC0TB3lJB6k5,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,bf0ac5bf-d14e-4d89-a456-0a53ca157c24,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:18.387","Oct 23, 2022 @ 02:43:40.981",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:17.282
+ProcessGuid: {461f0bd2-37a9-6354-d000-000000002100}
+ProcessId: 1536
+Image: C:\Windows\System32\mstsc.exe
+FileVersion: 10.0.19041.1682 (WinBuild.160101.0800)
+Description: Remote Desktop Connection
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mstsc.exe
+CommandLine: ""C:\Windows\system32\mstsc.exe"" 
+CurrentDirectory: C:\Windows\system32\
+User: VICTIM\Patricia Goh
+LogonGuid: {461f0bd2-3423-6354-c6b6-030000000000}
+LogonId: 0x3B6C6
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=4988A6CC3CAB9C16C0ADE8003208F4F8,SHA256=BF45FE2983C4E089B6BB2DE88CF25218465A0343F491E580BEB1021D6E41670E,IMPHASH=8ED9FD7812149E8C5396DE875FB2685E
+ParentProcessGuid: {461f0bd2-3426-6354-5700-000000002100}
+ParentProcessId: 2984
+ParentImage: C:\Windows\explorer.exe
+ParentCommandLine: C:\Windows\Explorer.EXE
+ParentUser: VICTIM\Patricia Goh",-,C:\Windows\system32\mstsc.exe,1,"""C:\Windows\system32\mstsc.exe"" ","""C:\Windows\system32\mstsc.exe"" ",{461f0bd2-37a9-6354-d000-000000002100},C:\Windows\System32\mstsc.exe,C:\Windows\System32\mstsc.exe,4988a6cc3cab9c16c0ade8003208f4f8,bf45fe2983c4e089b6bb2de88cf25218465a0343f491e580beb1021d6e41670e,mstsc.exe,mstsc.exe,C:\Windows\Explorer.EXE,1,C:\Windows\Explorer.EXE,C:\Windows\Explorer.EXE,{461f0bd2-3426-6354-5700-000000002100},C:\Windows\explorer.exe,C:\Windows\explorer.exe,explorer.exe,explorer.exe,2984,Microsoft Corporation,Remote Desktop Connection,10.0.19041.1682 (WinBuild.160101.0800),8ed9fd7812149e8c5396de875fb2685e,mstsc.exe,Microsoft® Windows® Operating System,1536,C:\Windows\system32\,C:\Windows\system32\,-,-,-,-,"bf45fe2983c4e089b6bb2de88cf25218465a0343f491e580beb1021d6e41670e, 4988a6cc3cab9c16c0ade8003208f4f8, 8ed9fd7812149e8c5396de875fb2685e",-,-,Patricia Goh,-,-,VICTIM,S-1-5-18,Patricia Goh,Patricia Goh,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,Microsoft Corporation,-,Remote Desktop Connection,-,10.0.19041.1682 (WinBuild.160101.0800),High,{461f0bd2-3423-6354-c6b6-030000000000},0x3b6c6,VICTIM\Patricia Goh,Microsoft® Windows® Operating System,1,1,Info,"2,264","3,148",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6114,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:34:25.167",vkUCAYQBHC0TB3lJKane,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,bf0ac5bf-d14e-4d89-a456-0a53ca157c24,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:27.062","Oct 23, 2022 @ 02:43:49.852",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:25.167
+ProcessGuid: {461f0bd2-37b1-6354-d100-000000002100}
+ProcessId: 3208
+Image: C:\Windows\System32\taskhostw.exe
+FileVersion: 10.0.19041.1865 (WinBuild.160101.0800)
+Description: Host Process for Windows Tasks
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: taskhostw.exe
+CommandLine: taskhostw.exe
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {461f0bd2-3401-6354-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=A00BF82660835224CD6606A248321C5D,SHA256=E63709209D09BC0247E785F075DDB28A98C348206109E2B8BA321AD958402728,IMPHASH=3A0C6863CDE566AF997DB2DEFFF9D924
+ParentProcessGuid: {461f0bd2-3402-6354-1300-000000002100}
+ParentProcessId: 432
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\Windows\system32\svchost.exe -k netsvcs -p
+ParentUser: NT AUTHORITY\SYSTEM",-,taskhostw.exe,1,taskhostw.exe,taskhostw.exe,{461f0bd2-37b1-6354-d100-000000002100},C:\Windows\System32\taskhostw.exe,C:\Windows\System32\taskhostw.exe,a00bf82660835224cd6606a248321c5d,e63709209d09bc0247e785f075ddb28a98c348206109e2b8ba321ad958402728,taskhostw.exe,taskhostw.exe,"C:\Windows\system32\svchost.exe, -k, netsvcs, -p",4,C:\Windows\system32\svchost.exe -k netsvcs -p,C:\Windows\system32\svchost.exe -k netsvcs -p,{461f0bd2-3402-6354-1300-000000002100},C:\Windows\System32\svchost.exe,C:\Windows\System32\svchost.exe,svchost.exe,svchost.exe,432,Microsoft Corporation,Host Process for Windows Tasks,10.0.19041.1865 (WinBuild.160101.0800),3a0c6863cde566af997db2defff9d924,taskhostw.exe,Microsoft® Windows® Operating System,3208,C:\Windows\system32\,C:\Windows\system32\,-,-,-,-,"e63709209d09bc0247e785f075ddb28a98c348206109e2b8ba321ad958402728, a00bf82660835224cd6606a248321c5d, 3a0c6863cde566af997db2defff9d924",-,-,SYSTEM,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,Microsoft Corporation,-,Host Process for Windows Tasks,-,10.0.19041.1865 (WinBuild.160101.0800),System,{461f0bd2-3401-6354-e703-000000000000},0x3e7,NT AUTHORITY\SYSTEM,Microsoft® Windows® Operating System,0,1,Info,"2,264","3,148",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6118,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:34:25.179",v0UCAYQBHC0TB3lJKane,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,bf0ac5bf-d14e-4d89-a456-0a53ca157c24,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:27.062","Oct 23, 2022 @ 02:43:49.853",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:25.179
+ProcessGuid: {461f0bd2-37b1-6354-d200-000000002100}
+ProcessId: 5848
+Image: C:\Windows\System32\taskhostw.exe
+FileVersion: 10.0.19041.1865 (WinBuild.160101.0800)
+Description: Host Process for Windows Tasks
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: taskhostw.exe
+CommandLine: taskhostw.exe Install $(Arg0)
+CurrentDirectory: C:\Windows\system32\
+User: VICTIM\Patricia Goh
+LogonGuid: {461f0bd2-3423-6354-c6b6-030000000000}
+LogonId: 0x3B6C6
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=A00BF82660835224CD6606A248321C5D,SHA256=E63709209D09BC0247E785F075DDB28A98C348206109E2B8BA321AD958402728,IMPHASH=3A0C6863CDE566AF997DB2DEFFF9D924
+ParentProcessGuid: {461f0bd2-3402-6354-1300-000000002100}
+ParentProcessId: 432
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\Windows\system32\svchost.exe -k netsvcs -p
+ParentUser: NT AUTHORITY\SYSTEM",-,"taskhostw.exe, Install, $(Arg0)",3,taskhostw.exe Install $(Arg0),taskhostw.exe Install $(Arg0),{461f0bd2-37b1-6354-d200-000000002100},C:\Windows\System32\taskhostw.exe,C:\Windows\System32\taskhostw.exe,a00bf82660835224cd6606a248321c5d,e63709209d09bc0247e785f075ddb28a98c348206109e2b8ba321ad958402728,taskhostw.exe,taskhostw.exe,"C:\Windows\system32\svchost.exe, -k, netsvcs, -p",4,C:\Windows\system32\svchost.exe -k netsvcs -p,C:\Windows\system32\svchost.exe -k netsvcs -p,{461f0bd2-3402-6354-1300-000000002100},C:\Windows\System32\svchost.exe,C:\Windows\System32\svchost.exe,svchost.exe,svchost.exe,432,Microsoft Corporation,Host Process for Windows Tasks,10.0.19041.1865 (WinBuild.160101.0800),3a0c6863cde566af997db2defff9d924,taskhostw.exe,Microsoft® Windows® Operating System,5848,C:\Windows\system32\,C:\Windows\system32\,-,-,-,-,"e63709209d09bc0247e785f075ddb28a98c348206109e2b8ba321ad958402728, a00bf82660835224cd6606a248321c5d, 3a0c6863cde566af997db2defff9d924",-,-,Patricia Goh,-,-,VICTIM,S-1-5-18,Patricia Goh,Patricia Goh,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,Microsoft Corporation,-,Host Process for Windows Tasks,-,10.0.19041.1865 (WinBuild.160101.0800),High,{461f0bd2-3423-6354-c6b6-030000000000},0x3b6c6,NT AUTHORITY\SYSTEM,Microsoft® Windows® Operating System,1,1,Info,"2,264","3,148",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6119,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:34:25.333",wEUCAYQBHC0TB3lJKane,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,bf0ac5bf-d14e-4d89-a456-0a53ca157c24,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:27.062","Oct 23, 2022 @ 02:43:49.853",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:25.333
+ProcessGuid: {461f0bd2-37b1-6354-d300-000000002100}
+ProcessId: 2044
+Image: C:\Windows\servicing\TrustedInstaller.exe
+FileVersion: 10.0.19041.1741 (WinBuild.160101.0800)
+Description: Windows Modules Installer
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: TrustedInstaller.exe
+CommandLine: C:\Windows\servicing\TrustedInstaller.exe
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {461f0bd2-3401-6354-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=D098F2FC042FBF6879D47E3A86FBB4A1,SHA256=7F0E3E2682A24A6B27484226CC0C7B30F837EA08B01F82C7B7AC094BF0A88CE5,IMPHASH=A36251F871E741F4ABE36BD6D61A9C01
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+ParentProcessId: 652
+ParentImage: -
+ParentCommandLine: -
+ParentUser: -",-,C:\Windows\servicing\TrustedInstaller.exe,1,C:\Windows\servicing\TrustedInstaller.exe,C:\Windows\servicing\TrustedInstaller.exe,{461f0bd2-37b1-6354-d300-000000002100},C:\Windows\servicing\TrustedInstaller.exe,C:\Windows\servicing\TrustedInstaller.exe,d098f2fc042fbf6879d47e3a86fbb4a1,7f0e3e2682a24a6b27484226cc0c7b30f837ea08b01f82c7b7ac094bf0a88ce5,TrustedInstaller.exe,TrustedInstaller.exe,-,1,-,-,{00000000-0000-0000-0000-000000000000},-,-,-,-,652,Microsoft Corporation,Windows Modules Installer,10.0.19041.1741 (WinBuild.160101.0800),a36251f871e741f4abe36bd6d61a9c01,TrustedInstaller.exe,Microsoft® Windows® Operating System,2044,C:\Windows\system32\,C:\Windows\system32\,-,-,-,-,"7f0e3e2682a24a6b27484226cc0c7b30f837ea08b01f82c7b7ac094bf0a88ce5, d098f2fc042fbf6879d47e3a86fbb4a1, a36251f871e741f4abe36bd6d61a9c01",-,-,SYSTEM,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,Microsoft Corporation,-,Windows Modules Installer,-,10.0.19041.1741 (WinBuild.160101.0800),System,{461f0bd2-3401-6354-e703-000000000000},0x3e7,-,Microsoft® Windows® Operating System,0,1,Info,"2,264","3,148",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6120,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:34:25.456",wUUCAYQBHC0TB3lJKane,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,bf0ac5bf-d14e-4d89-a456-0a53ca157c24,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:27.062","Oct 23, 2022 @ 02:43:49.853",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:25.456
+ProcessGuid: {461f0bd2-37b1-6354-d400-000000002100}
+ProcessId: 3756
+Image: C:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1852_none_7de3b01c7cacf858\TiWorker.exe
+FileVersion: 10.0.19041.1852 (WinBuild.160101.0800)
+Description: Windows Modules Installer Worker
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: TiWorker.exe
+CommandLine: C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1852_none_7de3b01c7cacf858\TiWorker.exe -Embedding
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {461f0bd2-3401-6354-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=557FF8A110BF7990CC6425E1D7291B56,SHA256=9D711A6E85F3B14A5788255E4DB71C8BB45118736B19DAEA9ED845C27AF6F7BB,IMPHASH=A85EB04C60D9F7AE6C25298B2A8FE3E9
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+ParentProcessId: 772
+ParentImage: -
+ParentCommandLine: -
+ParentUser: -",-,"C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1852_none_7de3b01c7cacf858\TiWorker.exe, -Embedding",2,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1852_none_7de3b01c7cacf858\TiWorker.exe -Embedding,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1852_none_7de3b01c7cacf858\TiWorker.exe -Embedding,{461f0bd2-37b1-6354-d400-000000002100},C:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1852_none_7de3b01c7cacf858\TiWorker.exe,C:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1852_none_7de3b01c7cacf858\TiWorker.exe,557ff8a110bf7990cc6425e1d7291b56,9d711a6e85f3b14a5788255e4db71c8bb45118736b19daea9ed845c27af6f7bb,TiWorker.exe,TiWorker.exe,-,1,-,-,{00000000-0000-0000-0000-000000000000},-,-,-,-,772,Microsoft Corporation,Windows Modules Installer Worker,10.0.19041.1852 (WinBuild.160101.0800),a85eb04c60d9f7ae6c25298b2a8fe3e9,TiWorker.exe,Microsoft® Windows® Operating System,3756,C:\Windows\system32\,C:\Windows\system32\,-,-,-,-,"9d711a6e85f3b14a5788255e4db71c8bb45118736b19daea9ed845c27af6f7bb, 557ff8a110bf7990cc6425e1d7291b56, a85eb04c60d9f7ae6c25298b2a8fe3e9",-,-,SYSTEM,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,Microsoft Corporation,-,Windows Modules Installer Worker,-,10.0.19041.1852 (WinBuild.160101.0800),System,{461f0bd2-3401-6354-e703-000000000000},0x3e7,-,Microsoft® Windows® Operating System,0,1,Info,"2,264","3,148",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6121,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:34:32.923",o0X5AIQBHC0TB3lJ5qcK,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:34.251","Oct 23, 2022 @ 02:34:48.197",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:32.923
+ProcessGuid: {612eed94-37b8-6354-2f01-000000001f00}
+ProcessId: 6736
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe"" 
+CurrentDirectory: C:\Users\AdministratorDB\Desktop\bin\bin\
+User: ADMIN\AdministratorDB
+LogonGuid: {612eed94-34a0-6354-1241-040000000000}
+LogonId: 0x44112
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=38407440316A77E6F691F9368FD9E9D4,SHA256=02F1754FC605AD2B348FE0FCA488317436EB82BA28582ECDE9A6CC2A38FA12E4,IMPHASH=809EA02D92FEA89353F33279290E8C9F
+ParentProcessGuid: {612eed94-34a5-6354-6300-000000001f00}
+ParentProcessId: 3732
+ParentImage: C:\Windows\explorer.exe
+ParentCommandLine: C:\Windows\Explorer.EXE
+ParentUser: ADMIN\AdministratorDB",-,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,1,"""C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe"" ","""C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe"" ",{612eed94-37b8-6354-2f01-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,38407440316a77e6f691f9368fd9e9d4,02f1754fc605ad2b348fe0fca488317436eb82ba28582ecde9a6cc2a38fa12e4,Ransomware.exe,Ransomware.exe,C:\Windows\Explorer.EXE,1,C:\Windows\Explorer.EXE,C:\Windows\Explorer.EXE,{612eed94-34a5-6354-6300-000000001f00},C:\Windows\explorer.exe,C:\Windows\explorer.exe,explorer.exe,explorer.exe,3732,-,-,-,809ea02d92fea89353f33279290e8c9f,-,-,6736,C:\Users\AdministratorDB\Desktop\bin\bin\,C:\Users\AdministratorDB\Desktop\bin\bin\,-,-,-,-,"02f1754fc605ad2b348fe0fca488317436eb82ba28582ecde9a6cc2a38fa12e4, 38407440316a77e6f691f9368fd9e9d4, 809ea02d92fea89353f33279290e8c9f",-,-,AdministratorDB,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,-,-,-,-,High,{612eed94-34a0-6354-1241-040000000000},0x44112,ADMIN\AdministratorDB,-,1,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6037,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:34:33.124",pUX5AIQBHC0TB3lJ5qcK,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:34.251","Oct 23, 2022 @ 02:34:48.198",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362,dll,MSVCP140.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\MSVCP140.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\MSVCP140.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:34:33.124
+ProcessGuid: {612eed94-37b8-6354-2f01-000000001f00}
+ProcessId: 6736
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\MSVCP140.dll
+CreationUtcTime: 2022-10-22 18:34:33.124
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b8-6354-2f01-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6736,-,-,-,-,-,-,-,-,-,AdministratorDB,DLL,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:33.1,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6039,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:33.129",pkX5AIQBHC0TB3lJ5qcK,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:34.251","Oct 23, 2022 @ 02:34:48.198",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362,dll,VCRUNTIME140.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\VCRUNTIME140.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\VCRUNTIME140.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:34:33.129
+ProcessGuid: {612eed94-37b8-6354-2f01-000000001f00}
+ProcessId: 6736
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\VCRUNTIME140.dll
+CreationUtcTime: 2022-10-22 18:34:33.124
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b8-6354-2f01-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6736,-,-,-,-,-,-,-,-,-,AdministratorDB,DLL,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:33.1,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6040,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:33.138",p0X5AIQBHC0TB3lJ5qcK,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:34.251","Oct 23, 2022 @ 02:34:48.199",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362,dll,python36.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\python36.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\python36.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:34:33.138
+ProcessGuid: {612eed94-37b8-6354-2f01-000000001f00}
+ProcessId: 6736
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\python36.dll
+CreationUtcTime: 2022-10-22 18:34:33.138
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b8-6354-2f01-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6736,-,-,-,-,-,-,-,-,-,AdministratorDB,DLL,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:33.1,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6041,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:33.138",qEX5AIQBHC0TB3lJ5qcK,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:34.251","Oct 23, 2022 @ 02:34:48.199",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362,dll,pywintypes36.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\pywintypes36.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\pywintypes36.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:34:33.138
+ProcessGuid: {612eed94-37b8-6354-2f01-000000001f00}
+ProcessId: 6736
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\pywintypes36.dll
+CreationUtcTime: 2022-10-22 18:34:33.138
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b8-6354-2f01-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6736,-,-,-,-,-,-,-,-,-,AdministratorDB,DLL,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:33.1,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6042,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:33.202",qUX5AIQBHC0TB3lJ5qcK,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:34.251","Oct 23, 2022 @ 02:34:48.199",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362,dll,wxbase30u_net_vc140_x64.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxbase30u_net_vc140_x64.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxbase30u_net_vc140_x64.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:34:33.202
+ProcessGuid: {612eed94-37b8-6354-2f01-000000001f00}
+ProcessId: 6736
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxbase30u_net_vc140_x64.dll
+CreationUtcTime: 2022-10-22 18:34:33.202
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b8-6354-2f01-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6736,-,-,-,-,-,-,-,-,-,AdministratorDB,DLL,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:33.2,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6043,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:33.205",qkX5AIQBHC0TB3lJ5qcK,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:34.251","Oct 23, 2022 @ 02:34:48.199",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362,dll,wxbase30u_vc140_x64.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxbase30u_vc140_x64.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxbase30u_vc140_x64.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:34:33.205
+ProcessGuid: {612eed94-37b8-6354-2f01-000000001f00}
+ProcessId: 6736
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxbase30u_vc140_x64.dll
+CreationUtcTime: 2022-10-22 18:34:33.205
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b8-6354-2f01-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6736,-,-,-,-,-,-,-,-,-,AdministratorDB,DLL,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:33.2,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6044,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:33.205",q0X5AIQBHC0TB3lJ5qcK,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:34.251","Oct 23, 2022 @ 02:34:48.200",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362,dll,wxbase30u_xml_vc140_x64.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxbase30u_xml_vc140_x64.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxbase30u_xml_vc140_x64.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:34:33.205
+ProcessGuid: {612eed94-37b8-6354-2f01-000000001f00}
+ProcessId: 6736
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxbase30u_xml_vc140_x64.dll
+CreationUtcTime: 2022-10-22 18:34:33.205
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b8-6354-2f01-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6736,-,-,-,-,-,-,-,-,-,AdministratorDB,DLL,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:33.2,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6045,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:33.697",rEX5AIQBHC0TB3lJ5qcK,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:34.259","Oct 23, 2022 @ 02:34:48.200",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362,dll,wxmsw30u_adv_vc140_x64.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxmsw30u_adv_vc140_x64.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxmsw30u_adv_vc140_x64.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:34:33.697
+ProcessGuid: {612eed94-37b8-6354-2f01-000000001f00}
+ProcessId: 6736
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxmsw30u_adv_vc140_x64.dll
+CreationUtcTime: 2022-10-22 18:34:33.697
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b8-6354-2f01-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6736,-,-,-,-,-,-,-,-,-,AdministratorDB,DLL,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:33.7,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6046,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:33.717",rUX5AIQBHC0TB3lJ5qcK,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:34.259","Oct 23, 2022 @ 02:34:48.200",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362,dll,wxmsw30u_core_vc140_x64.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxmsw30u_core_vc140_x64.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxmsw30u_core_vc140_x64.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:34:33.717
+ProcessGuid: {612eed94-37b8-6354-2f01-000000001f00}
+ProcessId: 6736
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxmsw30u_core_vc140_x64.dll
+CreationUtcTime: 2022-10-22 18:34:33.697
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b8-6354-2f01-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6736,-,-,-,-,-,-,-,-,-,AdministratorDB,DLL,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:33.7,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6047,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:33.717",rkX5AIQBHC0TB3lJ5qcK,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:34.259","Oct 23, 2022 @ 02:34:48.200",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362,dll,wxmsw30u_html_vc140_x64.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxmsw30u_html_vc140_x64.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxmsw30u_html_vc140_x64.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:34:33.717
+ProcessGuid: {612eed94-37b8-6354-2f01-000000001f00}
+ProcessId: 6736
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxmsw30u_html_vc140_x64.dll
+CreationUtcTime: 2022-10-22 18:34:33.717
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b8-6354-2f01-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6736,-,-,-,-,-,-,-,-,-,AdministratorDB,DLL,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:33.7,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6048,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:33.739",r0X5AIQBHC0TB3lJ5qcK,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:34.259","Oct 23, 2022 @ 02:34:48.201",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362,dll,wxmsw30u_xrc_vc140_x64.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxmsw30u_xrc_vc140_x64.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxmsw30u_xrc_vc140_x64.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:34:33.739
+ProcessGuid: {612eed94-37b8-6354-2f01-000000001f00}
+ProcessId: 6736
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI67362\wxmsw30u_xrc_vc140_x64.dll
+CreationUtcTime: 2022-10-22 18:34:33.739
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b8-6354-2f01-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6736,-,-,-,-,-,-,-,-,-,AdministratorDB,DLL,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:33.7,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6049,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:33.748",sEX5AIQBHC0TB3lJ5qcK,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:34.259","Oct 23, 2022 @ 02:34:48.201",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:33.748
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe"" 
+CurrentDirectory: C:\Users\AdministratorDB\Desktop\bin\bin\
+User: ADMIN\AdministratorDB
+LogonGuid: {612eed94-34a0-6354-1241-040000000000}
+LogonId: 0x44112
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=38407440316A77E6F691F9368FD9E9D4,SHA256=02F1754FC605AD2B348FE0FCA488317436EB82BA28582ECDE9A6CC2A38FA12E4,IMPHASH=809EA02D92FEA89353F33279290E8C9F
+ParentProcessGuid: {612eed94-37b8-6354-2f01-000000001f00}
+ParentProcessId: 6736
+ParentImage: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+ParentCommandLine: ""C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe"" 
+ParentUser: ADMIN\AdministratorDB",-,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,1,"""C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe"" ","""C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe"" ",{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,38407440316a77e6f691f9368fd9e9d4,02f1754fc605ad2b348fe0fca488317436eb82ba28582ecde9a6cc2a38fa12e4,Ransomware.exe,Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,1,"""C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe"" ","""C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe"" ",{612eed94-37b8-6354-2f01-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,Ransomware.exe,Ransomware.exe,6736,-,-,-,809ea02d92fea89353f33279290e8c9f,-,-,1412,C:\Users\AdministratorDB\Desktop\bin\bin\,C:\Users\AdministratorDB\Desktop\bin\bin\,-,-,-,-,"02f1754fc605ad2b348fe0fca488317436eb82ba28582ecde9a6cc2a38fa12e4, 38407440316a77e6f691f9368fd9e9d4, 809ea02d92fea89353f33279290e8c9f",-,-,AdministratorDB,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,-,-,-,-,High,{612eed94-34a0-6354-1241-040000000000},0x44112,ADMIN\AdministratorDB,-,1,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6050,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:34:33.992",sUX5AIQBHC0TB3lJ5qcK,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Registry value set (rule: RegistryEvent),"configuration, registry",13,"Oct 23, 2022 @ 02:34:34.259","Oct 23, 2022 @ 02:34:48.201",event,sysmon,Microsoft-Windows-Sysmon,change,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Registry value set:
+RuleName: T1060,RunKey
+EventType: SetValue
+UtcTime: 2022-10-22 18:34:33.992
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetObject: HKU\S-1-5-21-3636077943-3669489707-987131759-1002\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\Ransomware
+Details: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,HKU,S-1-5-21-3636077943-3669489707-987131759-1002\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\Ransomware,HKU\S-1-5-21-3636077943-3669489707-987131759-1002\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\Ransomware,Ransomware,-,-,-,AdministratorDB,"T1060,RunKey",-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,-,-,SetValue,-,-,-,-,-,-,-,13,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6051,Registry value set (rule: RegistryEvent),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:35.552",skX5AIQBHC0TB3lJ9afc,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:36.296","Oct 23, 2022 @ 02:34:52.251",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:35.552
+ProcessGuid: {612eed94-37bb-6354-3101-000000001f00}
+ProcessId: 4128
+Image: C:\Windows\System32\SearchProtocolHost.exe
+FileVersion: 7.0.19041.1865 (WinBuild.160101.0800)
+Description: Microsoft Windows Search Protocol Host
+Product: Windows® Search
+Company: Microsoft Corporation
+OriginalFileName: SearchProtocolHost.exe
+CommandLine: ""C:\Windows\system32\SearchProtocolHost.exe"" Global\UsGthrFltPipeMssGthrPipe5_ Global\UsGthrCtrlFltPipeMssGthrPipe5 1 -2147483646 ""Software\Microsoft\Windows Search"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)"" ""C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc"" ""DownLevelDaemon"" 
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {612eed94-3465-6354-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=0AE82E02F55E74E1F7FAFFE7FACCB287,SHA256=DE66A82EA4634B03A76AC11370C070D4A6AAC1FA8D4CA907136BEEDCD279316A,IMPHASH=8B2A73CF81704F7AED84C67134EC39AC
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+ParentProcessId: 2536
+ParentImage: -
+ParentCommandLine: -
+ParentUser: -",-,"C:\Windows\system32\SearchProtocolHost.exe, Global\UsGthrFltPipeMssGthrPipe5_, Global\UsGthrCtrlFltPipeMssGthrPipe5, 1, -2147483646, Software\Microsoft\Windows Search, Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot), C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc, DownLevelDaemon",9,"""C:\Windows\system32\SearchProtocolHost.exe"" Global\UsGthrFltPipeMssGthrPipe5_ Global\UsGthrCtrlFltPipeMssGthrPipe5 1 -2147483646 ""Software\Microsoft\Windows Search"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)"" ""C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc"" ""DownLevelDaemon"" ","""C:\Windows\system32\SearchProtocolHost.exe"" Global\UsGthrFltPipeMssGthrPipe5_ Global\UsGthrCtrlFltPipeMssGthrPipe5 1 -2147483646 ""Software\Microsoft\Windows Search"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)"" ""C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc"" ""DownLevelDaemon"" ",{612eed94-37bb-6354-3101-000000001f00},C:\Windows\System32\SearchProtocolHost.exe,C:\Windows\System32\SearchProtocolHost.exe,0ae82e02f55e74e1f7faffe7faccb287,de66a82ea4634b03a76ac11370c070d4a6aac1fa8d4ca907136beedcd279316a,SearchProtocolHost.exe,SearchProtocolHost.exe,-,1,-,-,{00000000-0000-0000-0000-000000000000},-,-,-,-,2536,Microsoft Corporation,Microsoft Windows Search Protocol Host,7.0.19041.1865 (WinBuild.160101.0800),8b2a73cf81704f7aed84c67134ec39ac,SearchProtocolHost.exe,Windows® Search,4128,C:\Windows\system32\,C:\Windows\system32\,-,-,-,-,"de66a82ea4634b03a76ac11370c070d4a6aac1fa8d4ca907136beedcd279316a, 0ae82e02f55e74e1f7faffe7faccb287, 8b2a73cf81704f7aed84c67134ec39ac",-,-,SYSTEM,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Microsoft Windows Search Protocol Host,-,7.0.19041.1865 (WinBuild.160101.0800),System,{612eed94-3465-6354-e703-000000000000},0x3e7,-,Windows® Search,0,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6052,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:34:35.620",s0X5AIQBHC0TB3lJ9afc,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:36.296","Oct 23, 2022 @ 02:34:52.251",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:35.620
+ProcessGuid: {612eed94-37bb-6354-3201-000000001f00}
+ProcessId: 6840
+Image: C:\Windows\System32\SearchFilterHost.exe
+FileVersion: 7.0.19041.1865 (WinBuild.160101.0800)
+Description: Microsoft Windows Search Filter Host
+Product: Windows® Search
+Company: Microsoft Corporation
+OriginalFileName: SearchFilterHost.exe
+CommandLine: ""C:\Windows\system32\SearchFilterHost.exe"" 0 796 800 808 8192 804 780 
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {612eed94-3465-6354-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: Medium
+Hashes: MD5=0F423D1F8CB44280566E7248EB0AD4DA,SHA256=3F09D87197A80251A55BF2D819BAE9AB7B1791AC31E96413E0C06FAA21A0A169,IMPHASH=25975932FE65B44EA2DD939DC008D453
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+ParentProcessId: 2536
+ParentImage: -
+ParentCommandLine: -
+ParentUser: -",-,"C:\Windows\system32\SearchFilterHost.exe, 0, 796, 800, 808, 8192, 804, 780",8,"""C:\Windows\system32\SearchFilterHost.exe"" 0 796 800 808 8192 804 780 ","""C:\Windows\system32\SearchFilterHost.exe"" 0 796 800 808 8192 804 780 ",{612eed94-37bb-6354-3201-000000001f00},C:\Windows\System32\SearchFilterHost.exe,C:\Windows\System32\SearchFilterHost.exe,0f423d1f8cb44280566e7248eb0ad4da,3f09d87197a80251a55bf2d819bae9ab7b1791ac31e96413e0c06faa21a0a169,SearchFilterHost.exe,SearchFilterHost.exe,-,1,-,-,{00000000-0000-0000-0000-000000000000},-,-,-,-,2536,Microsoft Corporation,Microsoft Windows Search Filter Host,7.0.19041.1865 (WinBuild.160101.0800),25975932fe65b44ea2dd939dc008d453,SearchFilterHost.exe,Windows® Search,6840,C:\Windows\system32\,C:\Windows\system32\,-,-,-,-,"3f09d87197a80251a55bf2d819bae9ab7b1791ac31e96413e0c06faa21a0a169, 0f423d1f8cb44280566e7248eb0ad4da, 25975932fe65b44ea2dd939dc008d453",-,-,SYSTEM,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Microsoft Windows Search Filter Host,-,7.0.19041.1865 (WinBuild.160101.0800),Medium,{612eed94-3465-6354-e703-000000000000},0x3e7,-,Windows® Search,0,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6053,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:34:37.540",tEX6AIQBHC0TB3lJBaf_,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:38.361","Oct 23, 2022 @ 02:34:56.373",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu,locked,desktop.ini.locked,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\desktop.ini.locked,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\desktop.ini.locked,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: T1023
+UtcTime: 2022-10-22 18:34:37.540
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\desktop.ini.locked
+CreationUtcTime: 2022-10-22 18:34:37.540
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,T1023,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:37.5,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6054,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:37.540",tUX6AIQBHC0TB3lJBaf_,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:38.361","Oct 23, 2022 @ 02:34:56.380",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs,locked,desktop.ini.locked,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\desktop.ini.locked,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\desktop.ini.locked,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: T1023
+UtcTime: 2022-10-22 18:34:37.540
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\desktop.ini.locked
+CreationUtcTime: 2022-10-22 18:34:37.540
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,T1023,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:37.5,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6055,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:37.543",tkX6AIQBHC0TB3lJBaf_,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:38.361","Oct 23, 2022 @ 02:34:56.381",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility,locked,desktop.ini.locked,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility\desktop.ini.locked,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility\desktop.ini.locked,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: T1023
+UtcTime: 2022-10-22 18:34:37.543
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility\desktop.ini.locked
+CreationUtcTime: 2022-10-22 18:34:37.543
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,T1023,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:37.5,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6056,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:37.544",t0X6AIQBHC0TB3lJBaf_,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:38.361","Oct 23, 2022 @ 02:34:56.381",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories,locked,desktop.ini.locked,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories\desktop.ini.locked,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories\desktop.ini.locked,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: T1023
+UtcTime: 2022-10-22 18:34:37.544
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories\desktop.ini.locked
+CreationUtcTime: 2022-10-22 18:34:37.544
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,T1023,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:37.5,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6057,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:37.544",uEX6AIQBHC0TB3lJBaf_,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:38.361","Oct 23, 2022 @ 02:34:56.381",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools,locked,desktop.ini.locked,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools\desktop.ini.locked,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools\desktop.ini.locked,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: T1023
+UtcTime: 2022-10-22 18:34:37.544
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools\desktop.ini.locked
+CreationUtcTime: 2022-10-22 18:34:37.544
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,T1023,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:37.5,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6058,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:37.544",uUX6AIQBHC0TB3lJBaf_,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:38.361","Oct 23, 2022 @ 02:34:56.381",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Maintenance,locked,Desktop.ini.locked,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Maintenance\Desktop.ini.locked,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Maintenance\Desktop.ini.locked,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: T1023
+UtcTime: 2022-10-22 18:34:37.544
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Maintenance\Desktop.ini.locked
+CreationUtcTime: 2022-10-22 18:34:37.544
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,T1023,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:37.5,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6059,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:37.544",ukX6AIQBHC0TB3lJBaf_,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:38.361","Oct 23, 2022 @ 02:34:56.382",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup,locked,desktop.ini.locked,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\desktop.ini.locked,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\desktop.ini.locked,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: T1023
+UtcTime: 2022-10-22 18:34:37.544
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\desktop.ini.locked
+CreationUtcTime: 2022-10-22 18:34:37.544
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,T1023,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:37.5,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6060,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:37.544",u0X6AIQBHC0TB3lJBaf_,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:38.362","Oct 23, 2022 @ 02:34:56.382",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools,locked,Desktop.ini.locked,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools\Desktop.ini.locked,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools\Desktop.ini.locked,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: T1023
+UtcTime: 2022-10-22 18:34:37.544
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools\Desktop.ini.locked
+CreationUtcTime: 2022-10-22 18:34:37.544
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,T1023,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:37.5,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6061,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:37.742",vEX6AIQBHC0TB3lJBaf_,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:38.362","Oct 23, 2022 @ 02:34:56.382",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\Downloads,locked,desktop.ini.locked,C:\Users\AdministratorDB\Downloads\desktop.ini.locked,C:\Users\AdministratorDB\Downloads\desktop.ini.locked,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: Downloads
+UtcTime: 2022-10-22 18:34:37.742
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\Downloads\desktop.ini.locked
+CreationUtcTime: 2022-10-22 18:34:37.742
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,Downloads,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:37.7,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6062,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:37.754",vUX6AIQBHC0TB3lJBaf_,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:38.362","Oct 23, 2022 @ 02:34:56.382",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:37.754
+ProcessGuid: {612eed94-37bd-6354-3301-000000001f00}
+ProcessId: 6568
+Image: C:\Windows\System32\cmd.exe
+FileVersion: 10.0.19041.746 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: C:\Windows\system32\cmd.exe /c ""schtasks /create /tn updater47 /sc once /sd 01/01/1901 /tr ""vssadmin Delete Shadows /All /Quiet"" /st 00:00 /rl highest /ru SYSTEM /f""
+CurrentDirectory: C:\Users\AdministratorDB\Desktop\bin\bin\
+User: ADMIN\AdministratorDB
+LogonGuid: {612eed94-34a0-6354-1241-040000000000}
+LogonId: 0x44112
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=8A2122E8162DBEF04694B9C3E0B6CDEE,SHA256=B99D61D874728EDC0918CA0EB10EAB93D381E7367E377406E65963366C874450,IMPHASH=272245E2988E1E430500B852C4FB5E18
+ParentProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ParentProcessId: 1412
+ParentImage: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+ParentCommandLine: ""C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe"" 
+ParentUser: ADMIN\AdministratorDB",-,"C:\Windows\system32\cmd.exe, /c, schtasks /create /tn updater47 /sc once /sd 01/01/1901 /tr vssadmin, Delete, Shadows, /All, /Quiet /st 00:00 /rl highest /ru SYSTEM /f",7,"C:\Windows\system32\cmd.exe /c ""schtasks /create /tn updater47 /sc once /sd 01/01/1901 /tr ""vssadmin Delete Shadows /All /Quiet"" /st 00:00 /rl highest /ru SYSTEM /f""","C:\Windows\system32\cmd.exe /c ""schtasks /create /tn updater47 /sc once /sd 01/01/1901 /tr ""vssadmin Delete Shadows /All /Quiet"" /st 00:00 /rl highest /ru SYSTEM /f""",{612eed94-37bd-6354-3301-000000001f00},C:\Windows\System32\cmd.exe,C:\Windows\System32\cmd.exe,8a2122e8162dbef04694b9c3e0b6cdee,b99d61d874728edc0918ca0eb10eab93d381e7367e377406e65963366c874450,cmd.exe,cmd.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,1,"""C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe"" ","""C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe"" ",{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,Ransomware.exe,Ransomware.exe,1412,Microsoft Corporation,Windows Command Processor,10.0.19041.746 (WinBuild.160101.0800),272245e2988e1e430500b852c4fb5e18,Cmd.Exe,Microsoft® Windows® Operating System,6568,C:\Users\AdministratorDB\Desktop\bin\bin\,C:\Users\AdministratorDB\Desktop\bin\bin\,-,-,-,-,"b99d61d874728edc0918ca0eb10eab93d381e7367e377406e65963366c874450, 8a2122e8162dbef04694b9c3e0b6cdee, 272245e2988e1e430500b852c4fb5e18",-,-,AdministratorDB,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Windows Command Processor,-,10.0.19041.746 (WinBuild.160101.0800),High,{612eed94-34a0-6354-1241-040000000000},0x44112,ADMIN\AdministratorDB,Microsoft® Windows® Operating System,1,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6063,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:34:37.998",vkX6AIQBHC0TB3lJBaf_,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:38.362","Oct 23, 2022 @ 02:34:56.383",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:37.998
+ProcessGuid: {612eed94-37bd-6354-3501-000000001f00}
+ProcessId: 6984
+Image: C:\Windows\System32\schtasks.exe
+FileVersion: 10.0.19041.1503 (WinBuild.160101.0800)
+Description: Task Scheduler Configuration Tool
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: schtasks.exe
+CommandLine: schtasks  /create /tn updater47 /sc once /sd 01/01/1901 /tr ""vssadmin Delete Shadows /All /Quiet"" /st 00:00 /rl highest /ru SYSTEM /f
+CurrentDirectory: C:\Users\AdministratorDB\Desktop\bin\bin\
+User: ADMIN\AdministratorDB
+LogonGuid: {612eed94-34a0-6354-1241-040000000000}
+LogonId: 0x44112
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=76CD6626DD8834BD4A42E6A565104DC2,SHA256=013C013E0EFD13C9380FAD58418B7ACA8356E591A5CCEFFDB910F7D8B0AD28EF,IMPHASH=ECCE05491F2E8F279F4790BCB1318C05
+ParentProcessGuid: {612eed94-37bd-6354-3301-000000001f00}
+ParentProcessId: 6568
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: C:\Windows\system32\cmd.exe /c ""schtasks /create /tn updater47 /sc once /sd 01/01/1901 /tr ""vssadmin Delete Shadows /All /Quiet"" /st 00:00 /rl highest /ru SYSTEM /f""
+ParentUser: ADMIN\AdministratorDB",-,"schtasks, /create, /tn, updater47, /sc, once, /sd, 01/01/1901, /tr, vssadmin Delete Shadows /All /Quiet, /st, 00:00, /rl, highest, /ru, SYSTEM, /f",17,"schtasks  /create /tn updater47 /sc once /sd 01/01/1901 /tr ""vssadmin Delete Shadows /All /Quiet"" /st 00:00 /rl highest /ru SYSTEM /f","schtasks  /create /tn updater47 /sc once /sd 01/01/1901 /tr ""vssadmin Delete Shadows /All /Quiet"" /st 00:00 /rl highest /ru SYSTEM /f",{612eed94-37bd-6354-3501-000000001f00},C:\Windows\System32\schtasks.exe,C:\Windows\System32\schtasks.exe,76cd6626dd8834bd4a42e6a565104dc2,013c013e0efd13c9380fad58418b7aca8356e591a5cceffdb910f7d8b0ad28ef,schtasks.exe,schtasks.exe,"C:\Windows\system32\cmd.exe, /c, schtasks /create /tn updater47 /sc once /sd 01/01/1901 /tr vssadmin, Delete, Shadows, /All, /Quiet /st 00:00 /rl highest /ru SYSTEM /f",7,"C:\Windows\system32\cmd.exe /c ""schtasks /create /tn updater47 /sc once /sd 01/01/1901 /tr ""vssadmin Delete Shadows /All /Quiet"" /st 00:00 /rl highest /ru SYSTEM /f""","C:\Windows\system32\cmd.exe /c ""schtasks /create /tn updater47 /sc once /sd 01/01/1901 /tr ""vssadmin Delete Shadows /All /Quiet"" /st 00:00 /rl highest /ru SYSTEM /f""",{612eed94-37bd-6354-3301-000000001f00},C:\Windows\System32\cmd.exe,C:\Windows\System32\cmd.exe,cmd.exe,cmd.exe,6568,Microsoft Corporation,Task Scheduler Configuration Tool,10.0.19041.1503 (WinBuild.160101.0800),ecce05491f2e8f279f4790bcb1318c05,schtasks.exe,Microsoft® Windows® Operating System,6984,C:\Users\AdministratorDB\Desktop\bin\bin\,C:\Users\AdministratorDB\Desktop\bin\bin\,-,-,-,-,"013c013e0efd13c9380fad58418b7aca8356e591a5cceffdb910f7d8b0ad28ef, 76cd6626dd8834bd4a42e6a565104dc2, ecce05491f2e8f279f4790bcb1318c05",-,-,AdministratorDB,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Task Scheduler Configuration Tool,-,10.0.19041.1503 (WinBuild.160101.0800),High,{612eed94-34a0-6354-1241-040000000000},0x44112,ADMIN\AdministratorDB,Microsoft® Windows® Operating System,1,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6064,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:34:38.029",v0X6AIQBHC0TB3lJBaf_,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:34:38.362","Oct 23, 2022 @ 02:34:56.383",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Windows\System32\Tasks,-,updater47,C:\Windows\System32\Tasks\updater47,C:\Windows\System32\Tasks\updater47,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: T1053
+UtcTime: 2022-10-22 18:34:38.029
+ProcessGuid: {612eed94-3466-6354-1300-000000001f00}
+ProcessId: 472
+Image: C:\Windows\system32\svchost.exe
+TargetFilename: C:\Windows\System32\Tasks\updater47
+CreationUtcTime: 2022-10-22 18:34:38.029
+User: NT AUTHORITY\SYSTEM",-,-,-,-,-,{612eed94-3466-6354-1300-000000001f00},C:\Windows\system32\svchost.exe,C:\Windows\system32\svchost.exe,-,-,svchost.exe,svchost.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,472,-,-,-,-,-,-,-,-,-,SYSTEM,T1053,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:38.0,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6065,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:34:38.053",wEX6AIQBHC0TB3lJCqcW,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:38.881","Oct 23, 2022 @ 02:34:57.422",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:38.053
+ProcessGuid: {612eed94-37be-6354-3601-000000001f00}
+ProcessId: 4680
+Image: C:\Windows\System32\cmd.exe
+FileVersion: 10.0.19041.746 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: C:\Windows\system32\cmd.exe /c ""schtasks /run /i /tn updater47""
+CurrentDirectory: C:\Users\AdministratorDB\Desktop\bin\bin\
+User: ADMIN\AdministratorDB
+LogonGuid: {612eed94-34a0-6354-1241-040000000000}
+LogonId: 0x44112
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=8A2122E8162DBEF04694B9C3E0B6CDEE,SHA256=B99D61D874728EDC0918CA0EB10EAB93D381E7367E377406E65963366C874450,IMPHASH=272245E2988E1E430500B852C4FB5E18
+ParentProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ParentProcessId: 1412
+ParentImage: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+ParentCommandLine: ""C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe"" 
+ParentUser: ADMIN\AdministratorDB",-,"C:\Windows\system32\cmd.exe, /c, schtasks /run /i /tn updater47",3,"C:\Windows\system32\cmd.exe /c ""schtasks /run /i /tn updater47""","C:\Windows\system32\cmd.exe /c ""schtasks /run /i /tn updater47""",{612eed94-37be-6354-3601-000000001f00},C:\Windows\System32\cmd.exe,C:\Windows\System32\cmd.exe,8a2122e8162dbef04694b9c3e0b6cdee,b99d61d874728edc0918ca0eb10eab93d381e7367e377406e65963366c874450,cmd.exe,cmd.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,1,"""C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe"" ","""C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe"" ",{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,Ransomware.exe,Ransomware.exe,1412,Microsoft Corporation,Windows Command Processor,10.0.19041.746 (WinBuild.160101.0800),272245e2988e1e430500b852c4fb5e18,Cmd.Exe,Microsoft® Windows® Operating System,4680,C:\Users\AdministratorDB\Desktop\bin\bin\,C:\Users\AdministratorDB\Desktop\bin\bin\,-,-,-,-,"b99d61d874728edc0918ca0eb10eab93d381e7367e377406e65963366c874450, 8a2122e8162dbef04694b9c3e0b6cdee, 272245e2988e1e430500b852c4fb5e18",-,-,AdministratorDB,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Windows Command Processor,-,10.0.19041.746 (WinBuild.160101.0800),High,{612eed94-34a0-6354-1241-040000000000},0x44112,ADMIN\AdministratorDB,Microsoft® Windows® Operating System,1,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6066,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:34:38.219",wUX6AIQBHC0TB3lJCqcW,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:38.882","Oct 23, 2022 @ 02:34:57.423",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:38.219
+ProcessGuid: {612eed94-37be-6354-3801-000000001f00}
+ProcessId: 6800
+Image: C:\Windows\System32\schtasks.exe
+FileVersion: 10.0.19041.1503 (WinBuild.160101.0800)
+Description: Task Scheduler Configuration Tool
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: schtasks.exe
+CommandLine: schtasks  /run /i /tn updater47
+CurrentDirectory: C:\Users\AdministratorDB\Desktop\bin\bin\
+User: ADMIN\AdministratorDB
+LogonGuid: {612eed94-34a0-6354-1241-040000000000}
+LogonId: 0x44112
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=76CD6626DD8834BD4A42E6A565104DC2,SHA256=013C013E0EFD13C9380FAD58418B7ACA8356E591A5CCEFFDB910F7D8B0AD28EF,IMPHASH=ECCE05491F2E8F279F4790BCB1318C05
+ParentProcessGuid: {612eed94-37be-6354-3601-000000001f00}
+ParentProcessId: 4680
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: C:\Windows\system32\cmd.exe /c ""schtasks /run /i /tn updater47""
+ParentUser: ADMIN\AdministratorDB",-,"schtasks, /run, /i, /tn, updater47",5,schtasks  /run /i /tn updater47,schtasks  /run /i /tn updater47,{612eed94-37be-6354-3801-000000001f00},C:\Windows\System32\schtasks.exe,C:\Windows\System32\schtasks.exe,76cd6626dd8834bd4a42e6a565104dc2,013c013e0efd13c9380fad58418b7aca8356e591a5cceffdb910f7d8b0ad28ef,schtasks.exe,schtasks.exe,"C:\Windows\system32\cmd.exe, /c, schtasks /run /i /tn updater47",3,"C:\Windows\system32\cmd.exe /c ""schtasks /run /i /tn updater47""","C:\Windows\system32\cmd.exe /c ""schtasks /run /i /tn updater47""",{612eed94-37be-6354-3601-000000001f00},C:\Windows\System32\cmd.exe,C:\Windows\System32\cmd.exe,cmd.exe,cmd.exe,4680,Microsoft Corporation,Task Scheduler Configuration Tool,10.0.19041.1503 (WinBuild.160101.0800),ecce05491f2e8f279f4790bcb1318c05,schtasks.exe,Microsoft® Windows® Operating System,6800,C:\Users\AdministratorDB\Desktop\bin\bin\,C:\Users\AdministratorDB\Desktop\bin\bin\,-,-,-,-,"013c013e0efd13c9380fad58418b7aca8356e591a5cceffdb910f7d8b0ad28ef, 76cd6626dd8834bd4a42e6a565104dc2, ecce05491f2e8f279f4790bcb1318c05",-,-,AdministratorDB,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Task Scheduler Configuration Tool,-,10.0.19041.1503 (WinBuild.160101.0800),High,{612eed94-34a0-6354-1241-040000000000},0x44112,ADMIN\AdministratorDB,Microsoft® Windows® Operating System,1,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6067,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:34:38.248",wkX6AIQBHC0TB3lJCqcW,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:38.882","Oct 23, 2022 @ 02:34:57.424",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:38.248
+ProcessGuid: {612eed94-37be-6354-3901-000000001f00}
+ProcessId: 3036
+Image: C:\Windows\System32\vssadmin.exe
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Command Line Interface for Microsoft® Volume Shadow Copy Service 
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: VSSADMIN.EXE
+CommandLine: C:\Windows\system32\vssadmin.EXE Delete Shadows /All /Quiet
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {612eed94-3465-6354-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=B58073DB8892B67A672906C9358020EC,SHA256=8C1FABCC2196E4D096B7D155837C5F699AD7F55EDBF84571E4F8E03500B7A8B0,IMPHASH=C1EDC431CD345F0A0F32019895D13FCE
+ParentProcessGuid: {612eed94-3466-6354-1300-000000001f00}
+ParentProcessId: 472
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\Windows\system32\svchost.exe -k netsvcs -p
+ParentUser: NT AUTHORITY\SYSTEM",-,"C:\Windows\system32\vssadmin.EXE, Delete, Shadows, /All, /Quiet",5,C:\Windows\system32\vssadmin.EXE Delete Shadows /All /Quiet,C:\Windows\system32\vssadmin.EXE Delete Shadows /All /Quiet,{612eed94-37be-6354-3901-000000001f00},C:\Windows\System32\vssadmin.exe,C:\Windows\System32\vssadmin.exe,b58073db8892b67a672906c9358020ec,8c1fabcc2196e4d096b7d155837c5f699ad7f55edbf84571e4f8e03500b7a8b0,vssadmin.exe,vssadmin.exe,"C:\Windows\system32\svchost.exe, -k, netsvcs, -p",4,C:\Windows\system32\svchost.exe -k netsvcs -p,C:\Windows\system32\svchost.exe -k netsvcs -p,{612eed94-3466-6354-1300-000000001f00},C:\Windows\System32\svchost.exe,C:\Windows\System32\svchost.exe,svchost.exe,svchost.exe,472,Microsoft Corporation,Command Line Interface for Microsoft® Volume Shadow Copy Service ,10.0.19041.1 (WinBuild.160101.0800),c1edc431cd345f0a0f32019895d13fce,VSSADMIN.EXE,Microsoft® Windows® Operating System,3036,C:\Windows\system32\,C:\Windows\system32\,-,-,-,-,"8c1fabcc2196e4d096b7d155837c5f699ad7f55edbf84571e4f8e03500b7a8b0, b58073db8892b67a672906c9358020ec, c1edc431cd345f0a0f32019895d13fce",-,-,SYSTEM,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Command Line Interface for Microsoft® Volume Shadow Copy Service ,-,10.0.19041.1 (WinBuild.160101.0800),System,{612eed94-3465-6354-e703-000000000000},0x3e7,NT AUTHORITY\SYSTEM,Microsoft® Windows® Operating System,0,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6068,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:34:38.265",w0X6AIQBHC0TB3lJCqcW,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:38.882","Oct 23, 2022 @ 02:34:57.424",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:38.265
+ProcessGuid: {612eed94-37be-6354-3a01-000000001f00}
+ProcessId: 5124
+Image: C:\Windows\System32\cmd.exe
+FileVersion: 10.0.19041.746 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: C:\Windows\system32\cmd.exe /c ""schtasks /delete /tn updater47 /f""
+CurrentDirectory: C:\Users\AdministratorDB\Desktop\bin\bin\
+User: ADMIN\AdministratorDB
+LogonGuid: {612eed94-34a0-6354-1241-040000000000}
+LogonId: 0x44112
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=8A2122E8162DBEF04694B9C3E0B6CDEE,SHA256=B99D61D874728EDC0918CA0EB10EAB93D381E7367E377406E65963366C874450,IMPHASH=272245E2988E1E430500B852C4FB5E18
+ParentProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ParentProcessId: 1412
+ParentImage: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+ParentCommandLine: ""C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe"" 
+ParentUser: ADMIN\AdministratorDB",-,"C:\Windows\system32\cmd.exe, /c, schtasks /delete /tn updater47 /f",3,"C:\Windows\system32\cmd.exe /c ""schtasks /delete /tn updater47 /f""","C:\Windows\system32\cmd.exe /c ""schtasks /delete /tn updater47 /f""",{612eed94-37be-6354-3a01-000000001f00},C:\Windows\System32\cmd.exe,C:\Windows\System32\cmd.exe,8a2122e8162dbef04694b9c3e0b6cdee,b99d61d874728edc0918ca0eb10eab93d381e7367e377406e65963366c874450,cmd.exe,cmd.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,1,"""C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe"" ","""C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe"" ",{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,Ransomware.exe,Ransomware.exe,1412,Microsoft Corporation,Windows Command Processor,10.0.19041.746 (WinBuild.160101.0800),272245e2988e1e430500b852c4fb5e18,Cmd.Exe,Microsoft® Windows® Operating System,5124,C:\Users\AdministratorDB\Desktop\bin\bin\,C:\Users\AdministratorDB\Desktop\bin\bin\,-,-,-,-,"b99d61d874728edc0918ca0eb10eab93d381e7367e377406e65963366c874450, 8a2122e8162dbef04694b9c3e0b6cdee, 272245e2988e1e430500b852c4fb5e18",-,-,AdministratorDB,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Windows Command Processor,-,10.0.19041.746 (WinBuild.160101.0800),High,{612eed94-34a0-6354-1241-040000000000},0x44112,ADMIN\AdministratorDB,Microsoft® Windows® Operating System,1,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6069,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:34:38.330",xEX6AIQBHC0TB3lJCqcW,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:38.882","Oct 23, 2022 @ 02:34:57.424",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:38.330
+ProcessGuid: {612eed94-37be-6354-3d01-000000001f00}
+ProcessId: 6444
+Image: C:\Windows\System32\schtasks.exe
+FileVersion: 10.0.19041.1503 (WinBuild.160101.0800)
+Description: Task Scheduler Configuration Tool
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: schtasks.exe
+CommandLine: schtasks  /delete /tn updater47 /f
+CurrentDirectory: C:\Users\AdministratorDB\Desktop\bin\bin\
+User: ADMIN\AdministratorDB
+LogonGuid: {612eed94-34a0-6354-1241-040000000000}
+LogonId: 0x44112
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=76CD6626DD8834BD4A42E6A565104DC2,SHA256=013C013E0EFD13C9380FAD58418B7ACA8356E591A5CCEFFDB910F7D8B0AD28EF,IMPHASH=ECCE05491F2E8F279F4790BCB1318C05
+ParentProcessGuid: {612eed94-37be-6354-3a01-000000001f00}
+ParentProcessId: 5124
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: C:\Windows\system32\cmd.exe /c ""schtasks /delete /tn updater47 /f""
+ParentUser: ADMIN\AdministratorDB",-,"schtasks, /delete, /tn, updater47, /f",5,schtasks  /delete /tn updater47 /f,schtasks  /delete /tn updater47 /f,{612eed94-37be-6354-3d01-000000001f00},C:\Windows\System32\schtasks.exe,C:\Windows\System32\schtasks.exe,76cd6626dd8834bd4a42e6a565104dc2,013c013e0efd13c9380fad58418b7aca8356e591a5cceffdb910f7d8b0ad28ef,schtasks.exe,schtasks.exe,"C:\Windows\system32\cmd.exe, /c, schtasks /delete /tn updater47 /f",3,"C:\Windows\system32\cmd.exe /c ""schtasks /delete /tn updater47 /f""","C:\Windows\system32\cmd.exe /c ""schtasks /delete /tn updater47 /f""",{612eed94-37be-6354-3a01-000000001f00},C:\Windows\System32\cmd.exe,C:\Windows\System32\cmd.exe,cmd.exe,cmd.exe,5124,Microsoft Corporation,Task Scheduler Configuration Tool,10.0.19041.1503 (WinBuild.160101.0800),ecce05491f2e8f279f4790bcb1318c05,schtasks.exe,Microsoft® Windows® Operating System,6444,C:\Users\AdministratorDB\Desktop\bin\bin\,C:\Users\AdministratorDB\Desktop\bin\bin\,-,-,-,-,"013c013e0efd13c9380fad58418b7aca8356e591a5cceffdb910f7d8b0ad28ef, 76cd6626dd8834bd4a42e6a565104dc2, ecce05491f2e8f279f4790bcb1318c05",-,-,AdministratorDB,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Task Scheduler Configuration Tool,-,10.0.19041.1503 (WinBuild.160101.0800),High,{612eed94-34a0-6354-1241-040000000000},0x44112,ADMIN\AdministratorDB,Microsoft® Windows® Operating System,1,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6070,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:34:38.432",xUX6AIQBHC0TB3lJCqcW,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:38.882","Oct 23, 2022 @ 02:34:57.425",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:38.432
+ProcessGuid: {612eed94-37be-6354-3e01-000000001f00}
+ProcessId: 1340
+Image: C:\Windows\System32\VSSVC.exe
+FileVersion: 10.0.19041.1741 (WinBuild.160101.0800)
+Description: Microsoft® Volume Shadow Copy Service
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: VSSVC.EXE
+CommandLine: C:\Windows\system32\vssvc.exe
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {612eed94-3465-6354-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=875046AD4755396636A68F4A9EDB22A4,SHA256=82459B7D6CEEFF22E6E81CA445F9134C3EE917BDC3DF185700813F23AC7DB77E,IMPHASH=0BF1B64AF19D0AFACCB000F015F48095
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+ParentProcessId: 640
+ParentImage: -
+ParentCommandLine: -
+ParentUser: -",-,C:\Windows\system32\vssvc.exe,1,C:\Windows\system32\vssvc.exe,C:\Windows\system32\vssvc.exe,{612eed94-37be-6354-3e01-000000001f00},C:\Windows\System32\VSSVC.exe,C:\Windows\System32\VSSVC.exe,875046ad4755396636a68f4a9edb22a4,82459b7d6ceeff22e6e81ca445f9134c3ee917bdc3df185700813f23ac7db77e,VSSVC.exe,VSSVC.exe,-,1,-,-,{00000000-0000-0000-0000-000000000000},-,-,-,-,640,Microsoft Corporation,Microsoft® Volume Shadow Copy Service,10.0.19041.1741 (WinBuild.160101.0800),0bf1b64af19d0afaccb000f015f48095,VSSVC.EXE,Microsoft® Windows® Operating System,1340,C:\Windows\system32\,C:\Windows\system32\,-,-,-,-,"82459b7d6ceeff22e6e81ca445f9134c3ee917bdc3df185700813f23ac7db77e, 875046ad4755396636a68f4a9edb22a4, 0bf1b64af19d0afaccb000f015f48095",-,-,SYSTEM,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Microsoft® Volume Shadow Copy Service,-,10.0.19041.1741 (WinBuild.160101.0800),System,{612eed94-3465-6354-e703-000000000000},0x3e7,-,Microsoft® Windows® Operating System,0,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6071,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:34:53.991",1EX6AIQBHC0TB3lJfadU,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:55.017","Oct 23, 2022 @ 02:35:26.931",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:53.991
+ProcessGuid: {612eed94-37cd-6354-4001-000000001f00}
+ProcessId: 3864
+Image: C:\Windows\System32\taskhostw.exe
+FileVersion: 10.0.19041.1865 (WinBuild.160101.0800)
+Description: Host Process for Windows Tasks
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: taskhostw.exe
+CommandLine: taskhostw.exe $(Arg0)
+CurrentDirectory: C:\Windows\system32\
+User: ADMIN\AdministratorDB
+LogonGuid: {612eed94-34a0-6354-1241-040000000000}
+LogonId: 0x44112
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=A00BF82660835224CD6606A248321C5D,SHA256=E63709209D09BC0247E785F075DDB28A98C348206109E2B8BA321AD958402728,IMPHASH=3A0C6863CDE566AF997DB2DEFFF9D924
+ParentProcessGuid: {612eed94-3466-6354-1300-000000001f00}
+ParentProcessId: 472
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\Windows\system32\svchost.exe -k netsvcs -p
+ParentUser: NT AUTHORITY\SYSTEM",-,"taskhostw.exe, $(Arg0)",2,taskhostw.exe $(Arg0),taskhostw.exe $(Arg0),{612eed94-37cd-6354-4001-000000001f00},C:\Windows\System32\taskhostw.exe,C:\Windows\System32\taskhostw.exe,a00bf82660835224cd6606a248321c5d,e63709209d09bc0247e785f075ddb28a98c348206109e2b8ba321ad958402728,taskhostw.exe,taskhostw.exe,"C:\Windows\system32\svchost.exe, -k, netsvcs, -p",4,C:\Windows\system32\svchost.exe -k netsvcs -p,C:\Windows\system32\svchost.exe -k netsvcs -p,{612eed94-3466-6354-1300-000000001f00},C:\Windows\System32\svchost.exe,C:\Windows\System32\svchost.exe,svchost.exe,svchost.exe,472,Microsoft Corporation,Host Process for Windows Tasks,10.0.19041.1865 (WinBuild.160101.0800),3a0c6863cde566af997db2defff9d924,taskhostw.exe,Microsoft® Windows® Operating System,3864,C:\Windows\system32\,C:\Windows\system32\,-,-,-,-,"e63709209d09bc0247e785f075ddb28a98c348206109e2b8ba321ad958402728, a00bf82660835224cd6606a248321c5d, 3a0c6863cde566af997db2defff9d924",-,-,AdministratorDB,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Host Process for Windows Tasks,-,10.0.19041.1865 (WinBuild.160101.0800),High,{612eed94-34a0-6354-1241-040000000000},0x44112,NT AUTHORITY\SYSTEM,Microsoft® Windows® Operating System,1,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6072,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:34:54.005",1UX6AIQBHC0TB3lJfadU,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:55.017","Oct 23, 2022 @ 02:35:26.931",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:54.005
+ProcessGuid: {612eed94-37ce-6354-4201-000000001f00}
+ProcessId: 4380
+Image: C:\Windows\System32\taskhostw.exe
+FileVersion: 10.0.19041.1865 (WinBuild.160101.0800)
+Description: Host Process for Windows Tasks
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: taskhostw.exe
+CommandLine: taskhostw.exe
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {612eed94-3465-6354-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=A00BF82660835224CD6606A248321C5D,SHA256=E63709209D09BC0247E785F075DDB28A98C348206109E2B8BA321AD958402728,IMPHASH=3A0C6863CDE566AF997DB2DEFFF9D924
+ParentProcessGuid: {612eed94-3466-6354-1300-000000001f00}
+ParentProcessId: 472
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\Windows\system32\svchost.exe -k netsvcs -p
+ParentUser: NT AUTHORITY\SYSTEM",-,taskhostw.exe,1,taskhostw.exe,taskhostw.exe,{612eed94-37ce-6354-4201-000000001f00},C:\Windows\System32\taskhostw.exe,C:\Windows\System32\taskhostw.exe,a00bf82660835224cd6606a248321c5d,e63709209d09bc0247e785f075ddb28a98c348206109e2b8ba321ad958402728,taskhostw.exe,taskhostw.exe,"C:\Windows\system32\svchost.exe, -k, netsvcs, -p",4,C:\Windows\system32\svchost.exe -k netsvcs -p,C:\Windows\system32\svchost.exe -k netsvcs -p,{612eed94-3466-6354-1300-000000001f00},C:\Windows\System32\svchost.exe,C:\Windows\System32\svchost.exe,svchost.exe,svchost.exe,472,Microsoft Corporation,Host Process for Windows Tasks,10.0.19041.1865 (WinBuild.160101.0800),3a0c6863cde566af997db2defff9d924,taskhostw.exe,Microsoft® Windows® Operating System,4380,C:\Windows\system32\,C:\Windows\system32\,-,-,-,-,"e63709209d09bc0247e785f075ddb28a98c348206109e2b8ba321ad958402728, a00bf82660835224cd6606a248321c5d, 3a0c6863cde566af997db2defff9d924",-,-,SYSTEM,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Host Process for Windows Tasks,-,10.0.19041.1865 (WinBuild.160101.0800),System,{612eed94-3465-6354-e703-000000000000},0x3e7,NT AUTHORITY\SYSTEM,Microsoft® Windows® Operating System,0,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6073,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:34:54.026",1kX6AIQBHC0TB3lJfadU,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:34:55.018","Oct 23, 2022 @ 02:35:26.932",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:34:54.026
+ProcessGuid: {612eed94-37ce-6354-4301-000000001f00}
+ProcessId: 3908
+Image: C:\Windows\System32\taskhostw.exe
+FileVersion: 10.0.19041.1865 (WinBuild.160101.0800)
+Description: Host Process for Windows Tasks
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: taskhostw.exe
+CommandLine: taskhostw.exe Logon
+CurrentDirectory: C:\Windows\system32\
+User: ADMIN\AdministratorDB
+LogonGuid: {612eed94-34a0-6354-1241-040000000000}
+LogonId: 0x44112
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=A00BF82660835224CD6606A248321C5D,SHA256=E63709209D09BC0247E785F075DDB28A98C348206109E2B8BA321AD958402728,IMPHASH=3A0C6863CDE566AF997DB2DEFFF9D924
+ParentProcessGuid: {612eed94-3466-6354-1300-000000001f00}
+ParentProcessId: 472
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\Windows\system32\svchost.exe -k netsvcs -p
+ParentUser: NT AUTHORITY\SYSTEM",-,"taskhostw.exe, Logon",2,taskhostw.exe Logon,taskhostw.exe Logon,{612eed94-37ce-6354-4301-000000001f00},C:\Windows\System32\taskhostw.exe,C:\Windows\System32\taskhostw.exe,a00bf82660835224cd6606a248321c5d,e63709209d09bc0247e785f075ddb28a98c348206109e2b8ba321ad958402728,taskhostw.exe,taskhostw.exe,"C:\Windows\system32\svchost.exe, -k, netsvcs, -p",4,C:\Windows\system32\svchost.exe -k netsvcs -p,C:\Windows\system32\svchost.exe -k netsvcs -p,{612eed94-3466-6354-1300-000000001f00},C:\Windows\System32\svchost.exe,C:\Windows\System32\svchost.exe,svchost.exe,svchost.exe,472,Microsoft Corporation,Host Process for Windows Tasks,10.0.19041.1865 (WinBuild.160101.0800),3a0c6863cde566af997db2defff9d924,taskhostw.exe,Microsoft® Windows® Operating System,3908,C:\Windows\system32\,C:\Windows\system32\,-,-,-,-,"e63709209d09bc0247e785f075ddb28a98c348206109e2b8ba321ad958402728, a00bf82660835224cd6606a248321c5d, 3a0c6863cde566af997db2defff9d924",-,-,AdministratorDB,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Host Process for Windows Tasks,-,10.0.19041.1865 (WinBuild.160101.0800),High,{612eed94-34a0-6354-1241-040000000000},0x44112,NT AUTHORITY\SYSTEM,Microsoft® Windows® Operating System,1,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6074,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:35:34.684",j0X7AIQBHC0TB3lJRqha,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:35:36.305","Oct 23, 2022 @ 02:36:18.394",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:35:34.684
+ProcessGuid: {612eed94-37f6-6354-4801-000000001f00}
+ProcessId: 5072
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+FileVersion: 10.0.19041.546 (WinBuild.160101.0800)
+Description: Windows PowerShell
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: PowerShell.EXE
+CommandLine: powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {612eed94-3465-6354-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=04029E121A0CFA5991749937DD22A1D9,SHA256=9F914D42706FE215501044ACD85A32D58AAEF1419D404FDDFA5D3B48F66CCD9F,IMPHASH=7C955A0ABC747F57CCC4324480737EF7
+ParentProcessGuid: {612eed94-37d6-6354-4401-000000001f00}
+ParentProcessId: 5368
+ParentImage: C:\Windows\System32\CompatTelRunner.exe
+ParentCommandLine: C:\Windows\system32\CompatTelRunner.exe -m:appraiser.dll -f:DoScheduledTelemetryRun -cv:gSysNs3VQEucrH1I.1
+ParentUser: NT AUTHORITY\SYSTEM",-,"powershell.exe, -ExecutionPolicy, Restricted, -Command, Write-Host, 'Final, result:, 1';",8,powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';,powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';,{612eed94-37f6-6354-4801-000000001f00},C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,04029e121a0cfa5991749937dd22a1d9,9f914d42706fe215501044acd85a32d58aaef1419d404fddfa5d3b48f66ccd9f,powershell.exe,powershell.exe,"C:\Windows\system32\CompatTelRunner.exe, -m:appraiser.dll, -f:DoScheduledTelemetryRun, -cv:gSysNs3VQEucrH1I.1",4,C:\Windows\system32\CompatTelRunner.exe -m:appraiser.dll -f:DoScheduledTelemetryRun -cv:gSysNs3VQEucrH1I.1,C:\Windows\system32\CompatTelRunner.exe -m:appraiser.dll -f:DoScheduledTelemetryRun -cv:gSysNs3VQEucrH1I.1,{612eed94-37d6-6354-4401-000000001f00},C:\Windows\System32\CompatTelRunner.exe,C:\Windows\System32\CompatTelRunner.exe,CompatTelRunner.exe,CompatTelRunner.exe,5368,Microsoft Corporation,Windows PowerShell,10.0.19041.546 (WinBuild.160101.0800),7c955a0abc747f57ccc4324480737ef7,PowerShell.EXE,Microsoft® Windows® Operating System,5072,C:\Windows\system32\,C:\Windows\system32\,-,-,-,-,"9f914d42706fe215501044acd85a32d58aaef1419d404fddfa5d3b48f66ccd9f, 04029e121a0cfa5991749937dd22a1d9, 7c955a0abc747f57ccc4324480737ef7",-,-,SYSTEM,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Windows PowerShell,-,10.0.19041.546 (WinBuild.160101.0800),System,{612eed94-3465-6354-e703-000000000000},0x3e7,NT AUTHORITY\SYSTEM,Microsoft® Windows® Operating System,0,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6234,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:35:36.697",kEX7AIQBHC0TB3lJTqhm,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:35:38.331","Oct 23, 2022 @ 02:36:20.451",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Windows\Temp,ps1,__PSScriptPolicyTest_t52wmxid.z0l.ps1,C:\Windows\Temp\__PSScriptPolicyTest_t52wmxid.z0l.ps1,C:\Windows\Temp\__PSScriptPolicyTest_t52wmxid.z0l.ps1,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: -
+UtcTime: 2022-10-22 18:35:36.697
+ProcessGuid: {612eed94-37f6-6354-4801-000000001f00}
+ProcessId: 5072
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Windows\Temp\__PSScriptPolicyTest_t52wmxid.z0l.ps1
+CreationUtcTime: 2022-10-22 18:35:36.697
+User: NT AUTHORITY\SYSTEM",-,-,-,-,-,{612eed94-37f6-6354-4801-000000001f00},C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,-,-,powershell.exe,powershell.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,5072,-,-,-,-,-,-,-,-,-,SYSTEM,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,35:36.7,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6235,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:35:47.244",m0X7AIQBHC0TB3lJdKig,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:35:48.832","Oct 23, 2022 @ 02:36:30.239",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Windows\Temp,ps1,__PSScriptPolicyTest_atdrchcv.aky.ps1,C:\Windows\Temp\__PSScriptPolicyTest_atdrchcv.aky.ps1,C:\Windows\Temp\__PSScriptPolicyTest_atdrchcv.aky.ps1,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: -
+UtcTime: 2022-10-22 18:35:47.244
+ProcessGuid: {612eed94-37f6-6354-4801-000000001f00}
+ProcessId: 5072
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Windows\Temp\__PSScriptPolicyTest_atdrchcv.aky.ps1
+CreationUtcTime: 2022-10-22 18:35:47.244
+User: NT AUTHORITY\SYSTEM",-,-,-,-,-,{612eed94-37f6-6354-4801-000000001f00},C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,-,-,powershell.exe,powershell.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,5072,-,-,-,-,-,-,-,-,-,SYSTEM,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,35:47.2,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6237,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:35:47.259",7kX6AIQBHC0TB3lJ4acX,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,"fe80::298d:fd6:72cd:b0a3, fe80::d592:a7d7:c0fb:10f9, 172.19.96.11, 10.0.2.16","AAAA, AAAA, A, A",admin,"fe80::298d:fd6:72cd:b0a3, fe80::d592:a7d7:c0fb:10f9, 172.19.96.11, 10.0.2.16",1.12.0,Dns query (rule: DnsQuery),network,22,"Oct 23, 2022 @ 02:35:13.115","Oct 23, 2022 @ 02:35:52.470",event,sysmon,Microsoft-Windows-Sysmon,"connection, protocol, info",-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Dns query:
+RuleName: -
+UtcTime: 2022-10-22 18:35:47.259
+ProcessGuid: {612eed94-37d6-6354-4401-000000001f00}
+ProcessId: 5368
+QueryName: admin
+QueryStatus: 0
+QueryResults: fe80::298d:fd6:72cd:b0a3;fe80::d592:a7d7:c0fb:10f9;::ffff:172.19.96.11;::ffff:10.0.2.16;
+Image: C:\Windows\System32\CompatTelRunner.exe
+User: NT AUTHORITY\SYSTEM",dns,-,-,-,-,{612eed94-37d6-6354-4401-000000001f00},C:\Windows\System32\CompatTelRunner.exe,C:\Windows\System32\CompatTelRunner.exe,-,-,CompatTelRunner.exe,CompatTelRunner.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,5368,-,-,-,-,-,-,-,admin,"fe80::298d:fd6:72cd:b0a3, fe80::d592:a7d7:c0fb:10f9, 172.19.96.11, 10.0.2.16",SYSTEM,-,SUCCESS,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,-,-,-,-,-,-,-,-,-,-,22,Info,"2,260","2,736",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6075,Dns query (rule: DnsQuery),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:35:48.011",nEX7AIQBHC0TB3lJdKig,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:35:48.833","Oct 23, 2022 @ 02:36:30.239",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Windows\System32\config\systemprofile\AppData\Local\Microsoft\CLR_v4.0\UsageLogs,log,powershell.exe.log,C:\Windows\System32\config\systemprofile\AppData\Local\Microsoft\CLR_v4.0\UsageLogs\powershell.exe.log,C:\Windows\System32\config\systemprofile\AppData\Local\Microsoft\CLR_v4.0\UsageLogs\powershell.exe.log,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: ProcessHostingdotNETCode
+UtcTime: 2022-10-22 18:35:48.011
+ProcessGuid: {612eed94-37f6-6354-4801-000000001f00}
+ProcessId: 5072
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Windows\System32\config\systemprofile\AppData\Local\Microsoft\CLR_v4.0\UsageLogs\powershell.exe.log
+CreationUtcTime: 2022-10-18 05:34:53.951
+User: NT AUTHORITY\SYSTEM",-,-,-,-,-,{612eed94-37f6-6354-4801-000000001f00},C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,-,-,powershell.exe,powershell.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,5072,-,-,-,-,-,-,-,-,-,SYSTEM,ProcessHostingdotNETCode,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,34:54.0,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6238,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:36:06.197",sUX7AIQBHC0TB3lJs6j4,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:36:08.687","Oct 23, 2022 @ 02:36:46.455",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:36:06.197
+ProcessGuid: {612eed94-3816-6354-4c01-000000001f00}
+ProcessId: 6608
+Image: C:\Windows\System32\taskhostw.exe
+FileVersion: 10.0.19041.1865 (WinBuild.160101.0800)
+Description: Host Process for Windows Tasks
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: taskhostw.exe
+CommandLine: taskhostw.exe
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {612eed94-3465-6354-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=A00BF82660835224CD6606A248321C5D,SHA256=E63709209D09BC0247E785F075DDB28A98C348206109E2B8BA321AD958402728,IMPHASH=3A0C6863CDE566AF997DB2DEFFF9D924
+ParentProcessGuid: {612eed94-3466-6354-1300-000000001f00}
+ParentProcessId: 472
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\Windows\system32\svchost.exe -k netsvcs -p
+ParentUser: NT AUTHORITY\SYSTEM",-,taskhostw.exe,1,taskhostw.exe,taskhostw.exe,{612eed94-3816-6354-4c01-000000001f00},C:\Windows\System32\taskhostw.exe,C:\Windows\System32\taskhostw.exe,a00bf82660835224cd6606a248321c5d,e63709209d09bc0247e785f075ddb28a98c348206109e2b8ba321ad958402728,taskhostw.exe,taskhostw.exe,"C:\Windows\system32\svchost.exe, -k, netsvcs, -p",4,C:\Windows\system32\svchost.exe -k netsvcs -p,C:\Windows\system32\svchost.exe -k netsvcs -p,{612eed94-3466-6354-1300-000000001f00},C:\Windows\System32\svchost.exe,C:\Windows\System32\svchost.exe,svchost.exe,svchost.exe,472,Microsoft Corporation,Host Process for Windows Tasks,10.0.19041.1865 (WinBuild.160101.0800),3a0c6863cde566af997db2defff9d924,taskhostw.exe,Microsoft® Windows® Operating System,6608,C:\Windows\system32\,C:\Windows\system32\,-,-,-,-,"e63709209d09bc0247e785f075ddb28a98c348206109e2b8ba321ad958402728, a00bf82660835224cd6606a248321c5d, 3a0c6863cde566af997db2defff9d924",-,-,SYSTEM,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Host Process for Windows Tasks,-,10.0.19041.1865 (WinBuild.160101.0800),System,{612eed94-3465-6354-e703-000000000000},0x3e7,NT AUTHORITY\SYSTEM,Microsoft® Windows® Operating System,0,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6239,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:36:23.536",mUX7AIQBHC0TB3lJcKih,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,"fe80::298d:fd6:72cd:b0a3, fe80::d592:a7d7:c0fb:10f9, 172.19.96.11, 10.0.2.16","AAAA, AAAA, A, A",ADMIN,"fe80::298d:fd6:72cd:b0a3, fe80::d592:a7d7:c0fb:10f9, 172.19.96.11, 10.0.2.16",1.12.0,Dns query (rule: DnsQuery),network,22,"Oct 23, 2022 @ 02:35:47.745","Oct 23, 2022 @ 02:36:29.216",event,sysmon,Microsoft-Windows-Sysmon,"connection, protocol, info",-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Dns query:
+RuleName: -
+UtcTime: 2022-10-22 18:36:23.536
+ProcessGuid: {612eed94-37e2-6354-4701-000000001f00}
+ProcessId: 4008
+QueryName: ADMIN
+QueryStatus: 0
+QueryResults: fe80::298d:fd6:72cd:b0a3;fe80::d592:a7d7:c0fb:10f9;::ffff:172.19.96.11;::ffff:10.0.2.16;
+Image: C:\Windows\System32\wbem\WmiPrvSE.exe
+User: NT AUTHORITY\NETWORK SERVICE",dns,-,-,-,-,{612eed94-37e2-6354-4701-000000001f00},C:\Windows\System32\wbem\WmiPrvSE.exe,C:\Windows\System32\wbem\WmiPrvSE.exe,-,-,WmiPrvSE.exe,WmiPrvSE.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,4008,-,-,-,-,-,-,-,ADMIN,"fe80::298d:fd6:72cd:b0a3, fe80::d592:a7d7:c0fb:10f9, 172.19.96.11, 10.0.2.16",NETWORK SERVICE,-,SUCCESS,NT AUTHORITY,S-1-5-18,NETWORK SERVICE,NETWORK SERVICE,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,-,-,-,-,-,-,-,-,-,-,22,Info,"2,260","2,736",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6236,Dns query (rule: DnsQuery),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:37:05.387",tEX8AIQBHC0TB3lJcqiD,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:37:07.315","Oct 23, 2022 @ 02:37:35.234",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:37:05.387
+ProcessGuid: {612eed94-3851-6354-5001-000000001f00}
+ProcessId: 4472
+Image: C:\Windows\System32\notepad.exe
+FileVersion: 10.0.19041.1865 (WinBuild.160101.0800)
+Description: Notepad
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: NOTEPAD.EXE
+CommandLine: ""C:\Windows\system32\NOTEPAD.EXE"" C:\Users\AdministratorDB\Desktop\bin\bin\key.txt
+CurrentDirectory: C:\Users\AdministratorDB\Desktop\bin\bin\
+User: ADMIN\AdministratorDB
+LogonGuid: {612eed94-34a0-6354-1241-040000000000}
+LogonId: 0x44112
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=27F71B12CB585541885A31BE22F61C83,SHA256=F9D9B9DED9A67AA3CFDBD5002F3B524B265C4086C188E1BE7C936AB25627BF01,IMPHASH=320FAF01086570930EFF84A436797927
+ParentProcessGuid: {612eed94-34a5-6354-6300-000000001f00}
+ParentProcessId: 3732
+ParentImage: C:\Windows\explorer.exe
+ParentCommandLine: C:\Windows\Explorer.EXE
+ParentUser: ADMIN\AdministratorDB",-,"C:\Windows\system32\NOTEPAD.EXE, C:\Users\AdministratorDB\Desktop\bin\bin\key.txt",2,"""C:\Windows\system32\NOTEPAD.EXE"" C:\Users\AdministratorDB\Desktop\bin\bin\key.txt","""C:\Windows\system32\NOTEPAD.EXE"" C:\Users\AdministratorDB\Desktop\bin\bin\key.txt",{612eed94-3851-6354-5001-000000001f00},C:\Windows\System32\notepad.exe,C:\Windows\System32\notepad.exe,27f71b12cb585541885a31be22f61c83,f9d9b9ded9a67aa3cfdbd5002f3b524b265c4086c188e1be7c936ab25627bf01,notepad.exe,notepad.exe,C:\Windows\Explorer.EXE,1,C:\Windows\Explorer.EXE,C:\Windows\Explorer.EXE,{612eed94-34a5-6354-6300-000000001f00},C:\Windows\explorer.exe,C:\Windows\explorer.exe,explorer.exe,explorer.exe,3732,Microsoft Corporation,Notepad,10.0.19041.1865 (WinBuild.160101.0800),320faf01086570930eff84a436797927,NOTEPAD.EXE,Microsoft® Windows® Operating System,4472,C:\Users\AdministratorDB\Desktop\bin\bin\,C:\Users\AdministratorDB\Desktop\bin\bin\,-,-,-,-,"f9d9b9ded9a67aa3cfdbd5002f3b524b265c4086c188e1be7c936ab25627bf01, 27f71b12cb585541885a31be22f61c83, 320faf01086570930eff84a436797927",-,-,AdministratorDB,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Notepad,-,10.0.19041.1865 (WinBuild.160101.0800),High,{612eed94-34a0-6354-1241-040000000000},0x44112,ADMIN\AdministratorDB,Microsoft® Windows® Operating System,1,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6240,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:37:06.147",tUX8AIQBHC0TB3lJcqiD,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:37:07.315","Oct 23, 2022 @ 02:37:35.234",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:37:06.147
+ProcessGuid: {612eed94-3852-6354-5101-000000001f00}
+ProcessId: 6228
+Image: C:\Windows\System32\SearchProtocolHost.exe
+FileVersion: 7.0.19041.1865 (WinBuild.160101.0800)
+Description: Microsoft Windows Search Protocol Host
+Product: Windows® Search
+Company: Microsoft Corporation
+OriginalFileName: SearchProtocolHost.exe
+CommandLine: ""C:\Windows\system32\SearchProtocolHost.exe"" Global\UsGthrFltPipeMssGthrPipe_S-1-5-21-3636077943-3669489707-987131759-10026_ Global\UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3636077943-3669489707-987131759-10026 1 -2147483646 ""Software\Microsoft\Windows Search"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)"" ""C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc"" ""DownLevelDaemon""  ""1""
+CurrentDirectory: C:\Windows\system32\
+User: ADMIN\AdministratorDB
+LogonGuid: {612eed94-34a0-6354-1241-040000000000}
+LogonId: 0x44112
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=0AE82E02F55E74E1F7FAFFE7FACCB287,SHA256=DE66A82EA4634B03A76AC11370C070D4A6AAC1FA8D4CA907136BEEDCD279316A,IMPHASH=8B2A73CF81704F7AED84C67134EC39AC
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+ParentProcessId: 2536
+ParentImage: -
+ParentCommandLine: -
+ParentUser: -",-,"C:\Windows\system32\SearchProtocolHost.exe, Global\UsGthrFltPipeMssGthrPipe_S-1-5-21-3636077943-3669489707-987131759-10026_, Global\UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3636077943-3669489707-987131759-10026, 1, -2147483646, Software\Microsoft\Windows Search, Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot), C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc, DownLevelDaemon, 1",10,"""C:\Windows\system32\SearchProtocolHost.exe"" Global\UsGthrFltPipeMssGthrPipe_S-1-5-21-3636077943-3669489707-987131759-10026_ Global\UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3636077943-3669489707-987131759-10026 1 -2147483646 ""Software\Microsoft\Windows Search"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)"" ""C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc"" ""DownLevelDaemon""  ""1""","""C:\Windows\system32\SearchProtocolHost.exe"" Global\UsGthrFltPipeMssGthrPipe_S-1-5-21-3636077943-3669489707-987131759-10026_ Global\UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3636077943-3669489707-987131759-10026 1 -2147483646 ""Software\Microsoft\Windows Search"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)"" ""C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc"" ""DownLevelDaemon""  ""1""",{612eed94-3852-6354-5101-000000001f00},C:\Windows\System32\SearchProtocolHost.exe,C:\Windows\System32\SearchProtocolHost.exe,0ae82e02f55e74e1f7faffe7faccb287,de66a82ea4634b03a76ac11370c070d4a6aac1fa8d4ca907136beedcd279316a,SearchProtocolHost.exe,SearchProtocolHost.exe,-,1,-,-,{00000000-0000-0000-0000-000000000000},-,-,-,-,2536,Microsoft Corporation,Microsoft Windows Search Protocol Host,7.0.19041.1865 (WinBuild.160101.0800),8b2a73cf81704f7aed84c67134ec39ac,SearchProtocolHost.exe,Windows® Search,6228,C:\Windows\system32\,C:\Windows\system32\,-,-,-,-,"de66a82ea4634b03a76ac11370c070d4a6aac1fa8d4ca907136beedcd279316a, 0ae82e02f55e74e1f7faffe7faccb287, 8b2a73cf81704f7aed84c67134ec39ac",-,-,AdministratorDB,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Microsoft Windows Search Protocol Host,-,7.0.19041.1865 (WinBuild.160101.0800),High,{612eed94-34a0-6354-1241-040000000000},0x44112,-,Windows® Search,1,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6241,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:37:06.226",tkX8AIQBHC0TB3lJcqiD,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:37:07.315","Oct 23, 2022 @ 02:37:35.235",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:37:06.226
+ProcessGuid: {612eed94-3852-6354-5201-000000001f00}
+ProcessId: 6544
+Image: C:\Windows\System32\SearchFilterHost.exe
+FileVersion: 7.0.19041.1865 (WinBuild.160101.0800)
+Description: Microsoft Windows Search Filter Host
+Product: Windows® Search
+Company: Microsoft Corporation
+OriginalFileName: SearchFilterHost.exe
+CommandLine: ""C:\Windows\system32\SearchFilterHost.exe"" 0 796 800 808 8192 804 780 
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {612eed94-3465-6354-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: Medium
+Hashes: MD5=0F423D1F8CB44280566E7248EB0AD4DA,SHA256=3F09D87197A80251A55BF2D819BAE9AB7B1791AC31E96413E0C06FAA21A0A169,IMPHASH=25975932FE65B44EA2DD939DC008D453
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+ParentProcessId: 2536
+ParentImage: -
+ParentCommandLine: -
+ParentUser: -",-,"C:\Windows\system32\SearchFilterHost.exe, 0, 796, 800, 808, 8192, 804, 780",8,"""C:\Windows\system32\SearchFilterHost.exe"" 0 796 800 808 8192 804 780 ","""C:\Windows\system32\SearchFilterHost.exe"" 0 796 800 808 8192 804 780 ",{612eed94-3852-6354-5201-000000001f00},C:\Windows\System32\SearchFilterHost.exe,C:\Windows\System32\SearchFilterHost.exe,0f423d1f8cb44280566e7248eb0ad4da,3f09d87197a80251a55bf2d819bae9ab7b1791ac31e96413e0c06faa21a0a169,SearchFilterHost.exe,SearchFilterHost.exe,-,1,-,-,{00000000-0000-0000-0000-000000000000},-,-,-,-,2536,Microsoft Corporation,Microsoft Windows Search Filter Host,7.0.19041.1865 (WinBuild.160101.0800),25975932fe65b44ea2dd939dc008d453,SearchFilterHost.exe,Windows® Search,6544,C:\Windows\system32\,C:\Windows\system32\,-,-,-,-,"3f09d87197a80251a55bf2d819bae9ab7b1791ac31e96413e0c06faa21a0a169, 0f423d1f8cb44280566e7248eb0ad4da, 25975932fe65b44ea2dd939dc008d453",-,-,SYSTEM,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Microsoft Windows Search Filter Host,-,7.0.19041.1865 (WinBuild.160101.0800),Medium,{612eed94-3465-6354-e703-000000000000},0x3e7,-,Windows® Search,0,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6242,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:37:12.656",t0X8AIQBHC0TB3lJjqgh,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:37:13.761","Oct 23, 2022 @ 02:37:42.305",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Local\Microsoft\CLR_v4.0_32\UsageLogs,log,powershell.exe.log,C:\Users\AdministratorDB\AppData\Local\Microsoft\CLR_v4.0_32\UsageLogs\powershell.exe.log,C:\Users\AdministratorDB\AppData\Local\Microsoft\CLR_v4.0_32\UsageLogs\powershell.exe.log,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: ProcessHostingdotNETCode
+UtcTime: 2022-10-22 18:37:12.656
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Local\Microsoft\CLR_v4.0_32\UsageLogs\powershell.exe.log
+CreationUtcTime: 2022-10-22 18:37:12.656
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,ProcessHostingdotNETCode,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,37:12.7,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6243,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:37:14.461",uEX8AIQBHC0TB3lJlqgP,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:37:15.458","Oct 23, 2022 @ 02:37:44.334",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Local\Microsoft\OneDrive\19.043.0304.0013,bat,CollectSyncLogs.bat,C:\Users\AdministratorDB\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\CollectSyncLogs.bat,C:\Users\AdministratorDB\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\CollectSyncLogs.bat,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: -
+UtcTime: 2022-10-22 18:37:14.461
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Local\Microsoft\OneDrive\19.043.0304.0013\CollectSyncLogs.bat
+CreationUtcTime: 2022-10-22 18:37:14.461
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,37:14.5,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6244,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:37:17.242",uUX8AIQBHC0TB3lJpajs,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:37:18.886","Oct 23, 2022 @ 02:37:48.396",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\LocalCache\Local\Microsoft\CLR_v4.0\UsageLogs,log,LocalBridge.exe.log,C:\Users\AdministratorDB\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\LocalCache\Local\Microsoft\CLR_v4.0\UsageLogs\LocalBridge.exe.log,C:\Users\AdministratorDB\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\LocalCache\Local\Microsoft\CLR_v4.0\UsageLogs\LocalBridge.exe.log,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: ProcessHostingdotNETCode
+UtcTime: 2022-10-22 18:37:17.242
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\LocalCache\Local\Microsoft\CLR_v4.0\UsageLogs\LocalBridge.exe.log
+CreationUtcTime: 2022-10-22 18:37:17.242
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,ProcessHostingdotNETCode,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,37:17.2,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6245,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:37:21.924",ukX8AIQBHC0TB3lJuqgy,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:37:22.977","Oct 23, 2022 @ 02:37:53.583",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0,bat,a.bat,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\a.bat,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\a.bat,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: -
+UtcTime: 2022-10-22 18:37:21.924
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\a.bat
+CreationUtcTime: 2022-10-22 18:37:21.924
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,37:21.9,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6246,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:37:22.027",u0X8AIQBHC0TB3lJuqgy,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:37:22.977","Oct 23, 2022 @ 02:37:53.583",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu,ini,desktop.ini,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\desktop.ini,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\desktop.ini,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: T1023
+UtcTime: 2022-10-22 18:37:22.027
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\desktop.ini
+CreationUtcTime: 2022-10-22 18:37:22.027
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,T1023,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,37:22.0,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6247,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:37:22.038",vEX8AIQBHC0TB3lJuqgy,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:37:22.977","Oct 23, 2022 @ 02:37:53.584",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs,ini,desktop.ini,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\desktop.ini,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\desktop.ini,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: T1023
+UtcTime: 2022-10-22 18:37:22.038
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\desktop.ini
+CreationUtcTime: 2022-10-22 18:37:22.037
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,T1023,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,37:22.0,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6248,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:37:22.050",vUX8AIQBHC0TB3lJuqgy,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:37:22.978","Oct 23, 2022 @ 02:37:53.584",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility,ini,desktop.ini,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility\desktop.ini,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility\desktop.ini,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: T1023
+UtcTime: 2022-10-22 18:37:22.050
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility\desktop.ini
+CreationUtcTime: 2022-10-22 18:37:22.050
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,T1023,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,37:22.0,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6249,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:37:22.062",vkX8AIQBHC0TB3lJuqgy,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:37:22.978","Oct 23, 2022 @ 02:37:53.584",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories,ini,desktop.ini,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories\desktop.ini,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories\desktop.ini,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: T1023
+UtcTime: 2022-10-22 18:37:22.062
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories\desktop.ini
+CreationUtcTime: 2022-10-22 18:37:22.062
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,T1023,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,37:22.1,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6250,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:37:22.074",v0X8AIQBHC0TB3lJuqgy,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:37:22.978","Oct 23, 2022 @ 02:37:53.585",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools,ini,desktop.ini,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools\desktop.ini,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools\desktop.ini,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: T1023
+UtcTime: 2022-10-22 18:37:22.074
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools\desktop.ini
+CreationUtcTime: 2022-10-22 18:37:22.074
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,T1023,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,37:22.1,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6251,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:37:22.086",wEX8AIQBHC0TB3lJuqgy,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:37:22.978","Oct 23, 2022 @ 02:37:53.585",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Maintenance,ini,Desktop.ini,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Maintenance\Desktop.ini,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Maintenance\Desktop.ini,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: T1023
+UtcTime: 2022-10-22 18:37:22.086
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Maintenance\Desktop.ini
+CreationUtcTime: 2022-10-22 18:37:22.086
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,T1023,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,37:22.1,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6252,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:37:22.094",wUX8AIQBHC0TB3lJuqgy,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:37:22.978","Oct 23, 2022 @ 02:37:53.585",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup,ini,desktop.ini,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\desktop.ini,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\desktop.ini,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: T1023
+UtcTime: 2022-10-22 18:37:22.094
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\desktop.ini
+CreationUtcTime: 2022-10-22 18:37:22.094
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,T1023,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,37:22.1,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6253,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:37:22.103",wkX8AIQBHC0TB3lJuqgy,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:37:22.978","Oct 23, 2022 @ 02:37:53.585",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools,ini,Desktop.ini,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools\Desktop.ini,C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools\Desktop.ini,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: T1023
+UtcTime: 2022-10-22 18:37:22.103
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools\Desktop.ini
+CreationUtcTime: 2022-10-22 18:37:22.103
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,T1023,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,37:22.1,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6254,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:37:22.678",w0X8AIQBHC0TB3lJuqgy,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:37:22.978","Oct 23, 2022 @ 02:37:53.586",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\Desktop\Fee-Exfiltrate\seperate files,bat,a.bat,C:\Users\AdministratorDB\Desktop\Fee-Exfiltrate\seperate files\a.bat,C:\Users\AdministratorDB\Desktop\Fee-Exfiltrate\seperate files\a.bat,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: -
+UtcTime: 2022-10-22 18:37:22.678
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\Desktop\Fee-Exfiltrate\seperate files\a.bat
+CreationUtcTime: 2022-10-22 18:37:22.678
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,37:22.7,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6255,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:37:22.832",xEX8AIQBHC0TB3lJvqgn,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:37:23.757","Oct 23, 2022 @ 02:37:54.597",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\Downloads,ini,desktop.ini,C:\Users\AdministratorDB\Downloads\desktop.ini,C:\Users\AdministratorDB\Downloads\desktop.ini,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: Downloads
+UtcTime: 2022-10-22 18:37:22.832
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetFilename: C:\Users\AdministratorDB\Downloads\desktop.ini
+CreationUtcTime: 2022-10-22 18:37:22.832
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,Downloads,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,37:22.8,-,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6256,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:37:22.935",xUX8AIQBHC0TB3lJvqgn,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Registry object added or deleted (rule: RegistryEvent),"configuration, registry",12,"Oct 23, 2022 @ 02:37:23.757","Oct 23, 2022 @ 02:37:54.598",event,sysmon,Microsoft-Windows-Sysmon,change,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Registry object added or deleted:
+RuleName: T1060,RunKey
+EventType: DeleteValue
+UtcTime: 2022-10-22 18:37:22.935
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+TargetObject: HKU\S-1-5-21-3636077943-3669489707-987131759-1002\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\Ransomware
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,HKU,S-1-5-21-3636077943-3669489707-987131759-1002\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\Ransomware,HKU\S-1-5-21-3636077943-3669489707-987131759-1002\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\Ransomware,Ransomware,-,-,-,AdministratorDB,"T1060,RunKey",-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,-,-,DeleteValue,-,-,-,-,-,-,-,12,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6257,Registry object added or deleted (rule: RegistryEvent),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:38:01.153",yEX9AIQBHC0TB3lJdKi9,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process terminated (rule: ProcessTerminate),process,5,"Oct 23, 2022 @ 02:38:01.963","Oct 23, 2022 @ 02:38:41.333",event,sysmon,Microsoft-Windows-Sysmon,end,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process terminated:
+RuleName: -
+UtcTime: 2022-10-22 18:38:01.153
+ProcessGuid: {612eed94-37b9-6354-3001-000000001f00}
+ProcessId: 1412
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b9-6354-3001-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1412,-,-,-,-,-,-,-,-,-,AdministratorDB,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,-,-,-,-,-,-,-,-,-,-,5,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6258,Process terminated (rule: ProcessTerminate),NT AUTHORITY,S-1-5-18,SYSTEM,User,3
+"Oct 23, 2022 @ 02:38:01.165",yUX9AIQBHC0TB3lJdKi9,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,1.12.0,Process terminated (rule: ProcessTerminate),process,5,"Oct 23, 2022 @ 02:38:01.976","Oct 23, 2022 @ 02:38:41.340",event,sysmon,Microsoft-Windows-Sysmon,end,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process terminated:
+RuleName: -
+UtcTime: 2022-10-22 18:38:01.165
+ProcessGuid: {612eed94-37b8-6354-2f01-000000001f00}
+ProcessId: 6736
+Image: C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe
+User: ADMIN\AdministratorDB",-,-,-,-,-,{612eed94-37b8-6354-2f01-000000001f00},C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,C:\Users\AdministratorDB\Desktop\bin\bin\Ransomware.exe,-,-,Ransomware.exe,Ransomware.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6736,-,-,-,-,-,-,-,-,-,AdministratorDB,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,-,-,-,-,-,-,-,-,-,-,5,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6259,Process terminated (rule: ProcessTerminate),NT AUTHORITY,S-1-5-18,SYSTEM,User,3

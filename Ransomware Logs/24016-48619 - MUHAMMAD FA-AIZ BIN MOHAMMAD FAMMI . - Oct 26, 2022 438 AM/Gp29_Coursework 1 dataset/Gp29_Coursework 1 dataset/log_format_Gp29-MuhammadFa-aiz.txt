@@ -1,0 +1,2 @@
+kibana_clean
+process.name: "mimikatz.exe" or process.name.text : SATA-update-14.1.0.exe or process.name : "lsass.exe"  or powershell.command.name : "Add-Type" or event.action : "Dns query (rule: DnsQuery)" or event.action: "File created (rule: FileCreate)" or event.action : "Process Create (rule: ProcessCreate)"  or event.action : "Process terminated (rule: ProcessTerminate)"

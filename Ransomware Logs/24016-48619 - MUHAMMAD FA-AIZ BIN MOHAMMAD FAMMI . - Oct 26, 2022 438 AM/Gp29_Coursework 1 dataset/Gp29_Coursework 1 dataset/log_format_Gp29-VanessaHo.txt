@@ -1,0 +1,2 @@
+kibana_clean:
+winlog.logon.type: “RemoteInteractive” 

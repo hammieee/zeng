@@ -1,0 +1,2 @@
+kibana_clean:
+process.name: "python.exe" or event.action : "Dns query (rule: DnsQuery)" or event.category : "network" or event.action : "Process Create (rule: ProcessCreate)" or event.action : "Process terminated (rule: ProcessTerminate)" or event.action : "File created (rule: FileCreate)" 

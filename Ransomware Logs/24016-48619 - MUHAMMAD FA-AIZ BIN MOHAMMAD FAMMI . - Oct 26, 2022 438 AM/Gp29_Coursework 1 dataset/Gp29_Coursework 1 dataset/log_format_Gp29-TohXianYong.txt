@@ -1,0 +1,2 @@
+kibana_clean:
+process.name: "Ransomware.exe" or process.name.text : Ransomware.exe or powershell.command.name : "Add-Type" or event.action : "Dns query (rule: DnsQuery)" or event.action: "File created (rule: FileCreate)" or event.action : "Process Create (rule: ProcessCreate)" or event.action : "Process terminated (rule: ProcessTerminate)"

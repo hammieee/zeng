@@ -1,0 +1,812 @@
+@timestamp,_id,_index,_score,agent.ephemeral_id,agent.hostname,agent.id,agent.name,agent.type,agent.version,destination.domain,destination.ip,destination.port,dns.answers.data,dns.answers.type,dns.question.name,dns.question.registered_domain,dns.question.top_level_domain,dns.resolved_ip,ecs.version,event.action,event.category,event.code,event.created,event.ingested,event.kind,event.module,event.provider,event.type,file.directory,file.extension,file.name,file.path,file.path.text,host.architecture,host.hostname,host.id,host.ip,host.mac,host.name,host.os.build,host.os.family,host.os.kernel,host.os.name,host.os.name.text,host.os.platform,host.os.type,host.os.version,log.level,message,network.community_id,network.direction,network.protocol,network.transport,network.type,process.args,process.args_count,process.command_line,process.command_line.text,process.entity_id,process.executable,process.executable.text,process.hash.md5,process.hash.sha256,process.name,process.name.text,process.parent.args,process.parent.args_count,process.parent.command_line,process.parent.command_line.text,process.parent.entity_id,process.parent.executable,process.parent.executable.text,process.parent.name,process.parent.name.text,process.parent.pid,process.pe.company,process.pe.description,process.pe.file_version,process.pe.imphash,process.pe.original_file_name,process.pe.product,process.pid,process.working_directory,process.working_directory.text,related.hash,related.hosts,related.ip,related.user,rule.name,source.domain,source.ip,source.port,sysmon.dns.status,user.domain,user.id,user.name,user.name.text,winlog.api,winlog.channel,winlog.computer_name,winlog.event_data.Company,winlog.event_data.CreationUtcTime,winlog.event_data.Description,winlog.event_data.FileVersion,winlog.event_data.IntegrityLevel,winlog.event_data.LogonGuid,winlog.event_data.LogonId,winlog.event_data.ParentUser,winlog.event_data.Product,winlog.event_data.TerminalSessionId,winlog.event_id,winlog.opcode,winlog.process.pid,winlog.process.thread.id,winlog.provider_guid,winlog.provider_name,winlog.record_id,winlog.task,winlog.user.domain,winlog.user.identifier,winlog.user.name,winlog.user.type,winlog.version
+"Oct 23, 2022 @ 02:30:34.149",SkX2AIQBHC0TB3lJDKcY,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:36.118","Oct 23, 2022 @ 02:30:35.797",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Local\Temp,ps1,__PSScriptPolicyTest_ggbl3q00.411.ps1,C:\Users\AdministratorDB\AppData\Local\Temp\__PSScriptPolicyTest_ggbl3q00.411.ps1,C:\Users\AdministratorDB\AppData\Local\Temp\__PSScriptPolicyTest_ggbl3q00.411.ps1,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: -
+UtcTime: 2022-10-22 18:30:34.149
+ProcessGuid: {612eed94-36c9-6354-1e01-000000001f00}
+ProcessId: 780
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Local\Temp\__PSScriptPolicyTest_ggbl3q00.411.ps1
+CreationUtcTime: 2022-10-22 18:30:34.149
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36c9-6354-1e01-000000001f00},C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,-,-,powershell.exe,powershell.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,780,-,-,-,-,-,AdministratorDB,-,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:34.1,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5963,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:39.494",VEX2AIQBHC0TB3lJF6f1,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:40.586","Oct 23, 2022 @ 02:30:38.836",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Local\Temp,ps1,__PSScriptPolicyTest_oi00ej0i.1go.ps1,C:\Users\AdministratorDB\AppData\Local\Temp\__PSScriptPolicyTest_oi00ej0i.1go.ps1,C:\Users\AdministratorDB\AppData\Local\Temp\__PSScriptPolicyTest_oi00ej0i.1go.ps1,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: -
+UtcTime: 2022-10-22 18:30:39.494
+ProcessGuid: {612eed94-36c9-6354-1e01-000000001f00}
+ProcessId: 780
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Local\Temp\__PSScriptPolicyTest_oi00ej0i.1go.ps1
+CreationUtcTime: 2022-10-22 18:30:39.494
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36c9-6354-1e01-000000001f00},C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,-,-,powershell.exe,powershell.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,780,-,-,-,-,-,AdministratorDB,-,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:39.5,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5966,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:40.294",VUX2AIQBHC0TB3lJG6f6,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:41.951","Oct 23, 2022 @ 02:30:39.865",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\AdministratorDB\AppData\Local\Temp,ps1,__PSScriptPolicyTest_f4uylgug.2by.ps1,C:\Users\AdministratorDB\AppData\Local\Temp\__PSScriptPolicyTest_f4uylgug.2by.ps1,C:\Users\AdministratorDB\AppData\Local\Temp\__PSScriptPolicyTest_f4uylgug.2by.ps1,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: -
+UtcTime: 2022-10-22 18:30:40.294
+ProcessGuid: {612eed94-36c9-6354-1e01-000000001f00}
+ProcessId: 780
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\AdministratorDB\AppData\Local\Temp\__PSScriptPolicyTest_f4uylgug.2by.ps1
+CreationUtcTime: 2022-10-22 18:30:40.294
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36c9-6354-1e01-000000001f00},C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,-,-,powershell.exe,powershell.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,780,-,-,-,-,-,AdministratorDB,-,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:40.3,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5967,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:43.179",VkX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.932",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:30:43.179
+ProcessGuid: {612eed94-36d3-6354-1f01-000000001f00}
+ProcessId: 6652
+Image: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe
+FileVersion: 4.18.2209.7 (WinBuild.160101.0800)
+Description: Microsoft Malware Protection Command Line Utility
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: MpCmdRun.exe
+CommandLine: ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe"" SignatureUpdate -ScheduleJob -RestrictPrivileges
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {612eed94-3465-6354-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=0D800706BF6B70A0F892261262349A0F,SHA256=E8A515CAF02F0A75622FD1CC0D34D6CBC045E073BCC3CC2F08C38E86C1FE9A4F,IMPHASH=C0AB138D21991F47C1952DF4C9D5601D
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+ParentProcessId: 2292
+ParentImage: -
+ParentCommandLine: -
+ParentUser: -",-,-,-,-,-,"C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe, SignatureUpdate, -ScheduleJob, -RestrictPrivileges",4,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe"" SignatureUpdate -ScheduleJob -RestrictPrivileges","""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe"" SignatureUpdate -ScheduleJob -RestrictPrivileges",{612eed94-36d3-6354-1f01-000000001f00},C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe,0d800706bf6b70a0f892261262349a0f,e8a515caf02f0a75622fd1cc0d34d6cbc045e073bcc3cc2f08c38e86c1fe9a4f,MpCmdRun.exe,MpCmdRun.exe,-,1,-,-,{00000000-0000-0000-0000-000000000000},-,-,-,-,2292,Microsoft Corporation,Microsoft Malware Protection Command Line Utility,4.18.2209.7 (WinBuild.160101.0800),c0ab138d21991f47c1952df4c9d5601d,MpCmdRun.exe,Microsoft® Windows® Operating System,6652,C:\Windows\system32\,C:\Windows\system32\,"e8a515caf02f0a75622fd1cc0d34d6cbc045e073bcc3cc2f08c38e86c1fe9a4f, 0d800706bf6b70a0f892261262349a0f, c0ab138d21991f47c1952df4c9d5601d",-,-,SYSTEM,-,-,-,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Microsoft Malware Protection Command Line Utility,4.18.2209.7 (WinBuild.160101.0800),System,{612eed94-3465-6354-e703-000000000000},0x3e7,-,Microsoft® Windows® Operating System,0,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5968,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:30:43.361",V0X2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.932",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:30:43.361
+ProcessGuid: {612eed94-36d3-6354-2101-000000001f00}
+ProcessId: 6984
+Image: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe
+FileVersion: 4.18.2209.7 (WinBuild.160101.0800)
+Description: Microsoft Malware Protection Command Line Utility
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: MpCmdRun.exe
+CommandLine: ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe"" SignatureUpdate -ScheduleJob -RestrictPrivileges -Reinvoke
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\NETWORK SERVICE
+LogonGuid: {612eed94-3466-6354-e403-000000000000}
+LogonId: 0x3E4
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=0D800706BF6B70A0F892261262349A0F,SHA256=E8A515CAF02F0A75622FD1CC0D34D6CBC045E073BCC3CC2F08C38E86C1FE9A4F,IMPHASH=C0AB138D21991F47C1952DF4C9D5601D
+ParentProcessGuid: {612eed94-36d3-6354-1f01-000000001f00}
+ParentProcessId: 6652
+ParentImage: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe
+ParentCommandLine: ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe"" SignatureUpdate -ScheduleJob -RestrictPrivileges
+ParentUser: NT AUTHORITY\SYSTEM",-,-,-,-,-,"C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe, SignatureUpdate, -ScheduleJob, -RestrictPrivileges, -Reinvoke",5,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe"" SignatureUpdate -ScheduleJob -RestrictPrivileges -Reinvoke","""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe"" SignatureUpdate -ScheduleJob -RestrictPrivileges -Reinvoke",{612eed94-36d3-6354-2101-000000001f00},C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe,0d800706bf6b70a0f892261262349a0f,e8a515caf02f0a75622fd1cc0d34d6cbc045e073bcc3cc2f08c38e86c1fe9a4f,MpCmdRun.exe,MpCmdRun.exe,"C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe, SignatureUpdate, -ScheduleJob, -RestrictPrivileges",4,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe"" SignatureUpdate -ScheduleJob -RestrictPrivileges","""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe"" SignatureUpdate -ScheduleJob -RestrictPrivileges",{612eed94-36d3-6354-1f01-000000001f00},C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe,MpCmdRun.exe,MpCmdRun.exe,6652,Microsoft Corporation,Microsoft Malware Protection Command Line Utility,4.18.2209.7 (WinBuild.160101.0800),c0ab138d21991f47c1952df4c9d5601d,MpCmdRun.exe,Microsoft® Windows® Operating System,6984,C:\Windows\system32\,C:\Windows\system32\,"e8a515caf02f0a75622fd1cc0d34d6cbc045e073bcc3cc2f08c38e86c1fe9a4f, 0d800706bf6b70a0f892261262349a0f, c0ab138d21991f47c1952df4c9d5601d",-,-,NETWORK SERVICE,-,-,-,-,-,NT AUTHORITY,S-1-5-18,NETWORK SERVICE,NETWORK SERVICE,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Microsoft Malware Protection Command Line Utility,4.18.2209.7 (WinBuild.160101.0800),System,{612eed94-3466-6354-e403-000000000000},0x3e4,NT AUTHORITY\SYSTEM,Microsoft® Windows® Operating System,0,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5969,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:30:43.471",WEX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.933",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:30:43.471
+ProcessGuid: {612eed94-36d3-6354-2201-000000001f00}
+ProcessId: 7016
+Image: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe
+FileVersion: 4.18.2209.7 (WinBuild.160101.0800)
+Description: Microsoft Malware Protection Command Line Utility
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: MpCmdRun.exe
+CommandLine: ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe"" SignaturesUpdateService -ScheduleJob -UnmanagedUpdate
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {612eed94-3465-6354-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=0D800706BF6B70A0F892261262349A0F,SHA256=E8A515CAF02F0A75622FD1CC0D34D6CBC045E073BCC3CC2F08C38E86C1FE9A4F,IMPHASH=C0AB138D21991F47C1952DF4C9D5601D
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+ParentProcessId: 2292
+ParentImage: -
+ParentCommandLine: -
+ParentUser: -",-,-,-,-,-,"C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe, SignaturesUpdateService, -ScheduleJob, -UnmanagedUpdate",4,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe"" SignaturesUpdateService -ScheduleJob -UnmanagedUpdate","""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe"" SignaturesUpdateService -ScheduleJob -UnmanagedUpdate",{612eed94-36d3-6354-2201-000000001f00},C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MpCmdRun.exe,0d800706bf6b70a0f892261262349a0f,e8a515caf02f0a75622fd1cc0d34d6cbc045e073bcc3cc2f08c38e86c1fe9a4f,MpCmdRun.exe,MpCmdRun.exe,-,1,-,-,{00000000-0000-0000-0000-000000000000},-,-,-,-,2292,Microsoft Corporation,Microsoft Malware Protection Command Line Utility,4.18.2209.7 (WinBuild.160101.0800),c0ab138d21991f47c1952df4c9d5601d,MpCmdRun.exe,Microsoft® Windows® Operating System,7016,C:\Windows\system32\,C:\Windows\system32\,"e8a515caf02f0a75622fd1cc0d34d6cbc045e073bcc3cc2f08c38e86c1fe9a4f, 0d800706bf6b70a0f892261262349a0f, c0ab138d21991f47c1952df4c9d5601d",-,-,SYSTEM,-,-,-,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Microsoft Malware Protection Command Line Utility,4.18.2209.7 (WinBuild.160101.0800),System,{612eed94-3465-6354-e703-000000000000},0x3e7,-,Microsoft® Windows® Operating System,0,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5970,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:30:43.793",WUX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.933",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:30:43.793
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe"" 
+CurrentDirectory: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\
+User: ADMIN\AdministratorDB
+LogonGuid: {612eed94-34a0-6354-1241-040000000000}
+LogonId: 0x44112
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=EA3AC38220EFEC9A4E0D5E6FF377E619,SHA256=88A6E22C60DB4B361B3D902EE8D9290D64228140AD508FA0C4D007418AB1B2D9,IMPHASH=69EB46A9F63EDCC604B0BDAAA8E0F2F5
+ParentProcessGuid: {612eed94-36c9-6354-1e01-000000001f00}
+ParentProcessId: 780
+ParentImage: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: Powershell.exe  Start-Process -WindowStyle hidden main.exe
+ParentUser: ADMIN\AdministratorDB",-,-,-,-,-,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,1,"""C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe"" ","""C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe"" ",{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,ea3ac38220efec9a4e0d5e6ff377e619,88a6e22c60db4b361b3d902ee8d9290d64228140ad508fa0c4d007418ab1b2d9,main.exe,main.exe,"Powershell.exe, Start-Process, -WindowStyle, hidden, main.exe",5,Powershell.exe  Start-Process -WindowStyle hidden main.exe,Powershell.exe  Start-Process -WindowStyle hidden main.exe,{612eed94-36c9-6354-1e01-000000001f00},C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,powershell.exe,powershell.exe,780,-,-,-,69eb46a9f63edcc604b0bdaaa8e0f2f5,-,-,6488,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\,"88a6e22c60db4b361b3d902ee8d9290d64228140ad508fa0c4d007418ab1b2d9, ea3ac38220efec9a4e0d5e6ff377e619, 69eb46a9f63edcc604b0bdaaa8e0f2f5",-,-,AdministratorDB,-,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,-,-,-,High,{612eed94-34a0-6354-1241-040000000000},0x44112,ADMIN\AdministratorDB,-,1,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5971,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:30:44.267",WkX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.934",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,VCRUNTIME140.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\VCRUNTIME140.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\VCRUNTIME140.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.267
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\VCRUNTIME140.dll
+CreationUtcTime: 2022-10-22 18:30:44.267
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.3,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5972,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.385",W0X2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.934",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-console-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-console-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-console-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.385
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-console-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.385
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5973,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.385",XEX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.934",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-datetime-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-datetime-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-datetime-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.385
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-datetime-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.385
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5974,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.385",XUX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.935",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-debug-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-debug-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-debug-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.385
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-debug-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.385
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5975,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.385",XkX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.935",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-errorhandling-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-errorhandling-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-errorhandling-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.385
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-errorhandling-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.385
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5976,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.385",X0X2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.935",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-file-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-file-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-file-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.385
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-file-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.385
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5977,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.408",YEX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.935",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-file-l1-2-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-file-l1-2-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-file-l1-2-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.408
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-file-l1-2-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.408
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5978,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.408",YUX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.936",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-file-l2-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-file-l2-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-file-l2-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.408
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-file-l2-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.408
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5979,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.408",YkX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.936",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-handle-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-handle-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-handle-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.408
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-handle-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.408
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5980,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.408",Y0X2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.936",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-heap-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-heap-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-heap-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.408
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-heap-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.408
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5981,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.427",ZEX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.937",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-interlocked-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-interlocked-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-interlocked-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.427
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-interlocked-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.426
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5982,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.427",ZUX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.937",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-libraryloader-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-libraryloader-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-libraryloader-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.427
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-libraryloader-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.427
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5983,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.427",ZkX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.937",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-localization-l1-2-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-localization-l1-2-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-localization-l1-2-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.427
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-localization-l1-2-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.427
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5984,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.427",Z0X2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.937",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-memory-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-memory-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-memory-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.427
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-memory-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.427
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5985,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.427",aEX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.938",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-namedpipe-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-namedpipe-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-namedpipe-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.427
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-namedpipe-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.427
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5986,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.427",aUX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.938",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-processenvironment-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-processenvironment-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-processenvironment-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.427
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-processenvironment-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.427
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5987,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.427",akX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.938",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-processthreads-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-processthreads-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-processthreads-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.427
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-processthreads-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.427
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5988,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.427",a0X2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.939",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-processthreads-l1-1-1.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-processthreads-l1-1-1.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-processthreads-l1-1-1.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.427
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-processthreads-l1-1-1.dll
+CreationUtcTime: 2022-10-22 18:30:44.427
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5989,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.427",bEX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.939",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-profile-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-profile-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-profile-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.427
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-profile-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.427
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5990,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.427",bUX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.939",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-rtlsupport-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-rtlsupport-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-rtlsupport-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.427
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-rtlsupport-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.427
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5991,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.427",bkX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.939",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-string-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-string-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-string-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.427
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-string-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.427
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5992,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.427",b0X2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.940",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-synch-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-synch-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-synch-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.427
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-synch-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.427
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5993,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.427",cEX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.940",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-synch-l1-2-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-synch-l1-2-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-synch-l1-2-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.427
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-synch-l1-2-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.427
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5994,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.427",cUX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.940",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-sysinfo-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-sysinfo-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-sysinfo-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.427
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-sysinfo-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.427
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5995,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.427",ckX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.941",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-timezone-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-timezone-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-timezone-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.427
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-timezone-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.427
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5996,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.427",c0X2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.941",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-core-util-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-util-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-util-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.427
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-core-util-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.427
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5997,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.446",dEX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.941",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-crt-conio-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-conio-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-conio-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.446
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-conio-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.446
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5998,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.448",dUX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.941",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-crt-convert-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-convert-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-convert-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.448
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-convert-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.448
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,5999,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.448",dkX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.942",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-crt-environment-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-environment-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-environment-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.448
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-environment-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.448
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6000,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.448",d0X2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.942",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-crt-filesystem-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-filesystem-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-filesystem-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.448
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-filesystem-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.448
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6001,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.448",eEX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.942",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-crt-heap-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-heap-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-heap-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.448
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-heap-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.448
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6002,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.448",eUX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.942",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-crt-locale-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-locale-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-locale-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.448
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-locale-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.448
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6003,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.448",ekX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.943",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-crt-math-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-math-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-math-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.448
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-math-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.448
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6004,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.448",e0X2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.943",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-crt-process-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-process-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-process-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.448
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-process-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.448
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6005,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.448",fEX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.943",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-crt-runtime-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-runtime-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-runtime-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.448
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-runtime-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.448
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.4,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6006,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.462",fUX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.944",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-crt-stdio-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-stdio-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-stdio-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.462
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-stdio-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.462
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.5,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6007,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.462",fkX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.944",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-crt-string-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-string-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-string-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.462
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-string-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.462
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.5,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6008,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.462",f0X2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.944",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-crt-time-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-time-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-time-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.462
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-time-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.462
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.5,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6009,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.462",gEX2AIQBHC0TB3lJJKcZ,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:44.754","Oct 23, 2022 @ 02:30:41.944",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,api-ms-win-crt-utility-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-utility-l1-1-0.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-utility-l1-1-0.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.462
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\api-ms-win-crt-utility-l1-1-0.dll
+CreationUtcTime: 2022-10-22 18:30:44.462
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.5,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6010,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.597",gkX2AIQBHC0TB3lJKKca,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:46.143","Oct 23, 2022 @ 02:30:42.967",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,libcrypto-1_1.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\libcrypto-1_1.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\libcrypto-1_1.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.597
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\libcrypto-1_1.dll
+CreationUtcTime: 2022-10-22 18:30:44.597
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.6,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6011,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.734",g0X2AIQBHC0TB3lJKKca,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:46.143","Oct 23, 2022 @ 02:30:42.968",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,libffi-7.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\libffi-7.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\libffi-7.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.734
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\libffi-7.dll
+CreationUtcTime: 2022-10-22 18:30:44.734
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.7,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6012,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.740",hEX2AIQBHC0TB3lJKKca,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:46.143","Oct 23, 2022 @ 02:30:42.968",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,libssl-1_1.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\libssl-1_1.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\libssl-1_1.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.740
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\libssl-1_1.dll
+CreationUtcTime: 2022-10-22 18:30:44.740
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.7,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6013,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.749",hUX2AIQBHC0TB3lJKKca,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:46.143","Oct 23, 2022 @ 02:30:42.968",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,python3.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\python3.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\python3.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.749
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\python3.dll
+CreationUtcTime: 2022-10-22 18:30:44.749
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.7,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6014,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.754",hkX2AIQBHC0TB3lJKKca,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:46.143","Oct 23, 2022 @ 02:30:42.969",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,python310.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\python310.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\python310.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.754
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\python310.dll
+CreationUtcTime: 2022-10-22 18:30:44.754
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.8,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6015,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.802",h0X2AIQBHC0TB3lJKKca,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:46.143","Oct 23, 2022 @ 02:30:42.969",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,tcl86t.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\tcl86t.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\tcl86t.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.802
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\tcl86t.dll
+CreationUtcTime: 2022-10-22 18:30:44.802
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.8,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6016,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.802",iEX2AIQBHC0TB3lJKKca,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:46.143","Oct 23, 2022 @ 02:30:42.969",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,tk86t.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\tk86t.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\tk86t.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.802
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\tk86t.dll
+CreationUtcTime: 2022-10-22 18:30:44.802
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.8,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6017,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:44.866",iUX2AIQBHC0TB3lJKKca,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:30:46.143","Oct 23, 2022 @ 02:30:42.970",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882,dll,ucrtbase.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\ucrtbase.dll,C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\ucrtbase.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:30:44.866
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+TargetFilename: C:\Users\ADMINI~1\AppData\Local\Temp\_MEI64882\ucrtbase.dll
+CreationUtcTime: 2022-10-22 18:30:44.866
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,DLL,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:44.9,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6018,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:47.387",i0X2AIQBHC0TB3lJLqcP,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:30:48.894","Oct 23, 2022 @ 02:30:44.494",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:30:47.387
+ProcessGuid: {612eed94-36d7-6354-2801-000000001f00}
+ProcessId: 6980
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe"" 
+CurrentDirectory: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\
+User: ADMIN\AdministratorDB
+LogonGuid: {612eed94-34a0-6354-1241-040000000000}
+LogonId: 0x44112
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=EA3AC38220EFEC9A4E0D5E6FF377E619,SHA256=88A6E22C60DB4B361B3D902EE8D9290D64228140AD508FA0C4D007418AB1B2D9,IMPHASH=69EB46A9F63EDCC604B0BDAAA8E0F2F5
+ParentProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ParentProcessId: 6488
+ParentImage: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+ParentCommandLine: ""C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe"" 
+ParentUser: ADMIN\AdministratorDB",-,-,-,-,-,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,1,"""C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe"" ","""C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe"" ",{612eed94-36d7-6354-2801-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,ea3ac38220efec9a4e0d5e6ff377e619,88a6e22c60db4b361b3d902ee8d9290d64228140ad508fa0c4d007418ab1b2d9,main.exe,main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,1,"""C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe"" ","""C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe"" ",{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,main.exe,main.exe,6488,-,-,-,69eb46a9f63edcc604b0bdaaa8e0f2f5,-,-,6980,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\,"88a6e22c60db4b361b3d902ee8d9290d64228140ad508fa0c4d007418ab1b2d9, ea3ac38220efec9a4e0d5e6ff377e619, 69eb46a9f63edcc604b0bdaaa8e0f2f5",-,-,AdministratorDB,-,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,-,-,-,High,{612eed94-34a0-6354-1241-040000000000},0x44112,ADMIN\AdministratorDB,-,1,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6019,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:30:47.427",jkX2AIQBHC0TB3lJUKcs,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,sf-in-f95.1e100.net,74.125.24.95,443,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 02:30:59.289","Oct 23, 2022 @ 02:30:53.225",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-22 18:30:47.427
+ProcessGuid: {612eed94-36d7-6354-2801-000000001f00}
+ProcessId: 6980
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+User: ADMIN\AdministratorDB
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.16
+SourceHostname: admin
+SourcePort: 50060
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 74.125.24.95
+DestinationHostname: sf-in-f95.1e100.net
+DestinationPort: 443
+DestinationPortName: https",1:6U98tyPEcheY2x/hhXP13Bj9lGU=,egress,https,tcp,ipv4,-,-,-,-,{612eed94-36d7-6354-2801-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6980,-,-,-,-,"10.0.2.16, 74.125.24.95",AdministratorDB,Usermode,admin,10.0.2.16,50060,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,-,-,-,-,-,-,-,-,-,3,Info,"2,260","2,176",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6022,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:30:47.519",j0X2AIQBHC0TB3lJUKcs,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,sm-in-f128.1e100.net,142.250.4.128,443,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 02:30:59.289","Oct 23, 2022 @ 02:30:53.227",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-22 18:30:47.519
+ProcessGuid: {612eed94-36d7-6354-2801-000000001f00}
+ProcessId: 6980
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+User: ADMIN\AdministratorDB
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.16
+SourceHostname: admin
+SourcePort: 50061
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 142.250.4.128
+DestinationHostname: sm-in-f128.1e100.net
+DestinationPort: 443
+DestinationPortName: https",1:SPuvNbTai1DSCRDNZHSs431acxU=,egress,https,tcp,ipv4,-,-,-,-,{612eed94-36d7-6354-2801-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6980,-,-,-,-,"10.0.2.16, 142.250.4.128",AdministratorDB,Usermode,admin,10.0.2.16,50061,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,-,-,-,-,-,-,-,-,-,3,Info,"2,260","2,176",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6023,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:30:47.769",jUX2AIQBHC0TB3lJR6fh,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,"74.125.24.95, 172.217.194.95, 142.251.10.95, 172.253.118.95, 142.250.4.95","A, A, A, A, A",oauth2.googleapis.com,oauth2.googleapis.com,googleapis.com,"74.125.24.95, 172.217.194.95, 142.251.10.95, 172.253.118.95, 142.250.4.95",1.12.0,Dns query (rule: DnsQuery),network,22,"Oct 23, 2022 @ 02:30:56.733","Oct 23, 2022 @ 02:30:51.104",event,sysmon,Microsoft-Windows-Sysmon,"connection, protocol, info",-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Dns query:
+RuleName: -
+UtcTime: 2022-10-22 18:30:47.769
+ProcessGuid: {612eed94-36d7-6354-2801-000000001f00}
+ProcessId: 6980
+QueryName: oauth2.googleapis.com
+QueryStatus: 0
+QueryResults: ::ffff:74.125.24.95;::ffff:172.217.194.95;::ffff:142.251.10.95;::ffff:172.253.118.95;::ffff:142.250.4.95;
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+User: ADMIN\AdministratorDB",-,-,dns,-,-,-,-,-,-,{612eed94-36d7-6354-2801-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6980,-,-,-,oauth2.googleapis.com,"74.125.24.95, 172.217.194.95, 142.251.10.95, 172.253.118.95, 142.250.4.95",AdministratorDB,-,-,-,-,SUCCESS,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,-,-,-,-,-,-,-,-,-,22,Info,"2,260","2,736",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6021,Dns query (rule: DnsQuery),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:30:47.864",kEX2AIQBHC0TB3lJUKcs,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,"142.250.4.128, 74.125.24.128, 172.217.194.128, 142.251.10.128, 74.125.200.128, 74.125.68.128","A, A, A, A, A, A",storage.googleapis.com,storage.googleapis.com,googleapis.com,"142.250.4.128, 74.125.24.128, 172.217.194.128, 142.251.10.128, 74.125.200.128, 74.125.68.128",1.12.0,Dns query (rule: DnsQuery),network,22,"Oct 23, 2022 @ 02:30:59.289","Oct 23, 2022 @ 02:30:53.227",event,sysmon,Microsoft-Windows-Sysmon,"connection, protocol, info",-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Dns query:
+RuleName: -
+UtcTime: 2022-10-22 18:30:47.864
+ProcessGuid: {612eed94-36d7-6354-2801-000000001f00}
+ProcessId: 6980
+QueryName: storage.googleapis.com
+QueryStatus: 0
+QueryResults: ::ffff:142.250.4.128;::ffff:74.125.24.128;::ffff:172.217.194.128;::ffff:142.251.10.128;::ffff:74.125.200.128;::ffff:74.125.68.128;
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+User: ADMIN\AdministratorDB",-,-,dns,-,-,-,-,-,-,{612eed94-36d7-6354-2801-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6980,-,-,-,storage.googleapis.com,"142.250.4.128, 74.125.24.128, 172.217.194.128, 142.251.10.128, 74.125.200.128, 74.125.68.128",AdministratorDB,-,-,-,-,SUCCESS,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,-,-,-,-,-,-,-,-,-,22,Info,"2,260","2,736",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6024,Dns query (rule: DnsQuery),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:30:55.378",jEX2AIQBHC0TB3lJR6fh,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,Process terminated (rule: ProcessTerminate),process,5,"Oct 23, 2022 @ 02:30:56.733","Oct 23, 2022 @ 02:30:51.103",event,sysmon,Microsoft-Windows-Sysmon,end,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process terminated:
+RuleName: -
+UtcTime: 2022-10-22 18:30:55.378
+ProcessGuid: {612eed94-36c4-6354-1901-000000001f00}
+ProcessId: 3708
+Image: C:\Users\AdministratorDB\Desktop\Fee-Exfiltrate\cat.jpg.exe
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36c4-6354-1901-000000001f00},C:\Users\AdministratorDB\Desktop\Fee-Exfiltrate\cat.jpg.exe,C:\Users\AdministratorDB\Desktop\Fee-Exfiltrate\cat.jpg.exe,-,-,cat.jpg.exe,cat.jpg.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3708,-,-,-,-,-,AdministratorDB,-,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,-,-,-,-,-,-,-,-,-,5,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6020,Process terminated (rule: ProcessTerminate),NT AUTHORITY,S-1-5-18,SYSTEM,User,3
+"Oct 23, 2022 @ 02:30:59.706",k0X2AIQBHC0TB3lJVqfu,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:31:01.817","Oct 23, 2022 @ 02:30:54.957",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:30:59.706
+ProcessGuid: {612eed94-36e3-6354-2901-000000001f00}
+ProcessId: 5784
+Image: C:\Windows\System32\wuauclt.exe
+FileVersion: 10.0.19041.1806 (WinBuild.160101.0800)
+Description: Windows Update
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: wuauclt.exe
+CommandLine: ""C:\Windows\system32\wuauclt.exe"" /UpdateDeploymentProvider UpdateDeploymentProvider.dll /ClassId f9b0614c-ab3f-407b-8b6c-493195e3d68c /RunHandlerComServer
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {612eed94-3465-6354-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=ECD6E47310C5CEB6BD5F642DEB34596C,SHA256=DF5AC3747568D67A94AA62A298E96EF18293792229FFA5B69FD05163E92AA4A7,IMPHASH=B90160F88EBACE2E5AC66C36689E0BDA
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+ParentProcessId: 472
+ParentImage: -
+ParentCommandLine: -
+ParentUser: -",-,-,-,-,-,"C:\Windows\system32\wuauclt.exe, /UpdateDeploymentProvider, UpdateDeploymentProvider.dll, /ClassId, f9b0614c-ab3f-407b-8b6c-493195e3d68c, /RunHandlerComServer",6,"""C:\Windows\system32\wuauclt.exe"" /UpdateDeploymentProvider UpdateDeploymentProvider.dll /ClassId f9b0614c-ab3f-407b-8b6c-493195e3d68c /RunHandlerComServer","""C:\Windows\system32\wuauclt.exe"" /UpdateDeploymentProvider UpdateDeploymentProvider.dll /ClassId f9b0614c-ab3f-407b-8b6c-493195e3d68c /RunHandlerComServer",{612eed94-36e3-6354-2901-000000001f00},C:\Windows\System32\wuauclt.exe,C:\Windows\System32\wuauclt.exe,ecd6e47310c5ceb6bd5f642deb34596c,df5ac3747568d67a94aa62a298e96ef18293792229ffa5b69fd05163e92aa4a7,wuauclt.exe,wuauclt.exe,-,1,-,-,{00000000-0000-0000-0000-000000000000},-,-,-,-,472,Microsoft Corporation,Windows Update,10.0.19041.1806 (WinBuild.160101.0800),b90160f88ebace2e5ac66c36689e0bda,wuauclt.exe,Microsoft® Windows® Operating System,5784,C:\Windows\system32\,C:\Windows\system32\,"df5ac3747568d67a94aa62a298e96ef18293792229ffa5b69fd05163e92aa4a7, ecd6e47310c5ceb6bd5f642deb34596c, b90160f88ebace2e5ac66c36689e0bda",-,-,SYSTEM,-,-,-,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Windows Update,10.0.19041.1806 (WinBuild.160101.0800),System,{612eed94-3465-6354-e703-000000000000},0x3e7,-,Microsoft® Windows® Operating System,0,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6025,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:30:59.795",lEX2AIQBHC0TB3lJVqfu,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:31:01.817","Oct 23, 2022 @ 02:30:54.957",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\Windows\SoftwareDistribution\Download\Install,exe,AM_Delta_Patch_1.377.629.0.exe,C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe,C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: EXE
+UtcTime: 2022-10-22 18:30:59.795
+ProcessGuid: {612eed94-3466-6354-1300-000000001f00}
+ProcessId: 472
+Image: C:\Windows\system32\svchost.exe
+TargetFilename: C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe
+CreationUtcTime: 2022-10-22 18:30:59.795
+User: NT AUTHORITY\SYSTEM",-,-,-,-,-,-,-,-,-,{612eed94-3466-6354-1300-000000001f00},C:\Windows\system32\svchost.exe,C:\Windows\system32\svchost.exe,-,-,svchost.exe,svchost.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,472,-,-,-,-,-,SYSTEM,EXE,-,-,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,30:59.8,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6026,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:30:59.829",lUX2AIQBHC0TB3lJVqfu,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:31:01.817","Oct 23, 2022 @ 02:30:54.958",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:30:59.829
+ProcessGuid: {612eed94-36e3-6354-2a01-000000001f00}
+ProcessId: 7144
+Image: C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe
+FileVersion: 1.377.636.0
+Description: Microsoft Antimalware WU Stub
+Product: Microsoft Malware Protection
+Company: Microsoft Corporation
+OriginalFileName: AM_Delta_Patch_1.377.629.0.exe
+CommandLine: ""C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe"" WD /q
+CurrentDirectory: C:\Windows\SoftwareDistribution\Download\Install\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {612eed94-3465-6354-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=62FECDAF925B74D4D1D8AC940E9152C1,SHA256=4962EF17AD47382E3ADC2DAF2FAFCB3F09E3F73B5DBE596C0018BAB2DBDDDE25,IMPHASH=73EFFD46557538D5FA5561EEE3FFC59C
+ParentProcessGuid: {612eed94-36e3-6354-2901-000000001f00}
+ParentProcessId: 5784
+ParentImage: C:\Windows\System32\wuauclt.exe
+ParentCommandLine: ""C:\Windows\system32\wuauclt.exe"" /UpdateDeploymentProvider UpdateDeploymentProvider.dll /ClassId f9b0614c-ab3f-407b-8b6c-493195e3d68c /RunHandlerComServer
+ParentUser: NT AUTHORITY\SYSTEM",-,-,-,-,-,"C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe, WD, /q",3,"""C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe"" WD /q","""C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe"" WD /q",{612eed94-36e3-6354-2a01-000000001f00},C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe,C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe,62fecdaf925b74d4d1d8ac940e9152c1,4962ef17ad47382e3adc2daf2fafcb3f09e3f73b5dbe596c0018bab2dbddde25,AM_Delta_Patch_1.377.629.0.exe,AM_Delta_Patch_1.377.629.0.exe,"C:\Windows\system32\wuauclt.exe, /UpdateDeploymentProvider, UpdateDeploymentProvider.dll, /ClassId, f9b0614c-ab3f-407b-8b6c-493195e3d68c, /RunHandlerComServer",6,"""C:\Windows\system32\wuauclt.exe"" /UpdateDeploymentProvider UpdateDeploymentProvider.dll /ClassId f9b0614c-ab3f-407b-8b6c-493195e3d68c /RunHandlerComServer","""C:\Windows\system32\wuauclt.exe"" /UpdateDeploymentProvider UpdateDeploymentProvider.dll /ClassId f9b0614c-ab3f-407b-8b6c-493195e3d68c /RunHandlerComServer",{612eed94-36e3-6354-2901-000000001f00},C:\Windows\System32\wuauclt.exe,C:\Windows\System32\wuauclt.exe,wuauclt.exe,wuauclt.exe,5784,Microsoft Corporation,Microsoft Antimalware WU Stub,1.377.636.0,73effd46557538d5fa5561eee3ffc59c,AM_Delta_Patch_1.377.629.0.exe,Microsoft Malware Protection,7144,C:\Windows\SoftwareDistribution\Download\Install\,C:\Windows\SoftwareDistribution\Download\Install\,"4962ef17ad47382e3adc2daf2fafcb3f09e3f73b5dbe596c0018bab2dbddde25, 62fecdaf925b74d4d1d8ac940e9152c1, 73effd46557538d5fa5561eee3ffc59c",-,-,SYSTEM,-,-,-,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Microsoft Antimalware WU Stub,1.377.636.0,System,{612eed94-3465-6354-e703-000000000000},0x3e7,NT AUTHORITY\SYSTEM,Microsoft Malware Protection,0,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6027,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:30:59.895",lkX2AIQBHC0TB3lJVqfu,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:31:01.817","Oct 23, 2022 @ 02:30:54.958",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:30:59.895
+ProcessGuid: {612eed94-36e3-6354-2b01-000000001f00}
+ProcessId: 6228
+Image: C:\Windows\System32\MpSigStub.exe
+FileVersion: 1.1.18500.10 (bd3bd17b10e8c188734ef863541b1db0d3f8b954)
+Description: Microsoft Malware Protection Signature Update Stub
+Product: Microsoft Malware Protection
+Company: Microsoft Corporation
+OriginalFileName: MpSigStub.exe
+CommandLine: C:\Windows\system32\MpSigStub.exe /stub 1.1.18500.10 /payload 1.377.636.0 /MpWUStub /program C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe WD /q
+CurrentDirectory: C:\Windows\Temp\535EE2AA-4D8C-4B49-A052-CCF4DA93257C-Sigs\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {612eed94-3465-6354-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=01F92DC7A766FF783AE7AF40FD0334FB,SHA256=FA42B9B84754E2E8368E8929FA045BE86DBD72678176EE75814D2A16D23E5C26,IMPHASH=17C9015AF786E0332059F422B92FB6BB
+ParentProcessGuid: {612eed94-36e3-6354-2a01-000000001f00}
+ParentProcessId: 7144
+ParentImage: C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe
+ParentCommandLine: ""C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe"" WD /q
+ParentUser: NT AUTHORITY\SYSTEM",-,-,-,-,-,"C:\Windows\system32\MpSigStub.exe, /stub, 1.1.18500.10, /payload, 1.377.636.0, /MpWUStub, /program, C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe, WD, /q",10,C:\Windows\system32\MpSigStub.exe /stub 1.1.18500.10 /payload 1.377.636.0 /MpWUStub /program C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe WD /q,C:\Windows\system32\MpSigStub.exe /stub 1.1.18500.10 /payload 1.377.636.0 /MpWUStub /program C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe WD /q,{612eed94-36e3-6354-2b01-000000001f00},C:\Windows\System32\MpSigStub.exe,C:\Windows\System32\MpSigStub.exe,01f92dc7a766ff783ae7af40fd0334fb,fa42b9b84754e2e8368e8929fa045be86dbd72678176ee75814d2a16d23e5c26,MpSigStub.exe,MpSigStub.exe,"C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe, WD, /q",3,"""C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe"" WD /q","""C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe"" WD /q",{612eed94-36e3-6354-2a01-000000001f00},C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe,C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.377.629.0.exe,AM_Delta_Patch_1.377.629.0.exe,AM_Delta_Patch_1.377.629.0.exe,7144,Microsoft Corporation,Microsoft Malware Protection Signature Update Stub,1.1.18500.10 (bd3bd17b10e8c188734ef863541b1db0d3f8b954),17c9015af786e0332059f422b92fb6bb,MpSigStub.exe,Microsoft Malware Protection,6228,C:\Windows\Temp\535EE2AA-4D8C-4B49-A052-CCF4DA93257C-Sigs\,C:\Windows\Temp\535EE2AA-4D8C-4B49-A052-CCF4DA93257C-Sigs\,"fa42b9b84754e2e8368e8929fa045be86dbd72678176ee75814d2a16d23e5c26, 01f92dc7a766ff783ae7af40fd0334fb, 17c9015af786e0332059f422b92fb6bb",-,-,SYSTEM,-,-,-,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Microsoft Malware Protection Signature Update Stub,1.1.18500.10 (bd3bd17b10e8c188734ef863541b1db0d3f8b954),System,{612eed94-3465-6354-e703-000000000000},0x3e7,NT AUTHORITY\SYSTEM,Microsoft Malware Protection,0,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6028,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:31:02.827",l0X2AIQBHC0TB3lJYKdI,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,File created (rule: FileCreate),file,11,"Oct 23, 2022 @ 02:31:04.308","Oct 23, 2022 @ 02:30:57.351",event,sysmon,Microsoft-Windows-Sysmon,creation,C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{8D01B7CA-9683-4BFB-A8B0-8F2F9D841F9D},dll,mpengine.dll,C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{8D01B7CA-9683-4BFB-A8B0-8F2F9D841F9D}\mpengine.dll,C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{8D01B7CA-9683-4BFB-A8B0-8F2F9D841F9D}\mpengine.dll,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"File created:
+RuleName: DLL
+UtcTime: 2022-10-22 18:31:02.827
+ProcessGuid: {612eed94-346a-6354-2c00-000000001f00}
+ProcessId: 2292
+Image: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MsMpEng.exe
+TargetFilename: C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{8D01B7CA-9683-4BFB-A8B0-8F2F9D841F9D}\mpengine.dll
+CreationUtcTime: 2022-10-22 18:31:02.827
+User: NT AUTHORITY\SYSTEM",-,-,-,-,-,-,-,-,-,{612eed94-346a-6354-2c00-000000001f00},C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MsMpEng.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2209.7-0\MsMpEng.exe,-,-,MsMpEng.exe,MsMpEng.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,2292,-,-,-,-,-,SYSTEM,DLL,-,-,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,31:02.8,-,-,-,-,-,-,-,-,11,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6029,File created (rule: FileCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,2
+"Oct 23, 2022 @ 02:31:50.867",m0X3AIQBHC0TB3lJL6et,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:31:51.638","Oct 23, 2022 @ 02:31:50.445",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:31:50.867
+ProcessGuid: {612eed94-3716-6354-2c01-000000001f00}
+ProcessId: 3940
+Image: C:\Windows\System32\taskhostw.exe
+FileVersion: 10.0.19041.1865 (WinBuild.160101.0800)
+Description: Host Process for Windows Tasks
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: taskhostw.exe
+CommandLine: taskhostw.exe -RegisterDevice -ProtectionStateChanged -FreeNetworkOnly
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {612eed94-3465-6354-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: MD5=A00BF82660835224CD6606A248321C5D,SHA256=E63709209D09BC0247E785F075DDB28A98C348206109E2B8BA321AD958402728,IMPHASH=3A0C6863CDE566AF997DB2DEFFF9D924
+ParentProcessGuid: {612eed94-3466-6354-1300-000000001f00}
+ParentProcessId: 472
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\Windows\system32\svchost.exe -k netsvcs -p
+ParentUser: NT AUTHORITY\SYSTEM",-,-,-,-,-,"taskhostw.exe, -RegisterDevice, -ProtectionStateChanged, -FreeNetworkOnly",4,taskhostw.exe -RegisterDevice -ProtectionStateChanged -FreeNetworkOnly,taskhostw.exe -RegisterDevice -ProtectionStateChanged -FreeNetworkOnly,{612eed94-3716-6354-2c01-000000001f00},C:\Windows\System32\taskhostw.exe,C:\Windows\System32\taskhostw.exe,a00bf82660835224cd6606a248321c5d,e63709209d09bc0247e785f075ddb28a98c348206109e2b8ba321ad958402728,taskhostw.exe,taskhostw.exe,"C:\Windows\system32\svchost.exe, -k, netsvcs, -p",4,C:\Windows\system32\svchost.exe -k netsvcs -p,C:\Windows\system32\svchost.exe -k netsvcs -p,{612eed94-3466-6354-1300-000000001f00},C:\Windows\System32\svchost.exe,C:\Windows\System32\svchost.exe,svchost.exe,svchost.exe,472,Microsoft Corporation,Host Process for Windows Tasks,10.0.19041.1865 (WinBuild.160101.0800),3a0c6863cde566af997db2defff9d924,taskhostw.exe,Microsoft® Windows® Operating System,3940,C:\Windows\system32\,C:\Windows\system32\,"e63709209d09bc0247e785f075ddb28a98c348206109e2b8ba321ad958402728, a00bf82660835224cd6606a248321c5d, 3a0c6863cde566af997db2defff9d924",-,-,SYSTEM,-,-,-,-,-,NT AUTHORITY,S-1-5-18,SYSTEM,SYSTEM,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Host Process for Windows Tasks,10.0.19041.1865 (WinBuild.160101.0800),System,{612eed94-3465-6354-e703-000000000000},0x3e7,NT AUTHORITY\SYSTEM,Microsoft® Windows® Operating System,0,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6030,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:32:19.637",nUX3AIQBHC0TB3lJxqed,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:32:20.832","Oct 23, 2022 @ 02:32:29.085",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:32:19.637
+ProcessGuid: {612eed94-3733-6354-2d01-000000001f00}
+ProcessId: 6680
+Image: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+FileVersion: 106.0.1370.52
+Description: Microsoft Edge
+Product: Microsoft Edge
+Company: Microsoft Corporation
+OriginalFileName: msedge.exe
+CommandLine: ""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=gpu-process --disable-gpu-sandbox --use-gl=disabled --gpu-vendor-id=5140 --gpu-device-id=140 --gpu-sub-system-id=0 --gpu-revision=0 --gpu-driver-version=10.0.19041.546 --gpu-preferences=UAAAAAAAAADoAAAYAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAASAAAAAAAAAAYAAAAAgAAABAAAAAAAAAAGAAAAAAAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAADgAAAAgAAAAAAAAACAAAAAAAAAA= --mojo-platform-channel-handle=4016 --field-trial-handle=2104,i,8290636977795206925,3651593193549184629,131072 /prefetch:2
+CurrentDirectory: C:\Program Files (x86)\Microsoft\Edge\Application\106.0.1370.52\
+User: ADMIN\AdministratorDB
+LogonGuid: {612eed94-34a0-6354-1241-040000000000}
+LogonId: 0x44112
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=989EA45A2622F79475C56299E9EDBC0C,SHA256=163801C311DAF2FAC7B2DEA0996AD03DDB16DBA13A0AC25D85878B0587F84D44,IMPHASH=82F187E22098B6CC42EB6250BA0FA1DA
+ParentProcessGuid: {612eed94-36bf-6354-1001-000000001f00}
+ParentProcessId: 4028
+ParentImage: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+ParentCommandLine: ""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window /prefetch:5
+ParentUser: ADMIN\AdministratorDB",-,-,-,-,-,"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe, --type=gpu-process, --disable-gpu-sandbox, --use-gl=disabled, --gpu-vendor-id=5140, --gpu-device-id=140, --gpu-sub-system-id=0, --gpu-revision=0, --gpu-driver-version=10.0.19041.546, --gpu-preferences=UAAAAAAAAADoAAAYAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAASAAAAAAAAAAYAAAAAgAAABAAAAAAAAAAGAAAAAAAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAADgAAAAgAAAAAAAAACAAAAAAAAAA=, --mojo-platform-channel-handle=4016, --field-trial-handle=2104,i,8290636977795206925,3651593193549184629,131072, /prefetch:2",13,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=gpu-process --disable-gpu-sandbox --use-gl=disabled --gpu-vendor-id=5140 --gpu-device-id=140 --gpu-sub-system-id=0 --gpu-revision=0 --gpu-driver-version=10.0.19041.546 --gpu-preferences=UAAAAAAAAADoAAAYAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAASAAAAAAAAAAYAAAAAgAAABAAAAAAAAAAGAAAAAAAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAADgAAAAgAAAAAAAAACAAAAAAAAAA= --mojo-platform-channel-handle=4016 --field-trial-handle=2104,i,8290636977795206925,3651593193549184629,131072 /prefetch:2","""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=gpu-process --disable-gpu-sandbox --use-gl=disabled --gpu-vendor-id=5140 --gpu-device-id=140 --gpu-sub-system-id=0 --gpu-revision=0 --gpu-driver-version=10.0.19041.546 --gpu-preferences=UAAAAAAAAADoAAAYAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAASAAAAAAAAAAYAAAAAgAAABAAAAAAAAAAGAAAAAAAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAADgAAAAgAAAAAAAAACAAAAAAAAAA= --mojo-platform-channel-handle=4016 --field-trial-handle=2104,i,8290636977795206925,3651593193549184629,131072 /prefetch:2",{612eed94-3733-6354-2d01-000000001f00},C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,989ea45a2622f79475c56299e9edbc0c,163801c311daf2fac7b2dea0996ad03ddb16dba13a0ac25d85878b0587f84d44,msedge.exe,msedge.exe,"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe, --no-startup-window, /prefetch:5",3,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window /prefetch:5","""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window /prefetch:5",{612eed94-36bf-6354-1001-000000001f00},C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,msedge.exe,msedge.exe,4028,Microsoft Corporation,Microsoft Edge,106.0.1370.52,82f187e22098b6cc42eb6250ba0fa1da,msedge.exe,Microsoft Edge,6680,C:\Program Files (x86)\Microsoft\Edge\Application\106.0.1370.52\,C:\Program Files (x86)\Microsoft\Edge\Application\106.0.1370.52\,"163801c311daf2fac7b2dea0996ad03ddb16dba13a0ac25d85878b0587f84d44, 989ea45a2622f79475c56299e9edbc0c, 82f187e22098b6cc42eb6250ba0fa1da",-,-,AdministratorDB,-,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Microsoft Edge,106.0.1370.52,High,{612eed94-34a0-6354-1241-040000000000},0x44112,ADMIN\AdministratorDB,Microsoft Edge,1,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6031,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 02:32:52.849",nkX4AIQBHC0TB3lJQafN,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,Process terminated (rule: ProcessTerminate),process,5,"Oct 23, 2022 @ 02:32:54.326","Oct 23, 2022 @ 02:33:00.620",event,sysmon,Microsoft-Windows-Sysmon,end,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process terminated:
+RuleName: -
+UtcTime: 2022-10-22 18:32:52.849
+ProcessGuid: {612eed94-36d7-6354-2801-000000001f00}
+ProcessId: 6980
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d7-6354-2801-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6980,-,-,-,-,-,AdministratorDB,-,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,-,-,-,-,-,-,-,-,-,5,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6032,Process terminated (rule: ProcessTerminate),NT AUTHORITY,S-1-5-18,SYSTEM,User,3
+"Oct 23, 2022 @ 02:32:53.365",n0X4AIQBHC0TB3lJQafN,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,Process terminated (rule: ProcessTerminate),process,5,"Oct 23, 2022 @ 02:32:54.387","Oct 23, 2022 @ 02:33:00.621",event,sysmon,Microsoft-Windows-Sysmon,end,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process terminated:
+RuleName: -
+UtcTime: 2022-10-22 18:32:53.365
+ProcessGuid: {612eed94-36d3-6354-2401-000000001f00}
+ProcessId: 6488
+Image: C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe
+User: ADMIN\AdministratorDB",-,-,-,-,-,-,-,-,-,{612eed94-36d3-6354-2401-000000001f00},C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,C:\Users\AdministratorDB\AppData\Local\Temp\RarSFX0\main.exe,-,-,main.exe,main.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6488,-,-,-,-,-,AdministratorDB,-,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,-,-,-,-,-,-,-,-,-,-,5,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6033,Process terminated (rule: ProcessTerminate),NT AUTHORITY,S-1-5-18,SYSTEM,User,3
+"Oct 23, 2022 @ 02:33:00.659",okX4AIQBHC0TB3lJWqcG,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,328b516e-a0ac-4310-8b30-40bfab86de53,admin,6f94e196-447e-4d41-8eea-e6c40bba83e4,admin,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 02:33:02.201","Oct 23, 2022 @ 02:33:06.821",event,sysmon,Microsoft-Windows-Sysmon,start,-,-,-,-,-,x86_64,admin,612eed94-10de-48e9-b9de-7108e40bddcc,"fe80::d592:a7d7:c0fb:10f9, 10.0.2.16, fe80::298d:fd6:72cd:b0a3, 172.19.96.11","08:00:27:7c:f3:ae, 08:00:27:4c:ba:b7",admin,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-22 18:33:00.659
+ProcessGuid: {612eed94-375c-6354-2e01-000000001f00}
+ProcessId: 2308
+Image: C:\Windows\System32\Taskmgr.exe
+FileVersion: 10.0.19041.1202 (WinBuild.160101.0800)
+Description: Task Manager
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Taskmgr.exe
+CommandLine: ""C:\Windows\system32\taskmgr.exe"" /0
+CurrentDirectory: C:\Windows\system32\
+User: ADMIN\AdministratorDB
+LogonGuid: {612eed94-34a0-6354-1241-040000000000}
+LogonId: 0x44112
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=58D5BC7895F7F32EE308E34F06F25DD5,SHA256=4E305198F15BAFD5728B5FB8E7FF48D9F312399C744ECFEA0ECAC79D93C5E478,IMPHASH=E0B20B2FFB8E5455773387F528CDDA26
+ParentProcessGuid: {612eed94-34a5-6354-6300-000000001f00}
+ParentProcessId: 3732
+ParentImage: C:\Windows\explorer.exe
+ParentCommandLine: C:\Windows\Explorer.EXE
+ParentUser: ADMIN\AdministratorDB",-,-,-,-,-,"C:\Windows\system32\taskmgr.exe, /0",2,"""C:\Windows\system32\taskmgr.exe"" /0","""C:\Windows\system32\taskmgr.exe"" /0",{612eed94-375c-6354-2e01-000000001f00},C:\Windows\System32\Taskmgr.exe,C:\Windows\System32\Taskmgr.exe,58d5bc7895f7f32ee308e34f06f25dd5,4e305198f15bafd5728b5fb8e7ff48d9f312399c744ecfea0ecac79d93c5e478,Taskmgr.exe,Taskmgr.exe,C:\Windows\Explorer.EXE,1,C:\Windows\Explorer.EXE,C:\Windows\Explorer.EXE,{612eed94-34a5-6354-6300-000000001f00},C:\Windows\explorer.exe,C:\Windows\explorer.exe,explorer.exe,explorer.exe,3732,Microsoft Corporation,Task Manager,10.0.19041.1202 (WinBuild.160101.0800),e0b20b2ffb8e5455773387f528cdda26,Taskmgr.exe,Microsoft® Windows® Operating System,2308,C:\Windows\system32\,C:\Windows\system32\,"4e305198f15bafd5728b5fb8e7ff48d9f312399c744ecfea0ecac79d93c5e478, 58d5bc7895f7f32ee308e34f06f25dd5, e0b20b2ffb8e5455773387f528cdda26",-,-,AdministratorDB,-,-,-,-,-,ADMIN,S-1-5-18,AdministratorDB,AdministratorDB,wineventlog,Microsoft-Windows-Sysmon/Operational,admin,Microsoft Corporation,-,Task Manager,10.0.19041.1202 (WinBuild.160101.0800),High,{612eed94-34a0-6354-1241-040000000000},0x44112,ADMIN\AdministratorDB,Microsoft® Windows® Operating System,1,1,Info,"2,260","2,772",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,6036,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5

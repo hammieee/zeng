@@ -1,0 +1,2 @@
+kibana_clean: 
+process.name: "msedge.exe" or event.action : "Dns query (rule: DnsQuery)" or event.action: "File created (rule: FileCreate)" or event.action : "Process Create (rule: ProcessCreate)" or event.action: "File stream created (rule: FileCreateStreamHash)"

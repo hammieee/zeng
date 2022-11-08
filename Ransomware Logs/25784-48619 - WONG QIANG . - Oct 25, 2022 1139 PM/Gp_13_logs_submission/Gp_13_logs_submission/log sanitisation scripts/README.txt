@@ -1,0 +1,1 @@
+Logs were cleaned using Pfelk's filters (https://github.com/pfelk/docker)

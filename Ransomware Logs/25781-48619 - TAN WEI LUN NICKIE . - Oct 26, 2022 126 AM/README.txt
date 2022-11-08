@@ -1,0 +1,1 @@
+Files labeled combined and without TTPs are the combined logs from a single machine across multiple attacks/TTPs

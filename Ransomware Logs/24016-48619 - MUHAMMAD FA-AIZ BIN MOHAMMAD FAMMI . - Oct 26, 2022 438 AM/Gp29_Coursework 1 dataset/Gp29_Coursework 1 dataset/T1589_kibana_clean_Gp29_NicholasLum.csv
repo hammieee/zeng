@@ -1,0 +1,1030 @@
+@timestamp,_id,_index,_score,agent.ephemeral_id,agent.hostname,agent.id,agent.name,agent.type,agent.version,destination.domain,destination.ip,destination.port,dns.answers.data,dns.answers.type,dns.question.name,dns.question.registered_domain,dns.question.subdomain,dns.question.top_level_domain,dns.resolved_ip,ecs.version,event.action,event.category,event.code,event.created,event.ingested,event.kind,event.module,event.provider,event.type,host.architecture,host.hostname,host.id,host.ip,host.mac,host.name,host.os.build,host.os.family,host.os.kernel,host.os.name,host.os.name.text,host.os.platform,host.os.type,host.os.version,log.level,message,network.community_id,network.direction,network.protocol,network.transport,network.type,process.args,process.args_count,process.command_line,process.command_line.text,process.entity_id,process.executable,process.executable.text,process.hash.md5,process.hash.sha256,process.name,process.name.text,process.parent.args,process.parent.args_count,process.parent.command_line,process.parent.command_line.text,process.parent.entity_id,process.parent.executable,process.parent.executable.text,process.parent.name,process.parent.name.text,process.parent.pid,process.pe.company,process.pe.description,process.pe.file_version,process.pe.imphash,process.pe.original_file_name,process.pe.product,process.pid,process.working_directory,process.working_directory.text,related.hash,related.hosts,related.ip,related.user,rule.name,source.domain,source.ip,source.port,sysmon.dns.status,user.domain,user.id,user.name,user.name.text,winlog.api,winlog.channel,winlog.computer_name,winlog.event_data.Company,winlog.event_data.Description,winlog.event_data.FileVersion,winlog.event_data.IntegrityLevel,winlog.event_data.LogonGuid,winlog.event_data.LogonId,winlog.event_data.ParentUser,winlog.event_data.Product,winlog.event_data.TerminalSessionId,winlog.event_id,winlog.opcode,winlog.process.pid,winlog.process.thread.id,winlog.provider_guid,winlog.provider_name,winlog.record_id,winlog.task,winlog.user.domain,winlog.user.identifier,winlog.user.name,winlog.user.type,winlog.version
+"Oct 23, 2022 @ 12:53:59.831",FZtCEIQBM0skPzkLMW65,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:32.916","Oct 23, 2022 @ 01:48:04.408",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:59.831
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49902
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:aLHP7vlhVSG5cHpOhWO2h4Vbc2s=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49902,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8837,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:58.867",FJtCEIQBM0skPzkLMW65,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:32.916","Oct 23, 2022 @ 01:48:04.400",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:58.867
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49901
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:8bKfzPhBAioqjimythGbFgfMPr4=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49901,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8836,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:57.909",E5tCEIQBM0skPzkLLW62,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:32.182","Oct 23, 2022 @ 01:48:03.374",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:57.909
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49900
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:gK6mXlSy18WU0T1jAikJ/2QZKbA=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49900,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8835,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:56.884",EptCEIQBM0skPzkLKW62,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:31.444","Oct 23, 2022 @ 01:48:02.349",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:56.884
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49899
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:pP8jipnKs5sGFj0lYMie7RhLTnI=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49899,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8834,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:55.914",EZtCEIQBM0skPzkLIW6n,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:29.942","Oct 23, 2022 @ 01:48:00.293",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:55.914
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49898
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:SKleIBerf7a3MPdvKTMxlRDHC+o=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49898,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8833,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:54.992",EJtCEIQBM0skPzkLIW6n,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:29.942","Oct 23, 2022 @ 01:48:00.282",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:54.992
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49897
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:J+lEWhFH53wuO4C0qZSU2YLD9to=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49897,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8832,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:54.011",D5tCEIQBM0skPzkLHW7Q,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:29.116","Oct 23, 2022 @ 12:53:59.248",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:54.011
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49896
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:EMe5weo61PxhXmc+o6+9Fms6bC0=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49896,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8831,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:52.476",DptCEIQBM0skPzkLG263,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:27.482","Oct 23, 2022 @ 12:53:58.678",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:52.476
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49895
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:mIkznUT+vXiAX9NT2lED/mqfLis=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49895,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8830,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:52.229",DZtCEIQBM0skPzkLEW6I,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:26.664","Oct 23, 2022 @ 12:53:56.163",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:52.229
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49894
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:qmEkTVqpDwbkbaaTigenGw5RFOU=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49894,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8829,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:51.259",DJtCEIQBM0skPzkLEW6I,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:26.664","Oct 23, 2022 @ 12:53:56.157",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:51.259
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49893
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:EyFtxJawQzAL3NtXToRpFajz2WU=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49893,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8828,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:50.319",C5tCEIQBM0skPzkLDW5l,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:25.820","Oct 23, 2022 @ 12:53:55.102",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:50.319
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49892
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:EFj6RBvkwn+t9wX8W43hUFFvKaQ=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49892,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8827,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:49.312",CptCEIQBM0skPzkLCW58,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:25.007","Oct 23, 2022 @ 12:53:54.106",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:49.312
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49891
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:fW/J/duPlT+mIMSujCqDcVC7XBI=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49891,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8826,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:48.375",CZtCEIQBM0skPzkLCW58,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:25.006","Oct 23, 2022 @ 12:53:54.078",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:48.375
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49890
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:WGm5SkvG2C99MBHBwWTm3m6jmZ8=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49890,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8825,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:47.441",CJtCEIQBM0skPzkLA25z,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:23.379","Oct 23, 2022 @ 12:53:52.561",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:47.441
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49889
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:Zng/Vdnr6mQgv9HztNmalGN/GOs=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49889,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8824,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:46.480",B5tCEIQBM0skPzkLA25z,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:23.379","Oct 23, 2022 @ 12:53:52.550",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:46.480
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49888
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:jE5EK1JScIHv1F0AAGMJxqEako8=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49888,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8823,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:45.463",BptCEIQBM0skPzkLA246,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:22.562","Oct 23, 2022 @ 12:53:52.400",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:45.463
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49887
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:0I+sQx6qAtbt7ty23z/YTqUIdf8=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49887,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8822,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:43.700",BZtBEIQBM0skPzkL8W5n,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:19.880","Oct 23, 2022 @ 12:53:47.942",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:43.700
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49886
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:9SSGl1FG5UaIAY+MWPVCNn+YlD0=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49886,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8821,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:42.777",BJtBEIQBM0skPzkL8W5n,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:19.880","Oct 23, 2022 @ 12:53:47.932",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:42.777
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49885
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:Lv4qkCosCg7zItnYtwY/vtAIHcY=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49885,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8820,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:41.817",A5tBEIQBM0skPzkL7W5U,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:18.978","Oct 23, 2022 @ 12:53:46.893",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:41.817
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49884
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:OcJzXz3tS/Iu9CdmZoOAZfz2N3g=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49884,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8819,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:40.817",AptBEIQBM0skPzkL6W6v,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:18.057","Oct 23, 2022 @ 12:53:45.882",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:40.817
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49883
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:BV+mJPD8AQrmWJ5BYmhkeef7C/I=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49883,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8818,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:39.783",AZtBEIQBM0skPzkL4m68,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:16.258","Oct 23, 2022 @ 12:53:44.183",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:39.783
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49882
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:C2cG0gC0oDxMWl8Ro3vO9Bk/DY8=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49882,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8817,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:38.843",AJtBEIQBM0skPzkL4m68,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:16.258","Oct 23, 2022 @ 12:53:44.082",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:38.843
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49881
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:Gc5o5xenGFTvxLOnyiYRw8aq0YE=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49881,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8816,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:37.893",_5tBEIQBM0skPzkL2W1t,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:14.470","Oct 23, 2022 @ 12:53:41.805",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:37.893
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49880
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:znLlFLo7uFjhIrvwFsn7sMXylK0=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49880,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8815,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:36.917",_ptBEIQBM0skPzkL2W1t,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:14.470","Oct 23, 2022 @ 12:53:41.803",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:36.917
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49879
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:cSSP0u4B7ZMc5XZmNbcQg11GUWE=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49879,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8814,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:35.943",_ZtBEIQBM0skPzkL1W10,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:13.555","Oct 23, 2022 @ 12:53:40.787",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:35.943
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49878
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:TumHr8zaAck/1g9fuHbC3gF+WdA=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49878,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8813,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:34.934",_JtBEIQBM0skPzkL0W14,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:12.598","Oct 23, 2022 @ 12:53:39.766",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:34.934
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49877
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:ZVUA0tILxP6ZoI/MD3ndYVS02YI=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49877,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8812,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:33.970",-5tBEIQBM0skPzkL0W14,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:12.598","Oct 23, 2022 @ 12:53:39.758",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:33.970
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49876
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:Ajn1YbdjQ1dV+zSTJ9eu2wiRr9M=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49876,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8811,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:32.992",#NAME?,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:11.598","Oct 23, 2022 @ 12:53:38.741",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:32.992
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49875
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:5RtCDv5D3k5OHv5BweDf0WbNHB0=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49875,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8810,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:32.601",FptCEIQBM0skPzkLNW6q,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,-,1.12.0,Process terminated (rule: ProcessTerminate),process,5,"Oct 23, 2022 @ 12:53:33.648","Oct 23, 2022 @ 01:48:05.415",event,sysmon,Microsoft-Windows-Sysmon,end,x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process terminated:
+RuleName: -
+UtcTime: 2022-10-25 17:47:32.601
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum",-,-,-,-,-,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,-,Nicholas Lum,-,-,-,-,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,5,Info,"2,252","3,332",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8838,Process terminated (rule: ProcessTerminate),NT AUTHORITY,S-1-5-18,SYSTEM,User,3
+"Oct 23, 2022 @ 12:53:32.029",#NAME?,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:10.595","Oct 23, 2022 @ 12:53:37.733",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:32.029
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49874
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:oagPmahzKlyjdo/0N+tywWg/mQo=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49874,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8809,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:31.084",#NAME?,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:08.601","Oct 23, 2022 @ 12:53:35.715",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:31.084
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49873
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:dnDAyFyY/eZPCtu14jk7P4/ViIQ=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49873,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8808,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:30.136",95tBEIQBM0skPzkLwW2k,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:08.600","Oct 23, 2022 @ 12:53:35.708",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:30.136
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49872
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:SQsnaVlgjr59g/L1K9v9motEahE=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49872,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8807,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:29.150",9ptBEIQBM0skPzkLvW2c,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:07.603","Oct 23, 2022 @ 12:53:34.675",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:29.150
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49871
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:HWHe6D5YrBe6f3Fx4xhNR6fJFxg=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49871,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8806,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:28.234",9ZtBEIQBM0skPzkLtW2L,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:05.542","Oct 23, 2022 @ 12:53:32.618",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:28.234
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49870
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:kINs8orXZQMgTum3WhdC7vEY+Y4=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49870,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8805,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:27.262",9JtBEIQBM0skPzkLtW2L,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:05.541","Oct 23, 2022 @ 12:53:32.613",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:27.262
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49869
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:isbL9dR+sj+X8ES7i/c84wVEJok=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49869,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8804,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:26.316",85tBEIQBM0skPzkLrW2C,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:03.541","Oct 23, 2022 @ 12:53:30.561",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:26.316
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49868
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:/p0n7Ey4Q/ydE7+X/axlGFPxzQU=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49868,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8803,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:25.382",8ptBEIQBM0skPzkLrW2C,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:03.541","Oct 23, 2022 @ 12:53:30.556",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:25.382
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49867
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:oy07HyMXnSjoh5BkM6in0pyGBsU=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49867,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8802,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:23.586",8ZtBEIQBM0skPzkLpW1y,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:01.289","Oct 23, 2022 @ 12:53:28.492",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:23.586
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49866
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:cwyF+u5DPXLeuQzDskE7vo1rj5Y=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49866,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8801,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:22.670",8JtBEIQBM0skPzkLoW1m,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 12:53:00.158","Oct 23, 2022 @ 12:53:27.461",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:22.670
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49865
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:zArbiS9fEe4dtR1S3zENzc+z7Bk=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49865,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8800,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:21.459",75tBEIQBM0skPzkLnW1d,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 01:46:59.030","Oct 23, 2022 @ 12:53:26.422",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:21.459
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49864
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:nKbrvpVF9vCqFF+6dvvFlhy9bjE=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49864,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8799,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:19.942",7ptBEIQBM0skPzkLmW1I,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 01:46:57.906","Oct 23, 2022 @ 12:53:25.377",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:19.942
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49863
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:1R7OC5BM7MFPqiBAqM1V2oRHarc=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49863,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8798,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:18.869",7ZtBEIQBM0skPzkLkW1A,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 01:46:55.646","Oct 23, 2022 @ 12:53:23.327",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:18.869
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49862
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:Xni03vMiS/dV6c/GFujJkpTQILo=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49862,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8797,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:17.929",7JtBEIQBM0skPzkLkW1A,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 01:46:55.646","Oct 23, 2022 @ 12:53:23.321",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:17.929
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49861
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:OyilxVhvJCtYEffVXzWvRlfGISg=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49861,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8796,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:17.001",65tBEIQBM0skPzkLiW1k,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 01:46:53.413","Oct 23, 2022 @ 12:53:21.314",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:17.001
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49860
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:tLzJ+27rgfe1A3vm/b7pmL6Dk2E=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49860,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8795,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:16.067",6ptBEIQBM0skPzkLiW1k,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 01:46:53.413","Oct 23, 2022 @ 12:53:21.276",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:16.067
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49859
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:uLIrRSd0k6v26lOV6LgjCaYyw7M=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49859,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8794,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:15.059",6ZtBEIQBM0skPzkLhW1I,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 01:46:52.262","Oct 23, 2022 @ 12:53:20.257",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:15.059
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49858
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:oHOpnJRWu3LAOzprlA0ZBNdPl04=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49858,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8793,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:14.077",6JtBEIQBM0skPzkLhG0a,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 01:46:51.026","Oct 23, 2022 @ 12:53:19.874",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:14.077
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49857
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:jYsXO9Zf8bu6OmVkUTjlXb8xDWA=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49857,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8792,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:13.148",55tBEIQBM0skPzkLeW1H,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 01:46:48.551","Oct 23, 2022 @ 12:53:17.191",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:13.148
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49856
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:eE7CNbqB/1uScCyADx9ctqFOIQY=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49856,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8791,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:12.169",5ptBEIQBM0skPzkLeW1H,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 01:46:48.551","Oct 23, 2022 @ 12:53:17.182",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:12.169
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49855
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:qDuKP4qaQTILA89y7P3elzjbQAk=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49855,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8790,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:11.108",5ZtBEIQBM0skPzkLdW1E,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 01:46:47.302","Oct 23, 2022 @ 12:53:16.157",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:11.108
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49854
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:6FtA0bOXWX1XRdKx8EeUHhf3cnM=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49854,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8789,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:10.159",5JtBEIQBM0skPzkLcW1A,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 01:46:46.073","Oct 23, 2022 @ 12:53:15.129",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:10.159
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49853
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:/gVLgzw56ou1CXR75n8pcwlkU38=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49853,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8788,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:08.900",45tBEIQBM0skPzkLbG33,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 01:46:44.729","Oct 23, 2022 @ 12:53:14.032",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:08.900
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49852
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:3x6m1ffbJ7XrUzMHashLxJvjVl4=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49852,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8787,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:06.785",4ptBEIQBM0skPzkLYW0o,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,-,-,-,35.213.187.178,A,www.sata.com.sg,sata.com.sg,www,com.sg,35.213.187.178,1.12.0,Dns query (rule: DnsQuery),network,22,"Oct 23, 2022 @ 01:46:41.004","Oct 23, 2022 @ 12:53:10.995",event,sysmon,Microsoft-Windows-Sysmon,"connection, protocol, info",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Dns query:
+RuleName: -
+UtcTime: 2022-10-25 17:47:06.785
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+QueryName: www.sata.com.sg
+QueryStatus: 0
+QueryResults: ::ffff:35.213.187.178;
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum",-,-,dns,-,-,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,www.sata.com.sg,35.213.187.178,Nicholas Lum,-,-,-,-,SUCCESS,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,22,Info,"2,252","3,348",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8786,Dns query (rule: DnsQuery),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 12:53:05.988",4ZtBEIQBM0skPzkLYW0o,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,178.187.213.35.bc.googleusercontent.com,35.213.187.178,443,-,-,-,-,-,-,-,1.12.0,Network connection detected (rule: NetworkConnect),network,3,"Oct 23, 2022 @ 01:46:41.003","Oct 23, 2022 @ 12:53:10.981",event,sysmon,Microsoft-Windows-Sysmon,"start, connection, protocol",x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2022-10-25 17:47:05.988
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+User: VICTIM\Nicholas Lum
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 10.0.2.15
+SourceHostname: victim.lan
+SourcePort: 49850
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 35.213.187.178
+DestinationHostname: 178.187.213.35.bc.googleusercontent.com
+DestinationPort: 443
+DestinationPortName: https",1:NSNnWfN1Sit0Cc00hUkkk28UeQE=,egress,https,tcp,ipv4,-,-,-,-,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,-,-,python.exe,python.exe,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3980,-,-,-,-,"10.0.2.15, 35.213.187.178",Nicholas Lum,Usermode,victim.lan,10.0.2.15,49850,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,-,-,-,-,-,-,-,-,-,3,Info,"2,252","3,060",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8785,Network connection detected (rule: NetworkConnect),NT AUTHORITY,S-1-5-18,SYSTEM,User,5
+"Oct 23, 2022 @ 01:46:37.224",4JtBEIQBM0skPzkLXW2X,.ds-winlogbeat-8.2.3-2022.10.22-000001,-,af900420-7c4e-403a-86a4-3d707e3eab75,victim,b15c43c7-63a1-423e-901b-f1acc6401711,victim,winlogbeat,8.2.3,-,-,-,-,-,-,-,-,-,-,1.12.0,Process Create (rule: ProcessCreate),process,1,"Oct 23, 2022 @ 01:46:39.722","Oct 23, 2022 @ 12:53:09.973",event,sysmon,Microsoft-Windows-Sysmon,start,x86_64,victim,461f0bd2-c182-413a-8a41-2a8e4accb4a9,"fe80::4959:93ba:69a6:522d, 10.0.2.15, fe80::91a8:3d9e:36ba:f548, 172.19.96.10","08:00:27:7c:f3:ae, 08:00:27:22:f7:3c",victim,19044.1889,windows,10.0.19041.1889 (WinBuild.160101.0800),Windows 10 Enterprise Evaluation,Windows 10 Enterprise Evaluation,windows,windows,10,information,"Process Create:
+RuleName: -
+UtcTime: 2022-10-25 17:46:37.224
+ProcessGuid: {461f0bd2-20fd-6358-fe00-000000002500}
+ProcessId: 3980
+Image: C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe
+FileVersion: 3.8.0
+Description: Python
+Product: Python
+Company: Python Software Foundation
+OriginalFileName: python.exe
+CommandLine: python  main.py
+CurrentDirectory: C:\Users\Nicholas Lum\Desktop\Nic-Recon\
+User: VICTIM\Nicholas Lum
+LogonGuid: {461f0bd2-1ca3-6358-aabc-030000000000}
+LogonId: 0x3BCAA
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=B68275559FA9FC188FD1FEEF6D0D4326,SHA256=1D838AD026C7D81D410F41F929225AA39F3E4A0D178E4CEBC0CC2B299B783CF5,IMPHASH=790D8BD4D1574E3127EE24361DA434A0
+ParentProcessGuid: {461f0bd2-1d5e-6358-d000-000000002500}
+ParentProcessId: 5716
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: ""C:\Windows\System32\cmd.exe"" 
+ParentUser: VICTIM\Nicholas Lum",-,-,-,-,-,"python, main.py",2,python  main.py,python  main.py,{461f0bd2-20fd-6358-fe00-000000002500},C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,C:\Users\Nicholas Lum\AppData\Local\Programs\Python\Python38\python.exe,b68275559fa9fc188fd1feef6d0d4326,1d838ad026c7d81d410f41f929225aa39f3e4a0d178e4cebc0cc2b299b783cf5,python.exe,python.exe,C:\Windows\System32\cmd.exe,1,"""C:\Windows\System32\cmd.exe"" ","""C:\Windows\System32\cmd.exe"" ",{461f0bd2-1d5e-6358-d000-000000002500},C:\Windows\System32\cmd.exe,C:\Windows\System32\cmd.exe,cmd.exe,cmd.exe,5716,Python Software Foundation,Python,3.8.0,790d8bd4d1574e3127ee24361da434a0,python.exe,Python,3980,C:\Users\Nicholas Lum\Desktop\Nic-Recon\,C:\Users\Nicholas Lum\Desktop\Nic-Recon\,"1d838ad026c7d81d410f41f929225aa39f3e4a0d178e4cebc0cc2b299b783cf5, b68275559fa9fc188fd1feef6d0d4326, 790d8bd4d1574e3127ee24361da434a0",-,-,Nicholas Lum,-,-,-,-,-,VICTIM,S-1-5-18,Nicholas Lum,Nicholas Lum,wineventlog,Microsoft-Windows-Sysmon/Operational,victim,Python Software Foundation,Python,3.8.0,High,{461f0bd2-1ca3-6358-aabc-030000000000},0x3bcaa,VICTIM\Nicholas Lum,Python,1,1,Info,"2,252","3,332",{5770385f-c22a-43e0-bf4c-06f5698ffbd9},Microsoft-Windows-Sysmon,8784,Process Create (rule: ProcessCreate),NT AUTHORITY,S-1-5-18,SYSTEM,User,5

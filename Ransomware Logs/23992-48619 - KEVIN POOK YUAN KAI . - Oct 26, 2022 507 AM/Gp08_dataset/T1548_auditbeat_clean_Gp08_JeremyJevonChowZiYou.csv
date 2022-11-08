@@ -1,0 +1,10 @@
+"@timestamp","process.args","process.name","process.working_directory","process.executable","file.path","file.type","file.owner","file.size"
+"Oct 25, 2022 @ 20:51:25.118","/usr/bin/python3, /usr/local/bin/pip, install, /tmp/tmp.PZuSPnNLa2",pip,"/tmp","/usr/bin/python3.6","-","-","-","-"
+"Oct 25, 2022 @ 20:51:25.118","/bin/bash, ./sudoers_pe.sh","sudoers_pe.sh","/tmp","/bin/bash","-","-","-","-"
+"Oct 25, 2022 @ 20:51:24.306","-","-","-","-","/tmp/pip-pip-egg-info-24az_tii",dir,root,"-"
+"Oct 25, 2022 @ 20:51:24.305","-","-","-","-","/tmp/pip-req-tracker-3763rlyy/b3c13f21c651be8eb530e57216cdd22b0931c44b36f7351ef4e8a2cd",file,root,26
+"Oct 25, 2022 @ 20:51:24.244","-","-","-","-","/tmp/pip-ephem-wheel-cache-nkm3mo3h",dir,root,"-"
+"Oct 25, 2022 @ 20:51:24.244","-","-","-","-","/tmp/pip-req-tracker-3763rlyy",dir,root,"-"
+"Oct 25, 2022 @ 20:51:24.244","-","-","-","-","/tmp/pip-install-ttd_qgmf",dir,root,"-"
+"Oct 25, 2022 @ 20:51:16.603","-","-","-","-","/tmp/sudoers_pe.sh",file,confluence,159
+"Oct 25, 2022 @ 20:51:00.649","-","-","-","-","/tmp/sudoers_pe.sh",file,confluence,159

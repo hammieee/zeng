@@ -2447,3 +2447,7 @@
 .zhtml
 .zip.php
 .pptm
+.soy
+.less
+.md
+.vmd

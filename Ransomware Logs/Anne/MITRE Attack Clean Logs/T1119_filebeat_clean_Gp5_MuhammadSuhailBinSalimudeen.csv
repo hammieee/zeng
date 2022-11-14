@@ -1,0 +1,28 @@
+@timestamp,host.ip,log.file.path,log.offset,message,process.name,process.pid
+"Oct 25, 2022 @ 02:00:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"8,556",(root) CMD (  cd /var/research && tar cf /var/backups/backup.tgz *),CRON,"9,596"
+"Oct 25, 2022 @ 02:00:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"8,659",(root) CMD (cat /home/resch/.scripts/fndd-stripped.txt | xargs -I % rsync -a % /home/resch/destination/),CRON,"9,597"
+"Oct 25, 2022 @ 02:00:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"8,799",(root) CMD (rsync -a ~/Maildir /home/resch/destination),CRON,"9,598"
+"Oct 25, 2022 @ 01:59:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"8,453",(root) CMD (  cd /var/research && tar cf /var/backups/backup.tgz *),CRON,"9,089"
+"Oct 25, 2022 @ 01:58:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"7,579",(root) CMD (  cd /var/research && tar cf /var/backups/backup.tgz *),CRON,"8,567"
+"Oct 25, 2022 @ 01:58:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"7,682",(root) CMD (rsync -a ~/Maildir /home/resch/destination),CRON,"8,568"
+"Oct 25, 2022 @ 01:58:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"7,773",(root) CMD (cat /home/resch/.scripts/fndd-stripped.txt | xargs -I % rsync -a % /home/resch/destination/),CRON,"8,566"
+"Oct 25, 2022 @ 01:57:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"7,476",(root) CMD (  cd /var/research && tar cf /var/backups/backup.tgz *),CRON,"8,059"
+"Oct 25, 2022 @ 01:56:02.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"6,602",(root) CMD (  cd /var/research && tar cf /var/backups/backup.tgz *),CRON,"7,543"
+"Oct 25, 2022 @ 01:56:02.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"6,705",(root) CMD (rsync -a ~/Maildir /home/resch/destination),CRON,"7,542"
+"Oct 25, 2022 @ 01:56:02.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"6,796",(root) CMD (cat /home/resch/.scripts/fndd-stripped.txt | xargs -I % rsync -a % /home/resch/destination/),CRON,"7,544"
+"Oct 25, 2022 @ 01:55:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"6,499",(root) CMD (  cd /var/research && tar cf /var/backups/backup.tgz *),CRON,"7,035"
+"Oct 25, 2022 @ 01:54:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"6,168",(root) CMD (  cd /var/research && tar cf /var/backups/backup.tgz *),CRON,465
+"Oct 25, 2022 @ 01:54:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"6,270",(root) CMD (rsync -a ~/Maildir /home/resch/destination),CRON,467
+"Oct 25, 2022 @ 01:54:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"6,360",(root) CMD (cat /home/resch/.scripts/fndd-stripped.txt | xargs -I % rsync -a % /home/resch/destination/),CRON,466
+"Oct 25, 2022 @ 01:53:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"5,430",(root) CMD (  cd /var/research && tar cf /var/backups/backup.tgz *),CRON,"26,296"
+"Oct 25, 2022 @ 01:52:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"5,207",(root) CMD (  cd /var/research && tar cf /var/backups/backup.tgz *),CRON,"25,738"
+"Oct 25, 2022 @ 01:51:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"5,103",(root) CMD (  cd /var/research && tar cf /var/backups/backup.tgz *),CRON,"25,211"
+"Oct 25, 2022 @ 01:50:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"4,999",(root) CMD (  cd /var/research && tar cf /var/backups/backup.tgz *),CRON,"25,170"
+"Oct 25, 2022 @ 01:49:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"2,332",(root) CMD (  cd /var/research && tar cf /var/backups/backup.tgz *),CRON,"25,145"
+"Oct 25, 2022 @ 01:48:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"2,228",(root) CMD (  cd /var/research && tar cf /var/backups/backup.tgz *),CRON,"25,142"
+"Oct 25, 2022 @ 01:47:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"2,124",(root) CMD (  cd /var/research && tar cf /var/backups/backup.tgz *),CRON,"25,139"
+"Oct 25, 2022 @ 01:46:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"2,020",(root) CMD (  cd /var/research && tar cf /var/backups/backup.tgz *),CRON,"25,136"
+"Oct 25, 2022 @ 01:45:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"1,916",(root) CMD (  cd /var/research && tar cf /var/backups/backup.tgz *),CRON,"25,133"
+"Oct 25, 2022 @ 01:44:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"1,812",(root) CMD (  cd /var/research && tar cf /var/backups/backup.tgz *),CRON,"25,102"
+"Oct 25, 2022 @ 01:43:01.000","172.17.0.3, 172.18.0.2",/var/log/syslog,"1,163",(root) CMD (  cd /var/research && tar cf /var/backups/backup.tgz *),CRON,"24,816"
+"Oct 25, 2022 @ 01:42:02.000","172.17.0.3, 172.18.0.2",/var/log/syslog,679,(root) CMD (  cd /var/research && tar cf /var/backups/backup.tgz *),CRON,"24,365"

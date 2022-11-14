@@ -1,0 +1,335 @@
+"@timestamp",message,"user.effective.name","related.user","user.name","log.file.path","process.name"
+"Oct 24, 2022 @ 17:02:39.320","cd /home/resch/.scripts","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 17:02:39.320","./attack_chain.sh","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 17:02:39.320",ls,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 17:02:39.320",exit,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 17:02:39.000","Disconnected from user resch 172.18.0.3 port 38328","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 17:02:39.000","Received disconnect from 172.18.0.3 port 38328:11: disconnected by user","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 17:02:38.000","pam_unix(su:session): session closed for user root","-",root,root,"/var/log/auth.log",su
+"Oct 24, 2022 @ 16:38:44.000","Successful su for root by root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 16:38:44.000","+ /dev/pts/0 root:root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 16:38:44.000","pam_limits(su:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 16:38:44.000","pam_unix(su:session): session opened for user root by resch(uid=0)",root,"resch, root",resch,"/var/log/auth.log",su
+"Oct 24, 2022 @ 16:38:44.000","pam_systemd(su:session): Failed to connect to system bus: No such file or directory","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 16:36:18.000","Connection closed by authenticating user resch 172.18.0.3 port 38322 [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 16:33:59.000","Connection closed by authenticating user resch 172.18.0.3 port 38288 [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 16:33:18.000","Received disconnect from 172.17.0.1 port 41166:11: disconnected by user","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 16:33:18.000","Disconnected from user vagrant 172.17.0.1 port 41166","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 16:33:10.768","service auditbeat restart","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 16:33:10.768","service auditbeat status","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 16:33:10.768","auditbeat setup -e","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 16:33:10.768","service auditbeat stop","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 16:33:10.768","service auditbeat start","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 16:33:10.768","auditbeat setup -e","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 16:33:10.768",exit,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 16:33:10.731","nano /etc/auditbeat/auditbeat.yml","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 16:33:09.000","pam_unix(su:session): session closed for user root","-",root,root,"/var/log/auth.log",su
+"Oct 24, 2022 @ 16:29:47.000","pam_unix(runuser:session): session closed for user root","-",root,root,"/var/log/auth.log",runuser
+"Oct 24, 2022 @ 16:29:46.000","pam_limits(runuser:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 16:29:46.000","pam_unix(runuser:session): session opened for user root by vagrant(uid=0)",root,"vagrant, root",vagrant,"/var/log/auth.log",runuser
+"Oct 24, 2022 @ 16:28:54.000","pam_unix(runuser:session): session closed for user root","-",root,root,"/var/log/auth.log",runuser
+"Oct 24, 2022 @ 16:14:39.000","pam_unix(runuser:session): session opened for user root by vagrant(uid=0)",root,"vagrant, root",vagrant,"/var/log/auth.log",runuser
+"Oct 24, 2022 @ 16:14:39.000","pam_limits(runuser:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 16:13:57.000","Successful su for root by root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 16:13:57.000","+ /dev/pts/0 root:root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 16:13:57.000","pam_limits(su:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 16:13:57.000","pam_unix(su:session): session opened for user root by vagrant(uid=0)",root,"vagrant, root",vagrant,"/var/log/auth.log",su
+"Oct 24, 2022 @ 16:13:57.000","pam_systemd(su:session): Failed to connect to system bus: No such file or directory","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 15:59:55.000","Connection closed by 172.18.0.3 port 37724 [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 15:59:54.000","Connection closed by 172.18.0.3 port 37718 [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 15:59:54.000","Unable to negotiate with 172.18.0.3 port 37720: no matching host key type found. Their offer: ecdsa-sha2-nistp384 [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 15:59:54.000","Unable to negotiate with 172.18.0.3 port 37722: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 15:59:53.000","Unable to negotiate with 172.18.0.3 port 37710: no matching host key type found. Their offer: ssh-dss [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 15:59:53.000","Connection closed by 172.18.0.3 port 37712 [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 15:59:52.000","Protocol major versions differ for 172.18.0.3 port 37696: SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 vs. SSH-1.5-NmapNSE_1.0","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 15:59:52.000","Protocol major versions differ for 172.18.0.3 port 37708: SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 vs. SSH-1.5-Nmap-SSH1-Hostkey","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 15:41:52.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:38:13.000","pam_unix(runuser:session): session closed for user root","-",root,root,"/var/log/auth.log",runuser
+"Oct 24, 2022 @ 15:37:41.000","pam_limits(runuser:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 15:37:41.000","pam_unix(runuser:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 15:37:39.000","pam_unix(runuser:session): session closed for user root","-",root,root,"/var/log/auth.log",runuser
+"Oct 24, 2022 @ 15:37:36.000","pam_limits(runuser:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 15:37:36.000","pam_unix(runuser:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 15:37:36.000","pam_unix(runuser:session): session closed for user root","-",root,root,"/var/log/auth.log",runuser
+"Oct 24, 2022 @ 15:37:36.000","pam_limits(runuser:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 15:37:36.000","pam_unix(runuser:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 15:36:08.000","changed password expiry for postfix","-","-","-","/var/log/auth.log",chage
+"Oct 24, 2022 @ 15:36:08.000","group added to /etc/group: name=postdrop, GID=110","-","-","-","/var/log/auth.log",groupadd
+"Oct 24, 2022 @ 15:36:08.000","group added to /etc/gshadow: name=postdrop","-","-","-","/var/log/auth.log",groupadd
+"Oct 24, 2022 @ 15:36:07.000","change user 'postfix' password","-","-","-","/var/log/auth.log",usermod
+"Oct 24, 2022 @ 15:36:06.000","group added to /etc/gshadow: name=postfix","-","-","-","/var/log/auth.log",groupadd
+"Oct 24, 2022 @ 15:36:05.000","group added to /etc/group: name=postfix, GID=109","-","-","-","/var/log/auth.log",groupadd
+"Oct 24, 2022 @ 15:36:01.000","group added to /etc/gshadow: name=ssl-cert","-","-","-","/var/log/auth.log",groupadd
+"Oct 24, 2022 @ 15:36:00.000","group added to /etc/group: name=ssl-cert, GID=108","-","-","-","/var/log/auth.log",groupadd
+"Oct 24, 2022 @ 15:34:21.000","Successful su for root by root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 15:34:21.000","+ ??? root:root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 15:34:21.000","pam_limits(su:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 15:34:21.000","pam_unix(su:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",su
+"Oct 24, 2022 @ 15:34:21.000","pam_systemd(su:session): Failed to connect to system bus: No such file or directory","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 15:34:21.000","pam_unix(su:session): session closed for user root","-",root,root,"/var/log/auth.log",su
+"Oct 24, 2022 @ 15:32:21.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:32:11.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:32:09.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:26:31.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:26:31.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:25:57.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:25:57.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:25:51.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:25:51.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:25:44.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:25:44.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:25:44.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:25:44.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:25:26.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:25:26.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:25:18.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:25:18.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:25:09.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:25:09.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:24:56.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:24:56.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:24:22.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:24:22.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:24:11.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:24:11.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:24:06.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:24:06.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:23:53.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 15:23:53.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 12:43:06.499","./attack_chain.sh","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 12:43:06.499","ls -la","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 12:43:06.499","tail fndd.lock64 ","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 12:43:06.499","crontab -l","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 12:43:06.499","ls /root/Maildir","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 12:43:06.499","ls /root/Maildir/tmp","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 12:43:06.499","ls /root/Maildir/new","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 12:43:06.499","ls /root/Maildir/cur","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 12:43:06.499",clear,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 12:43:06.499","find / -name *.lock64","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 12:43:06.499","cd ../../","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 12:43:06.499","find / -name *.lock64","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 12:43:06.498",whoami,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 12:43:06.498",pwd,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 12:43:06.498","cd /home/resch/.scripts","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 12:43:06.498","ls -la","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 12:43:06.000","Received disconnect from 172.18.0.3 port 35798:11: disconnected by user","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 12:43:06.000","Disconnected from user resch 172.18.0.3 port 35798","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 11:35:30.331","cat /etc/crontab","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 11:35:30.331",exit,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 11:35:29.000","pam_unix(su:session): session closed for user root","-",root,root,"/var/log/auth.log",su
+"Oct 24, 2022 @ 11:35:14.000","Successful su for root by root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 11:35:14.000","+ /dev/pts/0 root:root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 11:35:14.000","pam_limits(su:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 11:35:14.000","pam_unix(su:session): session opened for user root by vagrant(uid=0)",root,"vagrant, root",vagrant,"/var/log/auth.log",su
+"Oct 24, 2022 @ 11:35:14.000","pam_systemd(su:session): Failed to connect to system bus: No such file or directory","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 11:35:10.000","pam_unix(su:session): session closed for user resch","-",resch,resch,"/var/log/auth.log",su
+"Oct 24, 2022 @ 11:32:36.000","pam_systemd(su:session): Failed to connect to system bus: No such file or directory","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 11:32:35.000","Successful su for resch by vagrant","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 11:32:35.000","+ /dev/pts/0 vagrant:resch","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 11:32:35.000","pam_unix(su:session): session opened for user resch by vagrant(uid=1000)",resch,"vagrant, resch",vagrant,"/var/log/auth.log",su
+"Oct 24, 2022 @ 11:32:00.000","pam_authenticate: Authentication failure","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 11:32:00.000","FAILED su for resch by vagrant","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 11:32:00.000","- /dev/pts/0 vagrant:resch","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 11:31:58.000","pam_unix(su:auth): authentication failure; logname=vagrant uid=1000 euid=0 tty=/dev/pts/0 ruser=vagrant rhost=  user=resch","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 11:27:38.000","Unable to negotiate with 172.18.0.3 port 35552: no matching host key type found. Their offer: ecdsa-sha2-nistp384 [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 11:27:38.000","Unable to negotiate with 172.18.0.3 port 35554: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 11:27:38.000","Connection closed by 172.18.0.3 port 35556 [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 11:27:37.000","Unable to negotiate with 172.18.0.3 port 35546: no matching host key type found. Their offer: ssh-dss [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 11:27:37.000","Connection closed by 172.18.0.3 port 35548 [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 11:27:37.000","Connection closed by 172.18.0.3 port 35550 [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 11:27:36.000","Protocol major versions differ for 172.18.0.3 port 35536: SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 vs. SSH-1.5-NmapNSE_1.0","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 11:27:36.000","Protocol major versions differ for 172.18.0.3 port 35544: SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 vs. SSH-1.5-Nmap-SSH1-Hostkey","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 11:15:19.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 11:13:11.000","pam_unix(runuser:session): session closed for user root","-",root,root,"/var/log/auth.log",runuser
+"Oct 24, 2022 @ 11:12:48.000","pam_unix(runuser:session): session closed for user root","-",root,root,"/var/log/auth.log",runuser
+"Oct 24, 2022 @ 11:12:48.000","pam_limits(runuser:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 11:12:48.000","pam_unix(runuser:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 11:12:46.000","pam_limits(runuser:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 11:12:46.000","pam_unix(runuser:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 11:12:46.000","pam_unix(runuser:session): session closed for user root","-",root,root,"/var/log/auth.log",runuser
+"Oct 24, 2022 @ 11:12:46.000","pam_limits(runuser:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 11:12:46.000","pam_unix(runuser:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 11:11:17.000","group added to /etc/group: name=postdrop, GID=110","-","-","-","/var/log/auth.log",groupadd
+"Oct 24, 2022 @ 11:11:17.000","group added to /etc/gshadow: name=postdrop","-","-","-","/var/log/auth.log",groupadd
+"Oct 24, 2022 @ 11:11:16.000","changed password expiry for postfix","-","-","-","/var/log/auth.log",chage
+"Oct 24, 2022 @ 11:11:15.000","change user 'postfix' password","-","-","-","/var/log/auth.log",usermod
+"Oct 24, 2022 @ 11:11:14.000","group added to /etc/group: name=postfix, GID=109","-","-","-","/var/log/auth.log",groupadd
+"Oct 24, 2022 @ 11:11:14.000","group added to /etc/gshadow: name=postfix","-","-","-","/var/log/auth.log",groupadd
+"Oct 24, 2022 @ 11:11:06.000","group added to /etc/gshadow: name=ssl-cert","-","-","-","/var/log/auth.log",groupadd
+"Oct 24, 2022 @ 11:11:05.000","group added to /etc/group: name=ssl-cert, GID=108","-","-","-","/var/log/auth.log",groupadd
+"Oct 24, 2022 @ 11:09:28.000","Successful su for root by root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 11:09:28.000","+ ??? root:root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 11:09:28.000","pam_limits(su:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 11:09:28.000","pam_unix(su:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",su
+"Oct 24, 2022 @ 11:09:28.000","pam_systemd(su:session): Failed to connect to system bus: No such file or directory","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 11:09:28.000","pam_unix(su:session): session closed for user root","-",root,root,"/var/log/auth.log",su
+"Oct 24, 2022 @ 11:06:53.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 11:06:41.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 11:06:41.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 11:01:12.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 11:01:11.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 11:00:38.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 11:00:38.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 11:00:34.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 11:00:34.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 11:00:29.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 11:00:29.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 11:00:28.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 11:00:27.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 11:00:04.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 11:00:04.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 10:59:58.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 10:59:58.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 10:59:52.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 10:59:52.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 10:59:44.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 10:59:44.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 10:59:06.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 10:59:06.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 10:58:54.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 10:58:54.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 10:58:49.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 10:58:49.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 10:58:36.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 10:58:36.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 02:20:20.000","Successful su for root by root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 02:20:20.000","+ /dev/pts/1 root:root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 02:20:20.000","pam_limits(su:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 02:20:20.000","pam_unix(su:session): session opened for user root by resch(uid=0)",root,"resch, root",resch,"/var/log/auth.log",su
+"Oct 24, 2022 @ 02:20:20.000","pam_systemd(su:session): Failed to connect to system bus: No such file or directory","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 02:18:58.516","cd ../","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:18:58.516","python3 encrypt.py","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:18:58.516","ls /root","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:18:58.516","ls -la /root","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:18:58.516",ls,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:18:58.516","python3 encrypt.py fndd-stripped.txt","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:18:58.516",exit,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:18:51.000","pam_unix(su:session): session closed for user root","-",root,root,"/var/log/auth.log",su
+"Oct 24, 2022 @ 02:17:05.000","Successful su for root by root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 02:17:05.000","+ /dev/pts/1 root:root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 02:17:05.000","pam_limits(su:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 02:17:05.000","pam_unix(su:session): session opened for user root by resch(uid=0)",root,"resch, root",resch,"/var/log/auth.log",su
+"Oct 24, 2022 @ 02:17:05.000","pam_systemd(su:session): Failed to connect to system bus: No such file or directory","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 02:09:48.421","ls 3204ResearchMaterials/","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:09:48.421","cd 3204ResearchMaterials/","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:09:48.421","cat 3204_security_analytics.txt ","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:09:48.421","find / -name *.lock64","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:09:48.421","cat /root/redis/redis-4.0.0/deps/lua/doc/cover.lock64","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:09:48.421","cd ../","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:09:48.421","cd /home/resch/.scripts","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:09:48.421",ls,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:09:48.421","nano encrypt.py","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:09:48.421",exit,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:09:48.420",ls,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:09:48.420","cd ../","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:09:48.420","cd /var/research","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:09:48.420",ls,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:09:48.420","cat research1.pdf","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 02:09:43.000","pam_unix(su:session): session closed for user root","-",root,root,"/var/log/auth.log",su
+"Oct 24, 2022 @ 02:03:08.000","Successful su for root by root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 02:03:08.000","+ /dev/pts/1 root:root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 02:03:08.000","pam_limits(su:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 02:03:08.000","pam_unix(su:session): session opened for user root by resch(uid=0)",root,"resch, root",resch,"/var/log/auth.log",su
+"Oct 24, 2022 @ 02:03:08.000","pam_systemd(su:session): Failed to connect to system bus: No such file or directory","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 01:52:30.000","pam_unix(su:session): session closed for user root","-",root,root,"/var/log/auth.log",su
+"Oct 24, 2022 @ 01:52:08.000","Successful su for root by root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 01:52:08.000","+ /dev/pts/1 root:root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 01:52:08.000","pam_limits(su:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 01:52:08.000","pam_unix(su:session): session opened for user root by resch(uid=0)",root,"resch, root",resch,"/var/log/auth.log",su
+"Oct 24, 2022 @ 01:52:08.000","pam_systemd(su:session): Failed to connect to system bus: No such file or directory","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 01:47:38.138","cat /etc/crontab","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 01:47:38.138","nano /etc/crontab","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 01:47:38.138",ls,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 01:47:38.138",exit,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 01:47:38.137","nano /etc/crontab","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 01:47:29.000","pam_unix(su:session): session closed for user root","-",root,root,"/var/log/auth.log",su
+"Oct 24, 2022 @ 01:45:58.000","Successful su for root by root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 01:45:58.000","+ /dev/pts/1 root:root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 01:45:58.000","pam_limits(su:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 01:45:58.000","pam_unix(su:session): session opened for user root by resch(uid=0)",root,"resch, root",resch,"/var/log/auth.log",su
+"Oct 24, 2022 @ 01:45:58.000","pam_systemd(su:session): Failed to connect to system bus: No such file or directory","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 01:37:07.975","cd .scripts","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 01:37:07.975",ls,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 01:37:07.975",exit,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 01:37:07.974","cd /home/resch/.scripts","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 01:37:07.974",ls,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 01:37:07.974","./attack_chain.sh","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 01:37:07.974",ls,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 01:37:07.974","rm -r CVE-2021-3156/","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 01:37:07.974",ls,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 01:37:07.974","cd ../","-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 01:37:07.974",ls,"-","-","-","/root/.bash_history","-"
+"Oct 24, 2022 @ 01:36:58.000","pam_unix(su:session): session closed for user root","-",root,root,"/var/log/auth.log",su
+"Oct 24, 2022 @ 01:26:49.000","Successful su for root by root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 01:26:49.000","+ /dev/pts/1 root:root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 01:26:49.000","pam_limits(su:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 01:26:49.000","pam_unix(su:session): session opened for user root by resch(uid=0)",root,"resch, root",resch,"/var/log/auth.log",su
+"Oct 24, 2022 @ 01:26:49.000","pam_systemd(su:session): Failed to connect to system bus: No such file or directory","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 01:15:25.000","Received disconnect from 172.18.0.3 port 56270:11: disconnected by user","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 01:15:25.000","Disconnected from user resch 172.18.0.3 port 56270","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 01:10:45.000","Successful su for root by root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 01:10:45.000","+ /dev/pts/0 root:root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 01:10:45.000","pam_limits(su:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 01:10:45.000","pam_unix(su:session): session opened for user root by vagrant(uid=0)",root,"vagrant, root",vagrant,"/var/log/auth.log",su
+"Oct 24, 2022 @ 01:10:45.000","pam_systemd(su:session): Failed to connect to system bus: No such file or directory","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 01:03:52.000","Connection closed by 172.18.0.3 port 56106 [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 01:03:52.000","Unable to negotiate with 172.18.0.3 port 56108: no matching host key type found. Their offer: ecdsa-sha2-nistp384 [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 01:03:52.000","Unable to negotiate with 172.18.0.3 port 56110: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 01:03:52.000","Connection closed by 172.18.0.3 port 56112 [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 01:03:51.000","Protocol major versions differ for 172.18.0.3 port 56100: SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 vs. SSH-1.5-Nmap-SSH1-Hostkey","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 01:03:51.000","Unable to negotiate with 172.18.0.3 port 56102: no matching host key type found. Their offer: ssh-dss [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 01:03:51.000","Connection closed by 172.18.0.3 port 56104 [preauth]","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 01:03:50.000","Protocol major versions differ for 172.18.0.3 port 56094: SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 vs. SSH-1.5-NmapNSE_1.0","-","-","-","/var/log/auth.log",sshd
+"Oct 24, 2022 @ 00:52:21.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:50:09.000","pam_unix(runuser:session): session closed for user root","-",root,root,"/var/log/auth.log",runuser
+"Oct 24, 2022 @ 00:50:04.000","pam_limits(runuser:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 00:50:04.000","pam_unix(runuser:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 00:50:03.000","pam_unix(runuser:session): session closed for user root","-",root,root,"/var/log/auth.log",runuser
+"Oct 24, 2022 @ 00:50:01.000","pam_limits(runuser:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 00:50:01.000","pam_unix(runuser:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 00:50:01.000","pam_unix(runuser:session): session closed for user root","-",root,root,"/var/log/auth.log",runuser
+"Oct 24, 2022 @ 00:50:01.000","pam_limits(runuser:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 00:50:01.000","pam_unix(runuser:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",runuser
+"Oct 24, 2022 @ 00:48:33.000","group added to /etc/group: name=postdrop, GID=110","-","-","-","/var/log/auth.log",groupadd
+"Oct 24, 2022 @ 00:48:33.000","group added to /etc/gshadow: name=postdrop","-","-","-","/var/log/auth.log",groupadd
+"Oct 24, 2022 @ 00:48:32.000","changed password expiry for postfix","-","-","-","/var/log/auth.log",chage
+"Oct 24, 2022 @ 00:48:31.000","change user 'postfix' password","-","-","-","/var/log/auth.log",usermod
+"Oct 24, 2022 @ 00:48:30.000","group added to /etc/group: name=postfix, GID=109","-","-","-","/var/log/auth.log",groupadd
+"Oct 24, 2022 @ 00:48:30.000","group added to /etc/gshadow: name=postfix","-","-","-","/var/log/auth.log",groupadd
+"Oct 24, 2022 @ 00:48:23.000","group added to /etc/group: name=ssl-cert, GID=108","-","-","-","/var/log/auth.log",groupadd
+"Oct 24, 2022 @ 00:48:23.000","group added to /etc/gshadow: name=ssl-cert","-","-","-","/var/log/auth.log",groupadd
+"Oct 24, 2022 @ 00:46:49.000","pam_unix(su:session): session closed for user root","-",root,root,"/var/log/auth.log",su
+"Oct 24, 2022 @ 00:46:49.000","Successful su for root by root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 00:46:49.000","+ ??? root:root","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 00:46:49.000","pam_limits(su:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 00:46:49.000","pam_unix(su:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",su
+"Oct 24, 2022 @ 00:46:49.000","pam_systemd(su:session): Failed to connect to system bus: No such file or directory","-","-","-","/var/log/auth.log",su
+"Oct 24, 2022 @ 00:44:11.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:43:58.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:43:57.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:38:30.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:38:30.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:38:01.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:38:01.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:37:55.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:37:55.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:37:49.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:37:49.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:37:48.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:37:48.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:37:25.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:37:25.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:37:17.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:37:17.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:37:10.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:37:10.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:37:01.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:37:01.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:36:25.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:36:25.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:36:13.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:36:13.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:36:06.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:36:06.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:35:52.000","pam_unix(sudo:session): session closed for user root","-",root,root,"/var/log/auth.log",sudo
+"Oct 24, 2022 @ 00:35:52.000","pam_unix(sudo:session): session opened for user root by (uid=0)",root,root,"(empty)","/var/log/auth.log",sudo

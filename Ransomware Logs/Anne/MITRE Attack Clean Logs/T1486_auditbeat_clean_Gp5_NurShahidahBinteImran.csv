@@ -1,0 +1,45 @@
+"@timestamp","file.path","event.action"
+"Oct 25, 2022 @ 13:28:47.527","/var/research/3204ResearchMaterials/birdfood.PNG",deleted
+"Oct 25, 2022 @ 13:28:47.513","/var/research/3204ResearchMaterials/birdfood.lock64","updated, attributes_modified"
+"Oct 25, 2022 @ 13:28:47.510","/var/research/3204ResearchMaterials/birdfood.lock64","updated, attributes_modified"
+"Oct 25, 2022 @ 13:28:47.508","/var/research/3204ResearchMaterials/birdfood.lock64","updated, attributes_modified"
+"Oct 25, 2022 @ 13:28:47.505","/var/research/3204ResearchMaterials/birdfood.lock64","updated, attributes_modified"
+"Oct 25, 2022 @ 13:28:47.504","/var/research/3204ResearchMaterials/birdfood.lock64","updated, attributes_modified"
+"Oct 25, 2022 @ 13:28:47.503","/var/research/3204ResearchMaterials/birdfood.lock64","updated, attributes_modified"
+"Oct 25, 2022 @ 13:28:47.502","/var/research/3204ResearchMaterials/birdfood.lock64",created
+"Oct 25, 2022 @ 13:28:46.665","/var/research/3204ResearchMaterials/3204_security_analytics.lock64",created
+"Oct 25, 2022 @ 13:28:46.665","/var/research/3204ResearchMaterials/3204_security_analytics.lock64","updated, attributes_modified"
+"Oct 25, 2022 @ 13:28:46.665","/var/research/3204ResearchMaterials/3204_security_analytics.txt",deleted
+"Oct 25, 2022 @ 13:28:46.481","/var/research/3204ResearchMaterials/witches.jpeg",deleted
+"Oct 25, 2022 @ 13:28:46.476","/var/research/3204ResearchMaterials/witches.lock64",created
+"Oct 25, 2022 @ 13:28:46.474","/var/research/3204ResearchMaterials/crying-cat-in-shower.jpg",deleted
+"Oct 25, 2022 @ 13:28:46.469","/var/research/3204ResearchMaterials/crying-cat-in-shower.lock64",created
+"Oct 25, 2022 @ 13:28:46.466","/var/research/3204ResearchMaterials/gudetama-1.png",deleted
+"Oct 25, 2022 @ 13:28:46.461","/var/research/3204ResearchMaterials/gudetama-1.lock64",created
+"Oct 25, 2022 @ 13:28:46.458","/var/research/3204ResearchMaterials/SIT_logo_2.png",deleted
+"Oct 25, 2022 @ 13:28:46.453","/var/research/3204ResearchMaterials/SIT_logo_2.lock64",created
+"Oct 25, 2022 @ 13:28:46.450","/var/research/3204ResearchMaterials/excel-sample-1.xlsx",deleted
+"Oct 25, 2022 @ 13:28:46.445","/var/research/3204ResearchMaterials/excel-sample-1.lock64",created
+"Oct 25, 2022 @ 13:28:46.442","/var/research/3204ResearchMaterials/3204lab-test-results-1.xlsx",deleted
+"Oct 25, 2022 @ 13:28:46.436","/var/research/3204ResearchMaterials/3204lab-test-results-1.lock64",created
+"Oct 25, 2022 @ 13:28:46.425","/var/research/3204ResearchMaterials/[FORM] Code of Conduct ICT Legal 2019.pdf",deleted
+"Oct 25, 2022 @ 13:28:46.419","/var/research/3204ResearchMaterials/[FORM] Code of Conduct ICT Legal 2019.lock64",created
+"Oct 25, 2022 @ 13:28:46.416","/var/research/3204ResearchMaterials/Details-of-Deliverable-1_ICT3203.pdf",deleted
+"Oct 25, 2022 @ 13:28:46.407","/var/research/3204ResearchMaterials/Details-of-Deliverable-1_ICT3203.lock64",created
+"Oct 25, 2022 @ 13:28:46.383","/var/research/3204ResearchMaterials/random-word-doc-1.docx",deleted
+"Oct 25, 2022 @ 13:28:46.378","/var/research/3204ResearchMaterials/random-word-doc-1.lock64",created
+"Oct 25, 2022 @ 13:28:46.374","/var/research/3204ResearchMaterials/kill-me-now.lock64",created
+"Oct 25, 2022 @ 13:28:46.374","/var/research/3204ResearchMaterials/kill-me-now.doc",deleted
+"Oct 25, 2022 @ 12:43:00.020","/var/research/3204ResearchMaterials/witches.jpeg","initial_scan"
+"Oct 25, 2022 @ 12:43:00.016","/var/research/3204ResearchMaterials/random-word-doc-1.docx","initial_scan"
+"Oct 25, 2022 @ 12:43:00.009","/var/research/3204ResearchMaterials/kill-me-now.doc","initial_scan"
+"Oct 25, 2022 @ 12:43:00.005","/var/research/3204ResearchMaterials/gudetama-1.png","initial_scan"
+"Oct 25, 2022 @ 12:43:00.001","/var/research/3204ResearchMaterials/excel-sample-1.xlsx","initial_scan"
+"Oct 25, 2022 @ 12:43:00.000","/var/research/3204ResearchMaterials/crying-cat-in-shower.jpg","initial_scan"
+"Oct 25, 2022 @ 12:42:59.993","/var/research/3204ResearchMaterials/birdfood.PNG","initial_scan"
+"Oct 25, 2022 @ 12:42:59.989","/var/research/3204ResearchMaterials/[FORM] Code of Conduct ICT Legal 2019.pdf","initial_scan"
+"Oct 25, 2022 @ 12:42:59.986","/var/research/3204ResearchMaterials/SIT_logo_2.png","initial_scan"
+"Oct 25, 2022 @ 12:42:59.984","/var/research/3204ResearchMaterials/Details-of-Deliverable-1_ICT3203.pdf","initial_scan"
+"Oct 25, 2022 @ 12:42:59.979","/var/research/3204ResearchMaterials/3204lab-test-results-1.xlsx","initial_scan"
+"Oct 25, 2022 @ 12:42:59.976","/var/research/3204ResearchMaterials/3204_security_analytics.txt","initial_scan"
+"Oct 25, 2022 @ 12:42:59.974","/var/research/3204ResearchMaterials","initial_scan"

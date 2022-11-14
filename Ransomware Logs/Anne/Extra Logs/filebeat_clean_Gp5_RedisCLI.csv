@@ -1,0 +1,19 @@
+"@timestamp",message,"input.type","redis.slowlog.args","redis.slowlog.cmd","redis.slowlog.key"
+"Oct 25, 2022 @ 00:01:06.000",save,redis,"-",save,"(empty)"
+"Oct 25, 2022 @ 00:01:06.000","config set dir /home/resch/.ssh",redis,"dir, /home/resch/.ssh",config,set
+"Oct 25, 2022 @ 00:01:01.000","set sshkey 
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZosOKzDoBW378CDpZcmDUVWTRaooNc7if+uBC/pC30rOhyMuV/rSRk9UYltpFtEa275KS/xaHGLBT5VPJInZvw... (273 more bytes)",redis,"
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZosOKzDoBW378CDpZcmDUVWTRaooNc7if+uBC/pC30rOhyMuV/rSRk9UYltpFtEa275KS/xaHGLBT5VPJInZvw... (273 more bytes)",set,sshkey
+"Oct 24, 2022 @ 22:13:27.000",save,redis,"-",save,"(empty)"
+"Oct 24, 2022 @ 22:13:27.000","config set dir /home/resch/.ssh",redis,"dir, /home/resch/.ssh",config,set
+"Oct 24, 2022 @ 22:13:21.000","set sshkey 
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3mLH4x0BzolK22IUHOQyKjKwHQWyxUBaS6pNviu9tPHFEGJoes6M685+uzXY8LR4DPsB/2I052Dlo6IhOtVGNT... (273 more bytes)",redis,"
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3mLH4x0BzolK22IUHOQyKjKwHQWyxUBaS6pNviu9tPHFEGJoes6M685+uzXY8LR4DPsB/2I052Dlo6IhOtVGNT... (273 more bytes)",set,sshkey
